@@ -1,15 +1,16 @@
 ---
 layout: home
 title: Welcome
+permalink: /
+nav_exclude: true
 ---
 
 <img src="/assets/img/nature.jpeg" alt="Nature header" style="width:100%;border-radius:8px;margin-bottom:1.5rem;">
 
-👋 Welcome —
+💡 Connecting Transformation, Risk, and Intelligent Systems
 
-I explore how **business transformation** and **risk management** connect with two of my technical domains:  
-**pension / ALM modeling** on one side, and **real-world sports modeling & AI experimentation** on the other.
+My core work sits at the intersection of business transformation and quantitative risk management — combining the rigor of actuarial and ALM modeling with the adaptability of AI and real-world sports simulation.
 
-This site brings these worlds together — combining actuarial structure with data-driven creativity — to show how the same principles of balance, feedback, and resilience apply across finance, risk, and sport.
+This site brings these domains together: applying principles of balance, feedback, and resilience across finance, pensions, and performance systems.
 
-If you’re working in transformation, pensions, or analytics — or simply curious about intelligent systems that adapt to uncertainty — you’re in the right place.
+If you’re shaping transformation initiatives, exploring modern pension design, or advancing analytics and AI in practice — you’ll find shared ideas and practical insights here.

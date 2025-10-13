@@ -6,8 +6,6 @@ tags: [sports-analytics, simulation, ai, python]
 date: 2025-10-13
 ---
 
-<img src="/assets/img/soccer-sim.jpg" alt="SoccerSim visualization" style="width:100%;border-radius:8px;margin-bottom:1rem;">
-
 **SoccerSim** is a modular Python package for realistic football (soccer) season simulations.  
 It connects actuarial calibration discipline with the excitement of sports modeling.
 
@@ -25,7 +23,10 @@ The current release models match outcomes and full league seasons through **Pois
 - Audit trail and caching for deterministic validation
 
 **Use case**
-- Benchmarking model fit and long-term forecast stability  
+- Setting up leagues, updating fixtures and tables for regular forecasts
+- Calibrating factor model and deriving team skills rankings
+- Creating game day and season forecasts from fixtures and calibratons
+- Derive analytics and betting quotes on simulations, to derive value bets
 - Portfolio simulations (equal-stake and risk-adjusted) for betting or performance studies  
 - Integration with actuarial or ALM-style risk frameworks
 
@@ -38,6 +39,9 @@ The current release models match outcomes and full league seasons through **Pois
 The upcoming architecture expands SoccerSim from a static team-factor model toward a **hierarchical Bayesian / mixed-effects framework**, aligning with reinsurance-style risk aggregation principles:
 
 **Planned extensions**
+- 🧩 **Expand factor modeling**  
+  - Include shock factors for realistic derby, weather, and team management changes
+  - Potentially consider a state space model to allow for stochastic trends in the data
 - 🧩 **Hierarchical team-player factors**  
   - Player-level attack/participation coefficients with shrinkage priors  
   - Team strength as a dynamic mixture of player availability and form  
