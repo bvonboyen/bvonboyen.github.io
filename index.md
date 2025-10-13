@@ -1,6 +1,7 @@
 ---
 layout: home
 paginate: true
+title: "Introduction"
 permalink: /
 exclude_from_nav: true
 ---
