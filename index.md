@@ -1,9 +1,7 @@
 ---
 layout: home
-paginate: true
 title: "Introduction"
 permalink: /
-exclude_from_nav: true
 ---
 
 💡 Organisational transformation, risk & value management, with people and intelligent tooling
