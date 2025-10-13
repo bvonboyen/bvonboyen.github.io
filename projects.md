@@ -2,7 +2,7 @@
 layout: page
 title: "Projects"
 permalink: /projects/
-nav_order:20
+nav_order: 20
 ---
 
 A curated list of active and recent work:
