@@ -1,16 +1,12 @@
 ---
-layout: home
+layout: home          # uses your local home.html
 permalink: /
-nav_order: 10
 exclude_from_nav: true
-show_title: false
+nav_order: 10
 ---
 
-<style>.home .page-title{display:none}</style>
-
-
 <span class="h1 text-bold d-block mb-3">
-💡 Organisational transformation, risk & value management, with intelligent tooling
+💡 Organisational transformation, risk & value management, with people and intelligent tooling
 </span>
 
 My core work sits at the intersection of business transformation and quantitative risk management — combining the rigor of actuarial and risk modeling in wider context of financial risk. 
