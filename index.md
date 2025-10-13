@@ -2,7 +2,6 @@
 layout: home
 title: Home
 permalink: /
-exclude_from_nav: true   # keep only this
 nav_order: 10
 show_title: false
 ---
