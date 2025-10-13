@@ -1,6 +1,6 @@
 ---
 layout: home
-title:        # keeps SEO sane; hidden visually by home.html above
+title: ""        # keeps SEO sane; hidden visually by home.html above
 permalink: /
 exclude_from_nav: true
 nav_order: 10
