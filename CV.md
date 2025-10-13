@@ -2,6 +2,7 @@
 layout: page
 title: "CV"
 permalink: /cv/
+nav_order: 30
 ---
 
 Here are two versions of my CV:
