@@ -18,15 +18,14 @@ The current release models match outcomes and full league seasons through **Pois
 **Core methods**
 - Poisson and Skellam distributions for goal and score-difference modeling  
 - Maximum-likelihood calibration of team attack/defense parameters  
-- Season-level Monte Carlo simulations for probability tables  
-- YAML-driven configuration and a clean CLI for reproducible workflows  
-- Audit trail and caching for deterministic validation
+- Match & season-level Monte Carlo simulations for probability tables  
+- YAML-driven configuration and a clean CLI for reproducible workflows
 
 **Use case**
 - Setting up leagues, updating fixtures and tables for regular forecasts
 - Calibrating factor model and deriving team skills rankings
 - Creating game day and season forecasts from fixtures and calibratons
-- Derive analytics and betting quotes on simulations, to derive value bets
+- Derive analytics and betting quotes on simulations
 - Portfolio simulations (equal-stake and risk-adjusted) for betting or performance studies  
 - Integration with actuarial or ALM-style risk frameworks
 
