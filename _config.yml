@@ -1,0 +1,10 @@
+title: "Bernhard von Boyen"
+description: "Actuarial risk, sports modeling & AI projects"
+url: "https://<your-username>.github.io"
+baseurl: ""
+remote_theme: "mmistakes/jekyll-theme-basically-basic"
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-feed
