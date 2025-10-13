@@ -2,13 +2,11 @@
 layout: home
 title: Home
 permalink: /
-nav_exclude: true        # Minimal Mistakes, some forks
-exclude_from_nav: true   # Basically Basic, some forks
-header_nav: false        # Primer-based layouts
-nav: false               # some simple themes
+exclude_from_nav: true   # keep only this
 nav_order: 10
-show_title: false 
+show_title: false
 ---
+
 
 <img src="/assets/img/nature.jpeg" alt="Nature header" style="width:100%;border-radius:8px;margin-bottom:1.5rem;">
 
