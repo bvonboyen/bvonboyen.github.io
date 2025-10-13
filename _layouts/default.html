@@ -1,15 +1,18 @@
-<!-- _layouts/default.html -->
 ---
 layout: nil
 ---
 <!doctype html>
 <html lang="en">
-  <head>{% include head.html %}</head>
+  <head>
+    {% include head.html %}
+  </head>
   <body>
-    {% include header.html %}   <!-- let the theme render its dynamic nav -->
+    {% include masthead.html %}   <!-- ← use this, not header.html -->
+
     <main class="page-content" aria-label="Content">
       {{ content }}
     </main>
+
     {% include footer.html %}
   </body>
 </html>
