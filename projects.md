@@ -8,7 +8,7 @@ nav_order: 20
 A curated list of active and recent work:
 
 - **Soccer simulations app** — stage: in production, Bundesliga match/season simulation, transfering reinsurance practices to the real world
-- **Healthcare memo pipeline** — stage: proof of concept, dictation to structured report pipeline, combining text and data, using LLMs
+- **Healthcare memo pipeline** — stage: proof of concept, dictation to structured report pipeline, combining text and data using open domain LLMs both in public and private settings
 - **FX TradeTech fair** — interim case, continuing industry dialogue on ALM and representing local Fintech in Barcelona
 - **Pension & ALM paper** — co-creating article on risk & performance sharing in pension funds
 

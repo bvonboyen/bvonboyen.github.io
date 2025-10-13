@@ -6,9 +6,16 @@ exclude_from_nav: true
 show_title: false
 ---
 
-"💡 Connecting Transformation, Risk, and Intelligent Systems"
+<style>.home .page-title{display:none}</style>
 
-My core work sits at the intersection of business transformation and quantitative risk management — combining the rigor of actuarial and ALM modeling with the adaptability of AI and real-world sports simulation.
+
+<span class="h1 text-bold d-block mb-3">
+💡 Organisational transformation, risk & value management, with intelligent tooling
+</span>
+
+My core work sits at the intersection of business transformation and quantitative risk management — combining the rigor of actuarial and risk modeling in wider context of financial risk. 
+
+Application is capital requirements, ALM, or value management. I am pushing the frontier with AI and real-world sports simulation.
 
 This site brings these domains together: applying principles of balance, feedback, and resilience across finance, pensions, and performance systems.
 
