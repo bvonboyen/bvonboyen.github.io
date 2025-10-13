@@ -3,7 +3,7 @@ layout: home
 title: Welcome
 ---
 
-<img src="/assets/img/nature.jpg" alt="Nature header" style="width:100%;border-radius:8px;margin-bottom:1.5rem;">
+<img src="/assets/img/nature.jpeg" alt="Nature header" style="width:100%;border-radius:8px;margin-bottom:1.5rem;">
 
 👋 Welcome —
 
