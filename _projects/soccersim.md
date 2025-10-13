@@ -58,9 +58,14 @@ These developments aim to merge **actuarial multi-level calibration** with **dat
 
 ---
 
-## 🧰 Tech Stack
-`Python`, `pandas`, `numpy`, `scipy`, `matplotlib`, `pyyaml`, `click` (CLI), modularized under `soccersim`.
+## 🧰 Tech Stack  
+`Python` · `pandas` · `numpy` · `scipy` · `matplotlib` · `pyyaml` · `click` · `beautifulsoup4`
 
----
+Packaged as the modular **`soccersim`** library with  
+– Thin data API (`get_table_df`, `get_fixtures_df`) and **web adapter** (`KickerProvider`, cached under `.cache`, TZ Europe/Berlin)  
+– **Poisson / Monte Carlo** simulation engine with config-driven workflows  
+– Reproducible environment via **Conda / Poetry**, automated tests & builds via **GitHub Actions + Docker**
 
 *“The goal isn’t to predict the unpredictable — but to quantify its shape.*
+
+---

@@ -2,7 +2,7 @@
 layout: home
 title: Welcome
 permalink: /
-nav_exclude: true
+exclude_from_nav: true
 ---
 
 <img src="/assets/img/nature.jpeg" alt="Nature header" style="width:100%;border-radius:8px;margin-bottom:1.5rem;">
