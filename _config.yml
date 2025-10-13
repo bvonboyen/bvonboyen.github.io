@@ -24,3 +24,8 @@ social_links:
     url: "https://github.com/bvonboyen"
   - title: "RSS"
     url: "/feed.xml"
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
