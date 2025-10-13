@@ -1,5 +1,6 @@
 name: Build and Deploy Jekyll
-on: "never"
+on:
+  workflow_dispatch:
 
 permissions:
   contents: read
