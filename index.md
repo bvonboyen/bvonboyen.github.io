@@ -1,13 +1,12 @@
 ---
-layout: home          # uses your local home.html
+layout: home
+title: Home           # keeps SEO sane; hidden visually by home.html above
 permalink: /
 exclude_from_nav: true
 nav_order: 10
 ---
 
-<span class="h1 text-bold d-block mb-3">
 💡 Organisational transformation, risk & value management, with people and intelligent tooling
-</span>
 
 My core work sits at the intersection of business transformation and quantitative risk management — combining the rigor of actuarial and risk modeling in wider context of financial risk. 
 

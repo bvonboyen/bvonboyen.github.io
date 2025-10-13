@@ -4,8 +4,8 @@ layout: default
 {%- assign posts = paginator.posts | default: site.posts -%}
 
 <main id="main" class="home" aria-label="Content">
-  <!-- Keep the header to preserve theme margins, but hide its title text -->
-  <header class="page-header" aria-hidden="true">
+  <!-- Keep header for spacing; hide text accessibly -->
+  <header class="page-header">
     <h1 class="page-title" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;">
       {{ page.title | default: site.title }}
     </h1>
