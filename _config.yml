@@ -8,3 +8,19 @@ plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-feed
+
+author:
+  name: "Bernhard von Boyen"
+  email: "bernhard.vonboyen@gmail.com"
+
+social_links:
+  - title: "Email"
+    url: "mailto:bernhard.vonboyen@gmail.com?subject=Hello%20Bernhard"
+  - title: "Telephone"
+    url: "tel:bernhard.vonboyen@gmail.com?subject=Hello%20Bernhard"
+  - title: "LinkedIn"
+    url: "https://www.linkedin.com/in/bernhard-von-boyen-ba56042"
+  - title: "GitHub"
+    url: "https://github.com/bvonboyen"
+  - title: "RSS"
+    url: "/feed.xml"
