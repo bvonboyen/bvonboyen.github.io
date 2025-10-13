@@ -1,12 +1,12 @@
 ---
 layout: home
-title: Home
+title: "💡 Connecting Transformation, Risk, and Intelligent Systems"
 permalink: /
 nav_order: 10
 show_title: false
 ---
 
-💡 Connecting Transformation, Risk, and Intelligent Systems
+
 
 My core work sits at the intersection of business transformation and quantitative risk management — combining the rigor of actuarial and ALM modeling with the adaptability of AI and real-world sports simulation.
 
