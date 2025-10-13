@@ -1,5 +1,6 @@
 ---
 layout: home
+paginate: true
 permalink: /
 exclude_from_nav: true
 ---

@@ -2,8 +2,6 @@
 # only needed so Jekyll processes it
 ---
 
-@import "{{ site.theme }}";
-
 /* Hide the auto header (name) on the home page only */
 .home .page-header {
   display: none;
