@@ -1,1 +1,25 @@
-{% include nav.html %}
+---
+layout: nil
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    <header class="site-header">
+      <h1 class="site-title">
+        <a href="{{ "/" | relative_url }}">{{ site.title }}</a>
+      </h1>
+
+      {# Your custom menu — appears on ALL pages now #}
+      {% include nav.html %}
+    </header>
+
+    <main class="page-content" aria-label="Content">
+      {{ content }}
+    </main>
+
+    {% include footer.html %}
+  </body>
+</html>
