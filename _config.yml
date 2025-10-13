@@ -13,17 +13,8 @@ author:
   name: "Bernhard von Boyen"
   email: "bernhard.vonboyen@gmail.com"
 
-social_links:
-  - title: "Email"
-    url: "mailto:bernhard.vonboyen@gmail.com?subject=Hello%20Bernhard"
-  - title: "Telephone"
-    url: "tel:!41798246086
-  - title: "LinkedIn"
-    url: "https://www.linkedin.com/in/bernhard-von-boyen-ba56042"
-  - title: "GitHub"
-    url: "https://github.com/bvonboyen"
-  - title: "RSS"
-    url: "/feed.xml"
+github_username: bvonboyen
+twitter_username: @none
 
 collections:
   projects:
