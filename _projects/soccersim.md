@@ -11,7 +11,7 @@ It connects actuarial calibration discipline with the excitement of sports model
 
 ---
 
-## ⚽ Current Application — Static Factor Model (v0.3)
+## ⚽ Current Application — Static Factor Model (v1.0)
 
 The current release models match outcomes and full league seasons through **Poisson-based expected goals (xG)** and **static team-strength factors**.
 
