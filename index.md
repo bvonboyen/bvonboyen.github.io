@@ -15,6 +15,6 @@ In either core actuarial practices, capital requirements, ALM, or value manageme
 
 This site brings these domains together: applying principles of balance, feedback, and resilience across insurance, pensions, and real world domains.
 
-If you’re shaping transformation initiatives, exploring modern pension design, or advancing analytics and AI in practice — you’ll find shared ideas, practical insights, my project portfolio and CV here.
+If you’re shaping transformation initiatives, exploring modern pension design, or advancing analytics and AI in practice — you’ll find shared ideas, practical insights & quantitative analytics, my project portfolio and CV here.
 
 <img src="/assets/img/nature.jpeg" alt="Nature header" style="width:100%;border-radius:8px;margin-bottom:1.5rem;">
