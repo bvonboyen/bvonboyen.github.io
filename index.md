@@ -1,9 +1,7 @@
 ---
 layout: home
-title: ""        # keeps SEO sane; hidden visually by home.html above
 permalink: /
 exclude_from_nav: true
-nav_order: 10
 ---
 
 💡 Organisational transformation, risk & value management, with people and intelligent tooling
