@@ -4,7 +4,13 @@ layout: default
 {%- assign posts = paginator.posts | default: site.posts -%}
 
 <main id="main" class="home" aria-label="Content">
-  <!-- removed <header class="page-header"> ... </header> -->
+  <!-- Keep the header to preserve theme margins, but hide its title text -->
+  <header class="page-header" aria-hidden="true">
+    <h1 class="page-title" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;">
+      {{ page.title | default: site.title }}
+    </h1>
+  </header>
+
   <div class="page-content">
     {{ content }}
 
