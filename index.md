@@ -3,6 +3,7 @@ layout: home
 title: "💡 Connecting Transformation, Risk, and Intelligent Systems"
 permalink: /
 nav_order: 10
+exclude_from_nav: true
 show_title: false
 ---
 
