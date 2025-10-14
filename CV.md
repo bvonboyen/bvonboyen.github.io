@@ -24,7 +24,3 @@ Here are two versions of my CV:
   </object>
 </details>
 
----
-If you want to get in touch, either save my contact information (through QR code below), or get in touch directly (see footer).
-
-<img src="/assets/img/QR_code.png" alt="Contact information" style="width:50%;border-radius:8px;margin-bottom:1.5rem;">

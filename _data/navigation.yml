@@ -3,3 +3,5 @@ header:
     url: /projects/
   - title: "CV"
     url: /cv/
+  - title: "About me"
+    url: /about/
