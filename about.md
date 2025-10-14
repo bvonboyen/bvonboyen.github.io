@@ -26,13 +26,15 @@ More information you can find in my CV.
 In my sparetime, I like to play tennis, go skiing, run, spend quality time with 
 my family, bake and cook, do Python coding, travel, and many many more things.
 
- <img src="/assets/img/diving1.jpg" alt="Diving" style="width:50%;border-radius:8px;margin-bottom:1.5rem;">
+ <img src="/assets/img/diving1.JPG" alt="Diving" style="width:50%;border-radius:8px;margin-bottom:1.5rem;">
 
 ---
+
 If you want to get in touch, either save my contact information (QR code below), 
 or use any of the direct links in the footer.
 
 <a href="https://hihello.com/p/ce28b146-7cf6-446b-ad86-55354a5cf473"> 
     <img src="/assets/img/QR_code.png" alt="Contact information" style="width:50%;border-radius:8px;margin-bottom:1.5rem;">
 </a>
+
 ---
