@@ -6,7 +6,7 @@ permalink: /
 
 💡 Organisational transformation, risk & value management, with people and intelligent tooling
 
-My core work sits at the intersection of business transformation and quantitative risk management — combining the rigor of actuarial practices and risk modeling in wider context of financial risk. In either risk control, capital requirements, ALM, or value management, I can push the frontier with my extensive experience and thrive for using new technologies, such as generative AI. 
+My core expertise sits at the intersection of business transformation and quantitative risk management — combining the rigor of actuarial practices and risk modeling in wider context of financial risk. With credentials in either pricing, valuation, risk control, capital requirements, ALM, or value management. I can push the frontier with my extensive experience and thrive for collaboration and new technologies (generative AI). 
 
 This site brings these domains together insurance, pensions, and real world domains. My project in sports simulation is just one showcase, you will find other in either CV, project, or posts.
 
