@@ -23,3 +23,7 @@ Here are two versions of my CV:
     <p>PDF preview not available. <a href="/assets/cv/CV_Bernhard_von_Boyen_verbose.pdf">Open the PDF</a>.</p>
   </object>
 </details>
+
+If you want to get in touch, either save my contact information, or get in touch directly (see footer).
+
+<img src="/assets/img/QR_code.png" alt="Contact information" style="width:50%;border-radius:8px;margin-bottom:1.5rem;">
