@@ -5,7 +5,7 @@ date: 2025-10-13 09:00:00 +0200
 tags: [jekyll, basics]
 ---
 
-Betting Basics — From Fair to Value Bets
+Betting Basics — From Fair to Value Bets, and beyond
 
 Let’s start with some basic terminology in betting.
 
@@ -67,8 +67,11 @@ The second is the broader risk-adjusted return (RAR) approach, borrowed from mod
 
 Together, these methods form the bridge between simple positive-EV selection and true portfolio management — where betting, investing, and risk control converge.
 
+Where Betting Meets Portfolio Management
 
-
+Together, these methods form the bridge between simple positive-EV selection and true portfolio management — where betting, investing, and risk control converge.
+They transform a list of value bets into a structured allocation problem: balancing growth, variance, and risk appetite — the very same challenge faced by traders, fund managers, and actuaries alike.
+Evolving the app in this direction is a natural first candidate for an actuary like me.
  
 
 
