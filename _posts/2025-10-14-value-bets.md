@@ -65,8 +65,6 @@ The first is the Kelly criterion, which prescribes the mathematically optimal fr
 
 The second is the broader risk-adjusted return (RAR) approach, borrowed from modern portfolio and insurance theory. Here, the objective is to maximize expected value per unit of risk, under a defined risk appetite or capital constraint. Kelly can be seen as one special case within this family — a full-risk, growth-maximizing variant — whereas RAR frameworks allow smoother, more pragmatic trade-offs between performance and stability.
 
-Together, these methods form the bridge between simple positive-EV selection and true portfolio management — where betting, investing, and risk control converge.
-
 Where Betting Meets Portfolio Management
 
 Together, these methods form the bridge between simple positive-EV selection and true portfolio management — where betting, investing, and risk control converge.
