@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Suprising similarities of reinsurance and sports modeling"
+title: "Parallel Worlds: How Reinsurance and Sports Modeling Speak the Same Language"
 date: 2025-10-14 09:00:00 +0200
 tags: [sports, reinsurance, thoughtleadership, conceptual]
 ---
@@ -26,7 +26,7 @@ A different scoring mechanism, allowing 1, 2, or 3 points per drive.
 
 🏦 What does this mean for a reinsurance professional?
 
-Soccer is reasonably close to a continuous Poisson process, which in reinsurance is used to model attritional claim frequencies in proportional treaties — for instance, personal accident with a fixed sum insured.
+Soccer is reasonably close to a homogeneous Poisson process, which in reinsurance is used to model attritional claim frequencies in proportional treaties — for instance, personal accident with a fixed sum insured.
 
 Ice hockey is already different. Similar to credit reinsurance, there are inhomogeneous Poisson processes at work that create higher intensities and greater dispersion — as seen in trade-credit aggregate stop-loss covers.
 This can be modeled either via a Markov-modulated Poisson process or by a negative binomial distribution (with stochastic intensity).
@@ -40,6 +40,8 @@ Property per-risk portfolios (independent but with small correlated patches)?
 Multi-layer structures like catastrophe programs?
 
 Industry-wide insured losses from a defined catastrophe event exceeding a pre-agreed threshold (ILW-type)?
+
+What does this mean for my project? It could venture horizontally, into different sports.
 
 ---
 
