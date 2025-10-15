@@ -1,5 +1,5 @@
 ---
-layout: tag
+layout: tag_posts
 title: "Posts tagged: sports"
 permalink: /tags/sports/
 taxonomy: sports
