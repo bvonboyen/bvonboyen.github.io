@@ -1,0 +1,8 @@
+# _data/theme.yml
+navigation_pages:
+  - index.md
+  - projects.md
+  - cv.md
+  - about.md
+  - volunteering.md
+  # (add other pages you *want* in the menu)
