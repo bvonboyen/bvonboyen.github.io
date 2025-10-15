@@ -72,4 +72,11 @@ They transform a list of value bets into a structured allocation problem: balanc
 Evolving the app in this direction is a natural first candidate for an actuary like me.
  
 
+---
+
+<p>Tags:
+{% for tag in page.tags %}
+  <a href="/tags/{{ tag | slugify }}/">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
+{% endfor %}
+</p>
 

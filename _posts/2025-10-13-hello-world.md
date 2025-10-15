@@ -18,3 +18,11 @@ It’s been a great hands-on way to combine software engineering practice with p
 Next step: refining layout, adding visuals, and publishing more project showcases.
 
 If you’ve built a developer or portfolio site recently — what setup worked best for you?
+
+---
+
+<p>Tags:
+{% for tag in page.tags %}
+  <a href="/tags/{{ tag | slugify }}/">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
+{% endfor %}
+</p>

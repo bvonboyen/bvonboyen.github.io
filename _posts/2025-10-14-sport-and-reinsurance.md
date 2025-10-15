@@ -14,3 +14,23 @@ and match. Of course,
 a) Germany just recently lost against Slovakia, and 
 b) it were pointless to write this, if Germany always wins.
 
+Icehockey is quite similar, with a key difference being higher average intensity, 
+and a built in regime switch with temporary player suspensions leading to 
+powerplay situations.
+
+Basketball, though, is fundamentally, different. Set time, and while there is a
+net playtime, key difference to icehockey is twofold:
+1) Limited time per drive, reducing the variation of drives per game
+2) Different scoring mechanism, that allows either 1, 2 or 3 points per drive.
+
+
+
+We can continue this with baseball, American football, and tennis...
+
+---
+
+<p>Tags:
+{% for tag in page.tags %}
+  <a href="/tags/{{ tag | slugify }}/">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
+{% endfor %}
+</p>

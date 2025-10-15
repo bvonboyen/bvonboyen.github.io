@@ -22,14 +22,7 @@ collections:
     output: true
     permalink: /projects/:name/
     
-  post_tags:
-    permalink: /tags/:name/
+collections:
+  tags:
     output: true
 
-defaults:
-  - scope:
-      path: ''
-      type: post_tags
-    values:
-      permalink: "/tags/:name/"
-      layout: tag
