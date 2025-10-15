@@ -3,6 +3,6 @@ navigation_pages:
   - index.md
   - projects.md
   - CV.md
-  - about.md
   - volunteering.md
+  - about.md
   # (add other pages you *want* in the menu)
