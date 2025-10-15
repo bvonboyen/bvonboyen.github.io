@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Identifying value bets, and what is next..."
-date: 2025-10-13 09:00:00 +0200
-tags: [jekyll, basics]
+date: 2025-10-14 09:00:00 +0200
+tags: [sports, thoughtleadership, conceptual]
 ---
 
 Betting Basics — From Fair to Value Bets, and beyond
