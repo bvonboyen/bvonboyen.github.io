@@ -5,37 +5,41 @@ date: 2025-10-14 09:00:00 +0200
 tags: [sports, reinsurance, thoughtleadership, conceptual]
 ---
 
-Gary Lineker: 'Football is a simple game. Twenty-two men chase a ball for 90 minutes 
-and at the end, the Germans always win.'
+Gary Lineker:
+“Football is a simple game. Twenty-two men chase a ball for 90 minutes,
+and at the end, the Germans always win.”
 
-This quote says a lot on modeling, it is a simple game, meaning one goal one score, 
-and both teams have a continuous chance to score during a fixed time of 90 minutes.
-The game has a relatively low scoring intensity, ranging about 1.5 goals per team
-and match. with only small differences across leagues. Of course, 
-a) Germany just recently lost against Slovakia, and 
-b) it were pointless to write this, if Germany always wins.
+This quote says a lot about modeling. It is a simple game — one goal equals one score — and both teams have a continuous chance to score during a fixed time of 90 minutes.
+The game has a relatively low scoring intensity, averaging about 1.5 goals per team and match, with only small differences across leagues.
 
-Icehockey is quite similar, with a key difference being higher average intensity, 
-and a built in regime switch with temporary player suspensions leading to 
-powerplay situations.
+Of course,
+a) Germany just recently lost against Slovakia, and
+b) it would be pointless to write this post if Germany always won.
 
-Basketball, though, is fundamentally different. Yes, there is a set time, 
-and while there is a net playtime - just like in icehockey, key difference 
-to icehockey is twofold:
-1) Limited time per drive, reducing the variation of drives per game
-2) Different scoring mechanism, that allows either 1, 2 or 3 points per drive.
+Ice hockey is quite similar, with a key difference being the higher average scoring intensity, and a built-in regime switch: temporary player suspensions lead to power-play situations.
 
-So what does this mean for a reinsurance professional? Soccer is reasonably 
-close to a continuous poisson process, which in Reinsurance, is used in 
-attritional claims modeling in a quota share of a larger motor (fleet) policy. 
-This is already different for Icehockey, where, similar to credit re-insurance, there are 
-inhomogenous poisson processes at work, that reasonably cover higher intensities 
-and higher dispersions. Statistically, a negative binomial can translate the current
-model to new sports. Basketball is a nice fit for a compound poisson model, the 
-general work horse of risk theory
+Basketball, though, is fundamentally different. Yes, there is a fixed time, and while there is net play time — just like in ice hockey — the key differences are twofold:
 
+Limited time per drive, reducing the variation in the number of drives per game.
 
-We can continue this with baseball, American football, and tennis...
+A different scoring mechanism, allowing 1, 2, or 3 points per drive.
+
+🏦 What does this mean for a reinsurance professional?
+
+Soccer is reasonably close to a continuous Poisson process, which in reinsurance is used to model attritional claim frequencies in proportional treaties — for instance, personal accident with a fixed sum insured.
+
+Ice hockey is already different. Similar to credit reinsurance, there are inhomogeneous Poisson processes at work that create higher intensities and greater dispersion — as seen in trade-credit aggregate stop-loss covers.
+This can be modeled either via a Markov-modulated Poisson process or by a negative binomial distribution (with stochastic intensity).
+
+Basketball fits nicely to a compound Poisson model, the general workhorse of risk theory — used, for example, in pricing attritional losses in motor insurance.
+
+So what do you think about Tennis, Baseball, and American Football?
+
+Property per-risk portfolios (independent but with small correlated patches)?
+
+Multi-layer structures like catastrophe programs?
+
+Industry-wide insured losses from a defined catastrophe event exceeding a pre-agreed threshold (ILW-type)?
 
 ---
 
