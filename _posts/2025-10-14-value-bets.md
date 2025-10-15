@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Identifying value bets, and what is next..."
+title: "The Search for Value Bets: Next Steps in Modeling"
 date: 2025-10-14 09:00:00 +0200
 tags: [sports, thoughtleadership, conceptual]
 ---
