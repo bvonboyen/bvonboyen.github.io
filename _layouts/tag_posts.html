@@ -1,35 +1,27 @@
-{%- comment -%} _layouts/tag_posts.html {%- endcomment -%}
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>{{ page.title }}</title>
-</head>
-<body>
-  <h1>Posts tagged with ‘{{ page.tag | default: page.taxonomy }}’</h1>
+<h1>Posts tagged with ‘{{ page.tag | default: page.taxonomy }}’</h1>
 
-  {%- assign want = page.tag | default: page.taxonomy | downcase -%}
-  {%- assign posts_for_tag = '' | split: '' -%}
-  {%- for t in site.tags -%}
-    {%- assign tag_name = t[0] -%}
-    {%- if tag_name | downcase == want -%}
-      {%- assign posts_for_tag = t[1] -%}
-      {%- break -%}
-    {%- endif -%}
-  {%- endfor -%}
+{%- assign want = page.tag | default: page.taxonomy | downcase | strip -%}
+{%- assign posts_for_tag = '' | split: '' -%}
 
-  {%- if posts_for_tag and posts_for_tag.size > 0 -%}
-    {%- assign sorted = posts_for_tag | sort: "date" | reverse -%}
-    <ul>
-      {%- for post in sorted -%}
-        <li>
-          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          <small>— {{ post.date | date: "%B %d, %Y" }}</small>
-        </li>
-      {%- endfor -%}
-    </ul>
-  {%- else -%}
-    <p>No posts found with tag ‘{{ page.tag | default: page.taxonomy }}’.</p>
+{%- for t in site.tags -%}
+  {%- assign tag_key = t[0] | downcase | strip -%}
+  {%- if tag_key == want -%}
+    {%- assign posts_for_tag = posts_for_tag | concat: t[1] -%}
   {%- endif -%}
-</body>
-</html>
+{%- endfor -%}
+
+{%- assign urls = posts_for_tag | map: 'url' | uniq -%}
+
+{%- if urls and urls.size > 0 -%}
+  <ul>
+  {%- for u in urls -%}
+    {%- assign post = posts_for_tag | where: 'url', u | first -%}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <small>— {{ post.date | date: "%B %d, %Y" }}</small>
+    </li>
+  {%- endfor -%}
+  </ul>
+{%- else -%}
+  <p>No posts found with tag ‘{{ page.tag | default: page.taxonomy }}’.</p>
+{%- endif -%}
