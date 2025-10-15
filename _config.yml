@@ -21,8 +21,6 @@ collections:
   projects:
     output: true
     permalink: /projects/:name/
-    
-collections:
   tags:
     output: true
 

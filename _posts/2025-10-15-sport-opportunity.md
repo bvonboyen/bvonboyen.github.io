@@ -2,7 +2,7 @@
 layout: post
 title: "Why Sport Modeling Is Full of Opportunity"
 date: 2025-10-15 09:00:00 +0200
-tags: [sports, reinsurance, thoughtleadership, conceptual]
+tags: [sports, thoughtleadership]
 ---
 
 The sport industry is a rapidly changing environment:
