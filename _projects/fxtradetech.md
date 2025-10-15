@@ -1,37 +1,29 @@
 ---
 title: "FX TradeTech"
 layout: page
-excerpt: "Industry dialogue for Swiss Fintech"
+excerpt: "Industry dialogue for Swiss Fintech at fair in Barcelona, Spain"
 tags: [ALM, transformation]
 date: 2025-10-15
 ---
 
-FX TradeTech is an international fair in Barcelona for the full ecosystem around
-FX trading: banks (in their various roles), exchanges, data & intelligence providers, 
-technology & system providers, corporate treasurers, brokers, consultants and various 
-minor players.
+#FX TradeTech Barcelona
 
-On this fair, Boris and I represented AAACCELLs HedgePilot and our aim was to acquire contacts,
-and to develop leads across European contacts.
+FX TradeTech is an international fair in Barcelona that brings together the full ecosystem of FX trading — banks (in their various roles), exchanges, data and intelligence providers, technology vendors, corporate treasurers, brokers, consultants, and other market participants.
 
-The days ahead of the fair, we prepared postioning, targeted acquisition strategies, 
-and presentation tactics. 
+At the event, Boris and I represented AAACCELL’s HedgePilot, with the goal of acquiring new contacts and developing leads across the European FX landscape.
 
-From our three days networking, AAACCELL gained clients leads, contacts for 
-potential strategic platforms, and secondary contacts for future benefit 
-(capital acquisition, cross service, market and product partners.) Softer factors 
-included understanding in their market positioning, LinkedIn stories,
-refined persona hooks, and material / ideas for future marketing.
+In the days leading up to the fair, we prepared our positioning, target-acquisition strategy, and presentation approach.
+Over three days of intensive networking, AAACCELL gained client leads, potential strategic platform partners, and secondary contacts of future value — including opportunities in capital acquisition, cross-service collaborations, and market/product partnerships.
 
-Overall, everyone talks about (generative) AI, but generally, there are very little
-concrete innovations present. Overall, there were little algorithmic vendors present and 
-no other with concrete value proposition deploying artificial intelligence.
+Softer outcomes included a clearer understanding of market positioning, refined LinkedIn storytelling angles, improved persona hooks, and new material and ideas for future marketing.
 
-Foreign exchange trading is an uneven playing field: the buy side still focused on
-internal flow and balance sheet margin, and (mostly) willing to give pricing and 
-carry margins for their protection. The sell side optimizing speed, access and 
-information gain, down to differentiating razor thin liquidity margins. The exchanges
-sit in between, trying to pool liquidity and sell side quotes.
+Interestingly, while everyone talked about (generative) AI, there were few concrete innovations on display — and almost no algorithmic vendors with tangible AI-driven value propositions.
+
+The FX trading landscape remains uneven:
+
+- The buy side still focuses on internal flow and balance-sheet margin, often willing to trade pricing and carry margins for protection.
+- The sell side continues to optimize for speed, access, and information gain — differentiating across razor-thin liquidity margins.
+- The exchanges sit in between, pooling liquidity and monetizing sell-side quotes.
 
 ---
 Include Boris feedback
