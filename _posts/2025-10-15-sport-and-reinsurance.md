@@ -18,17 +18,20 @@ Icehockey is quite similar, with a key difference being higher average intensity
 and a built in regime switch with temporary player suspensions leading to 
 powerplay situations.
 
-Basketball, though, is fundamentally, different. Set time, and while there is a
-net playtime, key difference to icehockey is twofold:
+Basketball, though, is fundamentally different. Yes, there is a set time, 
+and while there is a net playtime - just like in icehockey, key difference 
+to icehockey is twofold:
 1) Limited time per drive, reducing the variation of drives per game
 2) Different scoring mechanism, that allows either 1, 2 or 3 points per drive.
 
-So what? Soccer is reasonably close to a continuous poisson process, which is
-e.g. used in attritional claims modeling in a larger motor (fleet) policy. This 
-is already different for Icehockey, where, similar to credit re-insurance, there 
-are inhomogenous poisson processes, or negative binomials at work, that reasonably
-cover higher intensities and higher dispersions. Basketball is a nice fit for 
-general 
+So what does this mean for a reinsurance professional? Soccer is reasonably 
+close to a continuous poisson process, which in Reinsurance, is used in 
+attritional claims modeling in a larger motor (fleet) policy. This is already 
+different for Icehockey, where, similar to credit re-insurance, there are 
+inhomogenous poisson processes at work, that reasonably cover higher intensities 
+and higher dispersions. Statistically, a negative binomial can translate the current
+model to new sports. Basketball is a nice fit for a compound poisson model, the 
+general work horse of risk theory
 
 
 We can continue this with baseball, American football, and tennis...

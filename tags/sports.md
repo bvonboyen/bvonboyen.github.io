@@ -3,6 +3,7 @@ layout: default
 title: "Posts tagged sports"
 tag: sports
 permalink: /tags/sports/
+hidden: true
 ---
 
 <h1>{{ page.title }}</h1>
