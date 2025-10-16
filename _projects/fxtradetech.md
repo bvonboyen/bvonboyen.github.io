@@ -26,8 +26,8 @@ The FX trading landscape remains uneven:
 - The exchanges sit in between, pooling liquidity and monetizing sell-side quotes.
 
 ---
-Include Boris feedback
 
+Testimony to be included
 
 ---
 
