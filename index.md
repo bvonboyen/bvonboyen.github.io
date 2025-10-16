@@ -19,3 +19,5 @@ To get in touch or get to know me better, visit the [About me](/about/) page.
 
 <img src="/assets/img/nature.jpeg" alt="Nature header" style="width:100%;border-radius:8px;margin-bottom:1.5rem;">
 Picture: Abyss Pool at Yellowstone Lake in Yellowstone National Park, Wyoming, USA
+
+<a id="posts"></a>
