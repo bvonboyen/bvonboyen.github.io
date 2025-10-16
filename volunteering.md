@@ -7,7 +7,7 @@ nav_order: 40
 
 Throughout my career, I have continuously volunteered in both professional and personal settings.
 
-Currently, I help produce sound, virtual services, and podcasts as part of a dedicated team at IPC.
+Currently, I help produce sound, virtual services, and podcasts as part of a dedicated team at IPC - International Protestant Church of Zurich.
 
 I invite you to explore IPC Zurich’s extensive library of [sermons](https://ipc-zurich.org/sermons/).
 
