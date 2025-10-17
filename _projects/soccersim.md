@@ -11,7 +11,7 @@ It connects actuarial calibration discipline with the excitement of sports model
 
 ---
 
-## ⚽ Current Application — Static Factor Model (v1.0)
+## Current Application — Static Factor Model (v1.0)
 
 The current release models match outcomes and full league seasons through **Poisson-based expected goals (xG)** and **static team-strength factors**.
 
@@ -34,7 +34,7 @@ I can open / share repository on personal request.
 
 ---
 
-## 🧠 Future Evolution — Hierarchical, Player & Dependency Layers
+## Future Evolution — Hierarchical, Player & Dependency Layers
 
 The upcoming architecture expands SoccerSim from a static team-factor model toward a **hierarchical Bayesian / mixed-effects framework**, aligning with reinsurance-style risk aggregation principles:
 
@@ -58,7 +58,7 @@ These developments aim to merge **actuarial multi-level calibration** with **dat
 
 ---
 
-## 🧰 Python Tech Stack  
+## Python Tech Stack  
 `pandas` · `numpy` · `scipy` · `matplotlib` · `pyyaml` · `click` · `beautifulsoup4` · & others 
 
 Packaged as a modular **`soccersim`** application with  
