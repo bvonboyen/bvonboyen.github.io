@@ -9,13 +9,10 @@ Betting Basics — From Fair to Value Bets, and beyond
 
 Let’s start with some basic terminology in betting.
 
-1) Fair bet — Two players agree on a fair bet when the expected cash flow (or expected value) equals zero, and both parties share the same understanding of outcomes and their probabilities.
-
-2) Market bet — The expected value is slightly negative, as the bookmaker includes a risk and operating margin, even if both sides agree on the probabilities.
-
-3) Value bet — The expected value is positive — meaning your estimated probability of success is higher than what the market implies.
-
-4) Sure bet (arbitrage) — A bet that locks in a positive cash flow before the event even takes place.
+  1) Fair bet — Two players agree on a fair bet when the expected cash flow (or expected value) equals zero, and both parties share the same understanding of outcomes and their probabilities.
+  2) Market bet — The expected value is slightly negative, as the bookmaker includes a risk and operating margin, even if both sides agree on the probabilities.
+  3) Value bet — The expected value is positive — meaning your estimated probability of success is higher than what the market implies.
+  4) Sure bet (arbitrage) — A bet that locks in a positive cash flow before the event even takes place.
 
 Romantic Ideals and Bookie Nightmares
 

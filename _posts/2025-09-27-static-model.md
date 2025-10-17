@@ -104,3 +104,4 @@ Result: **Union 1.06 : 1.60 VfB (expected goals)**
 This initial release of the *static xG factor model* forms the analytical foundation of the  
 [`soccersim`](https://bvonboyen.github.io/projects/soccersim/) project.
 
+{% include mathjax.html %}
