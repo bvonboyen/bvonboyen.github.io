@@ -34,9 +34,9 @@ $$
 Where  
 $$
 \begin{aligned}
-- \( xG_{\text{league}} \): league baseline expected goals  \\
-- \( h_{\text{league}} \): general home advantage  \\
-- \( a_i, d_i, h_i \): team-specific attack, defence, and home factors (log-scale) \\
+xG_{\text{league}} &:\ \text{league baseline expected goals} \\
+h_{\text{league}}  &:\ \text{general home advantage} \\
+a_i,\, d_i,\, h_i  &:\ \text{team-specific attack, defence, and home factors (log scale)}
 \end{aligned}
 $$
 
