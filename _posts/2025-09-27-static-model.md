@@ -105,3 +105,11 @@ This initial release of the *static xG factor model* forms the analytical founda
 [`soccersim`](https://bvonboyen.github.io/projects/soccersim/) project.
 
 {% include mathjax.html %}
+
+---
+
+<p>Tags:
+{% for tag in page.tags %}
+  <a href="/tags/{{ tag | slugify }}/">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
+{% endfor %}
+</p>
