@@ -32,9 +32,14 @@ xG_{\text{away}} &= xG_{\text{league}} \times
 $$
 
 Where  
-- \( xG_{\text{league}} \): league baseline expected goals  
-- \( h_{\text{league}} \): general home advantage  
-- \( a_i, d_i, h_i \): team-specific attack, defence, and home factors (log-scale)
+$$
+\begin{aligned}
+- \( xG_{\text{league}} \): league baseline expected goals  \\
+- \( h_{\text{league}} \): general home advantage  \\
+- \( a_i, d_i, h_i \): team-specific attack, defence, and home factors (log-scale) \\
+\end{aligned}
+$$
+
 
 ### Model characteristics
 - **Static calibration:** factors remain constant over simulated matchdays  
