@@ -39,19 +39,19 @@ I can open / share repository on personal request.
 The upcoming architecture expands SoccerSim from a static team-factor model toward a **hierarchical Bayesian / mixed-effects framework**, aligning with reinsurance-style risk aggregation principles:
 
 **Planned extensions**
-- ⚙️**Expand factor modeling**  
+- **Expand factor modeling**  
   - Include shock factors for tight schedules and team management changes
   - Updating into a state space model to discover trends on unobservable factors
-- 🧩 **Hierarchical team-player factors**  
+- **Hierarchical team-player factors**  
   - Player-level attack/participation contributions to team effects (player analytics, and trades)  
   - More responsive team strength as a dynamic mixture of player availability and form  
-- 🔗 **Dependency modeling across matches**  
+- **Dependency modeling across matches**  
   - Shared shocks for weather, derbies, and in-play dynamics
   - Correlated outcomes for improved realism and backtesting
-- 💡 **Risk-adjusted analytics**  
+- **Risk-adjusted analytics**  
   - Contributive RAR (cRAR) per bet and total portfolio volatility metrics  
   - Cross-factor calibration using ridge regularization and information-criteria control  
-- 🌐 **Agentic simulation layer**  
+- **Agentic simulation layer**  
   - Scenario engines and explainable reporting for domain experts
 
 These developments aim to merge **actuarial multi-level calibration** with **data-driven sports inference**, moving from descriptive to structural modeling.
