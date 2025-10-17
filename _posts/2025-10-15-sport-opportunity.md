@@ -7,12 +7,12 @@ tags: [sports, thoughtleadership]
 
 The sport industry is a rapidly changing environment:
 
-- 📊 High and growing data availability — yet not everything is observable  
-- 🧠 A relatively short history in analytics (beyond traditional bookmaking)  
-- 🗞️ Broader acceptance of analytics through journalism, especially in the U.S.  
-- 💸 A growing retail market in sports betting  
-- ⚽ High capital inflows in sport management  
-- 🔄 Strong parallels to reinsurance, risk, and finance concepts  
+- High and growing data availability — yet not everything is observable  
+- A relatively short history in analytics (beyond traditional bookmaking)  
+- Broader acceptance of analytics through journalism, especially in the U.S.  
+- A growing retail market in sports betting  
+- High capital inflows in sport management  
+- Strong parallels to reinsurance, risk, and finance concepts  
 
 These dynamics open up significant opportunities for applying **standard modeling, large-scale data, machine learning, and artificial intelligence** to sports.
 
@@ -28,9 +28,9 @@ And through it all, the **emotions of sport remain unchanged** — that’s what
 
 ### Fundamental questions sport modeling can address
 
-- 💰 *Is the capital deployed effectively across all business operations of our club? Can we hire a director that has proven track record? Capital planning and scenarios: which league are we playing next season, what does this mean?*  
-- 🎯 *What objectives are giving this season? Is the coach developing the team’s strengths, and what tactical choices yield the greatest impact?*  
-- 🔁 *Are we acquiring the right players — and which positions would most improve our success next season?*
+- *Is the capital deployed effectively across all business operations of our club? Can we hire a director that has proven track record? Capital planning and scenarios: which league are we playing next season, what does this mean?*  
+- *What objectives are giving this season? Is the coach developing the team’s strengths, and what tactical choices yield the greatest impact?*  
+- *Are we acquiring the right players — and which positions would most improve our success next season?*
 
 ---
 
