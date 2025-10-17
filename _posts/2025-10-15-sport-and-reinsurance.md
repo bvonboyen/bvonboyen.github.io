@@ -41,7 +41,7 @@ Multi-layer structures like catastrophe programs?
 
 Industry-wide insured losses from a defined catastrophe event exceeding a pre-agreed threshold (ILW-type)?
 
-What does this mean for my project? It could venture horizontally, into different sports.
+I am considering branching off into different sports, as well.
 
 ---
 
