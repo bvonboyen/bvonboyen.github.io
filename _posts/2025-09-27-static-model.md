@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Basic risk factor model"
+title: "Basic factor model explained"
 date: 2025-09-27 09:00:00 +0200
 tags: [sports, analytics]
 ---
