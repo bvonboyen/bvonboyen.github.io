@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Basic risk factor model"
-date: 2025-10-13 09:00:00 +0200
+date: 2025-09-27 09:00:00 +0200
 tags: [sports, analytics]
 ---
 
@@ -22,14 +22,14 @@ Each factor remains **constant across the season**, allowing comparisons of stru
 
 For a home–away fixture, expected goals are defined as:
 
-\[
+$$
 \begin{aligned}
 xG_{\text{home}} &= xG_{\text{league}} \times h_{\text{league}} \times 
    \exp(a_{\text{home}} + d_{\text{away}} + h_{\text{home}}) \\
 xG_{\text{away}} &= xG_{\text{league}} \times 
    \exp(a_{\text{away}} + d_{\text{home}})
 \end{aligned}
-\]
+$$
 
 Where  
 - \( xG_{\text{league}} \): league baseline expected goals  
@@ -79,15 +79,12 @@ Where
 ### Example calculation
 Fixture: *Union Berlin (home) vs VfB Stuttgart (away)*  
 
-{% raw %}
-\[
+$$
 \begin{aligned}
 xG_{\text{Union}} &= 1.42 \times 1.04 \times \exp(-0.37 + 0.03 + 0.01) \approx 1.06 \\
-xG_{\text{VfB}} &= 1.42 \times \exp(0.17 - 0.04) \approx 1.60
+xG_{\text{VfB}}   &= 1.42 \times \exp(0.17 - 0.04) \approx 1.60
 \end{aligned}
-\]
-{% endraw %}
-
+$$
 
 Result: **Union 1.06 : 1.60 VfB (expected goals)**  
 
@@ -105,6 +102,5 @@ Result: **Union 1.06 : 1.60 VfB (expected goals)**
 ## Release 1.0 — Static Model
 
 This initial release of the *static xG factor model* forms the analytical foundation of the  
-[`soccersim`](https://github.com/bvonboyen/Soccer-predictions) project.
+[`soccersim`](https://bvonboyen.github.io/projects/soccersim/) project.
 
-{% include mathjax.html %}
