@@ -79,12 +79,15 @@ Where
 ### Example calculation
 Fixture: *Union Berlin (home) vs VfB Stuttgart (away)*  
 
+{% raw %}
 \[
 \begin{aligned}
 xG_{\text{Union}} &= 1.42 \times 1.04 \times \exp(-0.37 + 0.03 + 0.01) \approx 1.06 \\
 xG_{\text{VfB}} &= 1.42 \times \exp(0.17 - 0.04) \approx 1.60
 \end{aligned}
 \]
+{% endraw %}
+
 
 Result: **Union 1.06 : 1.60 VfB (expected goals)**  
 
@@ -103,3 +106,5 @@ Result: **Union 1.06 : 1.60 VfB (expected goals)**
 
 This initial release of the *static xG factor model* forms the analytical foundation of the  
 [`soccersim`](https://github.com/bvonboyen/Soccer-predictions) project.
+
+{% include mathjax.html %}
