@@ -7,7 +7,7 @@ tags: [sports, analytics]
 
 ### VfB Stuttgart – Season Outlook and Model Update ⚪️🔴
 
-A mid-season look at the numbers behind VfB’s strong start and what the model tells us about the team’s evolving performance. ⚪️🔴
+A mid-season look at the numbers behind VfB’s strong start and what the model tells us about the team’s evolving performance.
 
 ### Performance summary
 
