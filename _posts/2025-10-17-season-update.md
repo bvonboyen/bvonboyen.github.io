@@ -26,7 +26,7 @@ That translates to about +3 points over last season’s outcome, in line with ex
 
 The gap to seventh place has widened — Mainz, Bremen, and Wolfsburg have started poorly.  
 VfB leads Bremen by +6 expected points (real +5 points).  
-While fixtures so far have mostly come from the lower half of the table, the team converts those opportunities reliably and stays slightly ahead of last year’s pace.
+While fixtures so far have mostly come from the lower half of the (projected) table, the team converts those opportunities reliably and stays slightly ahead of last year’s pace.
 
 ### Probabilities for each position (1–18)
 
@@ -45,7 +45,7 @@ While fixtures so far have mostly come from the lower half of the table, the tea
 | Direct relegation (17–18) | 0.0 % | ±0.0 pp |
 
 The strong rise in international qualification probabilities reflects a widening gap within the league.  
-A clear top six group, including VfB, is emerging while Köln, Wolfsburg, Bremen, and Mainz fall behind.  
+A clear top six group, including VfB, is emerging while Köln, Wolfsburg, Bremen, and Mainz (will) fall behind.  
 The next fixtures will test whether VfB can consolidate that advantage and remain in the European mix.
 
 ### Matchday 7 preview: VfL Wolfsburg – VfB Stuttgart
