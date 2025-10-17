@@ -62,7 +62,7 @@ These developments aim to merge **actuarial multi-level calibration** with **dat
 `pandas` · `numpy` · `scipy` · `matplotlib` · `pyyaml` · `click` · `beautifulsoup4` · & others 
 
 Packaged as a modular **`soccersim`** application with  
-– Thin data API (`get_table_df`, `get_fixtures_df`) and **web adapter** (`KickerProvider`, cached under `.cache`, TZ Europe/Berlin)  
+– Thin data API (`get_table_df`, `get_fixtures_df`) and **web adapter** (adaptle provider, cached under `.cache`, TZ Europe/Berlin)  
 – **Poisson / Monte Carlo** simulation engine with config-driven workflows
 – Post simulation **analytics** and probability processors 
 – Reproducible environment via **Conda / Poetry**
