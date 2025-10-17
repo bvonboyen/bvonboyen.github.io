@@ -43,7 +43,8 @@ $$
 
 ### Model characteristics
 - **Static calibration:** factors remain constant over simulated matchdays  
-- **Transparent decomposition:** each component has a clear interpretation  
+- **Transparent decomposition:** each component has a clear interpretation
+- **Added value:** the component bring additional insight, as not directly observable  
 - **Probabilistic logic:** expected goals form the basis for simulations  
 - **Cross-league compatibility:** the same structure applies to different datasets  
 

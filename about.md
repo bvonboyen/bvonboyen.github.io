@@ -25,7 +25,8 @@ Upon returning from the U.S., I completed my degree at Ulm University and moved 
 where I began my professional career. You can find more details in my CV.
 
 In my spare time, I enjoy playing tennis, skiing, running, spending quality time with
-my family, baking and cooking, coding in Python, traveling, and many other things.
+my family, baking and cooking, coding in Python, traveling, and many other things. 
+Before you ask: my (basic) soccer career ended at the age of 21.
 
 <img src="/assets/img/diving1.JPG" alt="Diving" style="width:100%;border-radius:8px;margin-bottom:1.5rem;">
 
