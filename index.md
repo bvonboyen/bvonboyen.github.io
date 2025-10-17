@@ -18,6 +18,6 @@ If you’re driving transformation, rethinking pension design, or advancing anal
 To get in touch or get to know me better, visit the [About me](/about/) page.
 
 <img src="/assets/img/nature.jpeg" alt="Nature header" style="width:100%;border-radius:8px;margin-bottom:1.5rem;">
-Sometimes beauty lies in what remains uncertain — Abyss Pool, Yellowstone National Park.
+Sometimes beauty lies in what remains uncertain — Abyss Pool, Yellowstone National Park, dormant, last erupted more than 30 years ago.
 
 <a id="posts"></a>
