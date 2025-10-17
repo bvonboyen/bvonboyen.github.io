@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Season Update: VfB Stuttgart on track ⚪️🔴"
+title: "Season Update: VfB Stuttgart on track"
 date: 2025-10-17 09:00:00 +0200
 tags: [sports, analytics]
 ---
 
-### VfB Stuttgart – Season Outlook and Model Update
+### VfB Stuttgart – Season Outlook and Model Update ⚪️🔴
 
 A mid-season look at the numbers behind VfB’s strong start and what the model tells us about the team’s evolving performance. ⚪️🔴
 
