@@ -16,8 +16,8 @@ VfB currently performs well above last season’s benchmark — **+8 points** co
 
 #### Model insights
 
-Not only VfB, but the entire league has seen fewer goals this season, though not uniformly.  
-VfB’s attack ranks sixth, defence seventh, and home advantage tenth.  
+Not only VfB, but the entire league has seen fewer goals this season (basel load average -0.15), though not uniformly.  
+VfB’s attack ranks sixth (stable to start of the season), defence seventh (up from 11th last season), and home advantage tenth (down from 5th).  
 
 The model projects a total of **53 expected points**, corresponding to an expected sixth-place finish — roughly aligned with last year’s Europa League zone.  
 That translates to about +3 points over last season’s outcome, in line with expectations after a stable start.
@@ -62,7 +62,9 @@ The fixture remains open-ended, as home-field advantage and Wolfsburg’s baseli
 #### Summary
 
 A controlled win, a steady upward trend, and a model that continues to mirror on-field reality.  
-Defensive structure shows clear progress, and the attack has rebuilt much of the lost scoring capacity after the late transfer of Woltemade.  
+Defensive structure shows clear progress, and the attack has rebuilt some of the lost scoring capacity 
+after the late transfer of Woltemade, and relative to the league, remained stable.
+Further player contributions will be added to analyze how exactly this was balanced.
 The projection remains around sixth place — the current fourth position reflects a favourable schedule and gradual development rather than overperformance.
 
 #### Model background
