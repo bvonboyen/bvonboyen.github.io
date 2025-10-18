@@ -19,7 +19,7 @@ Softer outcomes included a clearer understanding of market positioning, refined 
 
 Interestingly, while everyone talked about (generative) AI, there were few concrete innovations on display — and almost no algorithmic vendors with tangible AI-driven value propositions.
 
-The FX trading landscape remains uneven:
+#### The FX trading landscape remains uneven:
 
 - The buy side still focuses on internal flow and balance-sheet margin, often willing to trade pricing and carry margins for protection.
 - The sell side continues to optimize for speed, access, and information gain — differentiating across razor-thin liquidity margins.
@@ -27,7 +27,7 @@ The FX trading landscape remains uneven:
 
 ---
 
-Testimony to be included
+Testimony pending
 
 ---
 
