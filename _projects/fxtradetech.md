@@ -6,7 +6,7 @@ tags: [ALM, transformation]
 date: 2025-10-15
 ---
 
-#FX TradeTech Barcelona
+### FX TradeTech Barcelona
 
 FX TradeTech is an international fair in Barcelona that brings together the full ecosystem of FX trading — banks (in their various roles), exchanges, data and intelligence providers, technology vendors, corporate treasurers, brokers, consultants, and other market participants.
 
