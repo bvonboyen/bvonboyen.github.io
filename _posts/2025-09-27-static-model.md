@@ -5,7 +5,7 @@ date: 2025-09-27 09:00:00 +0200
 tags: [sports, analytics]
 ---
 
-## Expected value and variance — from natural catastrophes to the Bundesliga
+### Expected value and variance — from natural catastrophes to the Bundesliga
 
 In the insurance world, *expected value* and *variance* describe both the average loss and its uncertainty.  
 These concepts are at the core of risk modelling — from natural catastrophes to solvency projections — and can be transferred directly to football.
@@ -16,9 +16,9 @@ Each factor remains **constant across the season**, allowing comparisons of stru
 
 ---
 
-## Model structure
+### Model structure
 
-### Expected goals
+#### Expected goals
 
 For a home–away fixture, expected goals are defined as:
 
@@ -41,7 +41,7 @@ a_i,\, d_i,\, h_i  &:\ \text{team-specific attack, defence, and home factors (lo
 $$
 
 
-### Model characteristics
+#### Model characteristics
 - **Static calibration:** factors remain constant over simulated matchdays  
 - **Transparent decomposition:** each component has a clear interpretation
 - **Added value:** the component bring additional insight, as not directly observable  
@@ -50,7 +50,7 @@ $$
 
 ---
 
-## Calibration example – Bundesliga 2024/25
+### Calibration example – Bundesliga 2024/25
 
 | Team | Exp Goals Home | Exp Goals Away | League xG | Home Adv | Attack (log) | Defence (log) | Home (log) |
 |------|----------------|----------------|------------|-----------|---------------|---------------|-------------|
@@ -75,14 +75,14 @@ $$
 
 ---
 
-## How to read and analyze
+### How to read and analyze
 
-### VfB Stuttgart in context
+#### VfB Stuttgart in context
 - **Attack factor (log):** +0.17 → upper mid-table attacking profile  
 - **Defence factor (log):** +0.03 → slightly permissive; opponents generate marginally more chances  
 - **Home factor (log):** +0.15 → among the strongest home advantages in the league  
 
-### Example calculation
+#### Example calculation
 Fixture: *Union Berlin (home) vs VfB Stuttgart (away)*  
 
 $$
@@ -94,7 +94,7 @@ $$
 
 Result: **Union 1.06 : 1.60 VfB (expected goals)**  
 
-### Observed vs. expected (matchdays 1–4)
+#### Observed vs. expected (matchdays 1–4)
 
 | MD | Fixture | Actual | Expected (Model) |
 |----|----------|---------|------------------|
@@ -105,7 +105,7 @@ Result: **Union 1.06 : 1.60 VfB (expected goals)**
 
 ---
 
-## Release 1.0 — Static Model
+### Release 1.0 — Static Model
 
 This initial release of the *static xG factor model* forms the analytical foundation of the  
 [`soccersim`](https://bvonboyen.github.io/projects/soccersim/) project.
