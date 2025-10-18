@@ -24,7 +24,7 @@ Limited time per drive, reducing the variation in the number of drives per game.
 
 A different scoring mechanism, allowing 1, 2, or 3 points per drive.
 
-🏦 What does this mean for a reinsurance professional?
+What does this mean for a reinsurance professional?
 
 Soccer is reasonably close to a homogeneous Poisson process, which in reinsurance is used to model attritional claim frequencies in proportional treaties — for instance, personal accident with a fixed sum insured.
 
