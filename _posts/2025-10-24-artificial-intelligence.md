@@ -18,8 +18,14 @@ Over time it has evolved from **rule-based reasoning** to **data-driven** and **
 
 ## A Structure of Intelligence
 
-![Structure of Artificial Intelligence](/assets/img/ArtificialIntelligence.jpg)
-*From reasoning, to learning, to generation.*
+<div style="display:flex; justify-content:center; margin:1.5rem 0;">
+  <div style="width:70%; max-width:600px; text-align:center;">
+    <img src="/assets/img/ArtificialIntelligence.png" alt="Structure of Artificial Intelligence" style="width:100%; border-radius:8px;">
+    <p style="font-size:0.9em; color:#555; text-align:center; margin-top:0.5rem;">
+      Structure of Artificial Intelligence — from reasoning to learning to generation
+    </p>
+  </div>
+</div>
 
 **Symbolic AI**, or *classical AI*, expresses logic through explicit rules — expert systems such as *MYCIN* or *Deep Blue* are early examples.  
 **Robotics** builds on these principles, combining sensing, motion, and planning — often enhanced by learning.  
