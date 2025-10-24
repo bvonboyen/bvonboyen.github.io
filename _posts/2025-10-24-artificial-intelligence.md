@@ -19,7 +19,7 @@ AI aims to replicate — or augment — human cognitive abilities such as learni
 ## A Structure of Intelligence
 
 <div style="display:flex; justify-content:center; margin:1.5rem 0;">
-  <div style="width:70%; max-width:600px; text-align:center;">
+  <div style="width:100%; max-width:600px; text-align:center;">
     <img src="/assets/img/ArtificialIntelligence.png" alt="Structure of Artificial Intelligence" style="width:100%; border-radius:8px;">
     <p style="font-size:0.9em; color:#555; text-align:center; margin-top:0.5rem;">
       Structure of Artificial Intelligence — from reasoning to learning to generation
