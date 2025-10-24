@@ -1,7 +1,7 @@
 ---
 title: "SoccerSim — Season & Match Simulation"
 layout: page
-excerpt: "A modular football analytics engine combining actuarial-style calibration with Monte Carlo simulation — evolving from a static factor model toward hierarchical team and player layers."
+excerpt: "A modular football analytics engine combining automated supervised learning calibrations with a static factor model."
 tags: [sports-analytics, simulation, ai, python]
 date: 2025-10-13
 ---
@@ -17,7 +17,8 @@ The current release models match outcomes and full league seasons through **Pois
 
 **Core methods**
 - Poisson and Skellam distributions for goal and score-difference modeling  
-- Maximum-likelihood calibration of team attack/defense parameters  
+- Maximum-likelihood calibration of team attack/defense parameters
+- Self learning with priors, variance control, and random noise  
 - Match & season-level Monte Carlo simulations for probability tables  
 - YAML-driven configuration and a clean CLI for reproducible workflows
 
