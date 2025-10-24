@@ -54,7 +54,9 @@ These shifts highlight the **emerging separation within the league**: a clear to
 | **1** | 7.9 % | **12.4 %** | 6.0 % | 4.1 % | 1.8 % | 0.1 % |
 | **2** | 6.6 % | 9.6 % | 5.2 % | 2.4 % | 1.3 % | 0.1 % |
 | **3** | 3.5 % | 3.5 % | 2.5 % | 1.5 % | 0.5 % | — |
-| **4 +** | 0.9 % | 0.9 % | 0.9 % | 1.2 % | 0.3 % | 0.1 % |
+| **4** | 0.9 % | 0.9 % | 0.9 % | 1.2 % | 0.3 % | 0.1 % |
+| **5 +** | 0.4 % |	0.2 % | 0.5 % |	0.1 % |	— |	— |
+
 
 **Interpretation:** Results cluster around 1:1, 1:0 and 2:1—typical one-goal matches with a slight VfB bias. High-scoring outcomes remain rare (<1%), underscoring the **defensive consistency** of both teams.
 
