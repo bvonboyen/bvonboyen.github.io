@@ -2,7 +2,7 @@
 layout: post
 title: "Season Update: VfB Stuttgart – On Course for Europe"
 date: 2025-10-24 09:00:00 +0200
-tags: [sports, analytics, VfB Stuttgart, Bundesliga]
+tags: [sports, analytics]
 ---
 
 ## VfB Stuttgart – Three Points on Command, Firmly on Course for Europe
@@ -148,3 +148,10 @@ It combines **league baselines, home advantage, and team factors** on a log scal
 A decisive performance and a +1.6 xP surplus over expectation confirm Stuttgart’s **balance and efficiency**.  
 The model and the market diverge in emphasis — **form versus structure** — but converge in message:  
 VfB Stuttgart is now **firmly positioned as a European-level contender**, and the data suggest that the **Champions League zone** is within reach.
+
+---
+<p>Tags:
+{% for tag in page.tags %}
+  <a href="/tags/{{ tag | slugify }}/">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
+{% endfor %}
+</p>
