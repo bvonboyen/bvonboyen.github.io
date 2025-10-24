@@ -1,7 +1,7 @@
 ---
 title: "SoccerSim — Season & Match Simulation"
 layout: page
-excerpt: "A modular football analytics engine combining automated supervised learning calibrations with a static factor model."
+excerpt: "A modular football analytics engine combining automated, but supervised learning calibrations with a static factor model."
 tags: [sports-analytics, simulation, ai, python]
 date: 2025-10-13
 ---
