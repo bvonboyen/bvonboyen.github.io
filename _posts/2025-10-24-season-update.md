@@ -17,11 +17,13 @@ The win in Wolfsburg was both **convincing and above expectation**. The model es
 The development remains positive. The **probability of a Champions League qualification** has increased further, supported by **Eintracht Frankfurt’s inconsistent form**. The model portrays VfB as **defensively compact, offensively efficient**, and stable in shot creation and conversion. Markets tend to overweight **recent momentum**, while the model prioritises **structural consistency**; as the season progresses, this divergence becomes visible—prices move faster with form, the model adjusts more gradually via its new **learning calibration**.
 
 ## Position Probabilities (1–18)
+
 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16–18 |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
 | 0.0 | 9.9 | 11.8 | 20.3 | 21.2 | 13.4 | 9.0 | 6.3 | 3.3 | 1.9 | 1.2 | 0.9 | 0.2 | 0.4 | 0.2 | 0.0 |
 
 ### Derived Targets and Weekly Changes
+
 | Target | Probability | Δ vs. last week |
 |:--|--:|--:|
 | Champion (1st) | 0.0 % | ± 0.0 pp |
@@ -36,6 +38,7 @@ These shifts highlight the **emerging separation within the league**: a clear to
 ## Matchday 8 Preview: VfB Stuttgart – 1. FSV Mainz 05
 
 ### Team Skills (current values, league ranks in parentheses)
+
 | Team | xG Home | xG Away | Attack | Defence (↓ better) | Home HFA |
 |:--|--:|--:|--:|--:|--:|
 | VfB Stuttgart | 1.73 (7) | 1.61 (5) | 0.15 (5) | −0.06 (7) | −0.02 (8) |
@@ -44,6 +47,7 @@ These shifts highlight the **emerging separation within the league**: a clear to
 **Expected Score (model):** VfB 1.49 – Mainz 1.40 — two compact sides with a narrow analytical edge for Stuttgart.
 
 ### Scoreline Frequency Matrix (1 000 simulations)
+
 | **HG \\ AG** | **0** | **1** | **2** | **3** | **4** | **5 +** |
 |:--|:--:|:--:|:--:|:--:|:--:|:--:|
 | **0** | 5.9 % | 8.6 % | 6.2 % | 2.7 % | 1.1 % | 0.5 % |
@@ -55,6 +59,7 @@ These shifts highlight the **emerging separation within the league**: a clear to
 **Interpretation:** Results cluster around 1:1, 1:0 and 2:1—typical one-goal matches with a slight VfB bias. High-scoring outcomes remain rare (<1%), underscoring the **defensive consistency** of both teams.
 
 ### Model vs. Market
+
 | Source | VfB Win | Draw | Mainz Win |
 |:--|--:|--:|--:|
 | Model (1 000 sims) | 39.2 % | 25.3 % | 35.5 % |
@@ -64,6 +69,7 @@ These shifts highlight the **emerging separation within the league**: a clear to
 **Interpretation:** Markets reward recent momentum and assign a notably higher win chance to Stuttgart. The model stays cautious, still crediting Mainz with one of the league’s most resilient defences. Such divergence is typical mid-season: **market prices reflect form**, whereas the model weights **systemic team balance**.
 
 ## Mid-Term Outlook (Matchdays 8–11)
+
 | MD | Fixture | p_home | p_draw | p_away | xPs |
 |:--|:--|--:|--:|--:|--:|
 | 8 | VfB – Mainz | 0.392 | 0.253 | 0.355 | **1.43** |
@@ -75,6 +81,7 @@ These shifts highlight the **emerging separation within the league**: a clear to
 The next fixtures are more demanding—particularly the **two away matches**—lowering the expected average to **~1.37 xP per game**. This sits just below typical Europa League pace yet remains consistent with the **56-point season projection**.
 
 ## Projected Table (Top 6 Extract)
+
 | Pos | Team | Exp Pts | Avg Pos |
 |:--|:--|--:|--:|
 | 2 | Borussia Dortmund | 63.9 | 3.1 |
