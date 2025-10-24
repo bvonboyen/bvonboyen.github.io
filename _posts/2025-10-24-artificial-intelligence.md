@@ -34,7 +34,7 @@ AI aims to replicate — or augment — human cognitive abilities such as learni
 
 The current hype around AI is from generative AI being accessible and, at the surface, understandable to the mainstream. To give some credit, it also opens new use cases within applications, such as the LLM based Health Memo Generator.
 
-Modern autopilot systems in aviation are among the most advanced real-world examples of hybrid AI, combining rule-based logic for certified safety with learning components for adaptive control—demonstrating how intelligence can evolve within trusted boundaries. This is generally accepted by every passenger entering the airplane; even by my son, with whom I watched train spotter videos in storm Benjamin today.
+Modern autopilot systems in aviation are among the most advanced real-world examples of hybrid AI, combining rule-based logic for certified safety with learning components for adaptive control—demonstrating how intelligence can evolve within trusted boundaries. This is generally accepted by every passenger entering the airplane; even by my son, with whom I watched plain spotter videos in storm Benjamin today.
 
 ---
 
