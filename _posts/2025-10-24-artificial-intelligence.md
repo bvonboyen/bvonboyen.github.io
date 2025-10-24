@@ -33,6 +33,8 @@ Over time it has evolved from **rule-based reasoning** to **data-driven** and **
 **Machine Learning** replaced rules with data patterns, from *supervised* and *probabilistic models* to *deep learning* — the basis for today’s **Generative AI**, capable of producing new, context-aware output.  
 **Hybrid or neuro-symbolic AI** blends logic and learning for *explainable* and *safety-critical* applications.
 
+The current hype around AI is from generative AI being accessible and, at the surface, understandable to the mainstream. It also opens new use cases, as described in the next section.
+
 ---
 
 ## The Actuary’s View — AI and Quantitative Reasoning
