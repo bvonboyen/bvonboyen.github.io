@@ -5,7 +5,8 @@ date: 2025-10-24 15:00:00 +0200
 tags: [transformation, conceptual]
 ---
 
-🧠 **Understanding Artificial Intelligence — From Reasoning to Generation**
+What is artificial intelligence? What is the hype? How is it used?
+
 
 According to **ISO/IEC 22989:2022**,  
 
