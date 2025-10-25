@@ -5,9 +5,7 @@ permalink: /projects/
 nav_order: 20
 ---
 
-A curated list of active and recent work:
-
-Here’s the updated version with your refined phrasing added to the last item:
+A curated list of active and recent work, with details below:
 
 * **FX TradeTech industry fair** — *delivered*: You lead a (Fin-)Tech or consulting firm that wants to connect sales, analytics, transformation and quantitative insight — but need a partner who can turn complex models into clear, commercial results. I help you do that: by integrating real financial intelligence into your product and growth story. From leading FX TradeTech Barcelona as interim manager to building quant-driven ALM frameworks, I bridge strategy, modelling, and market dialogue. If you’re ready to scale your capabilities and onboard **a partner who brings proven projects and execution strength**, let’s talk.
 * **Soccer simulations app** — *in production*: You lead a club that wants to succeed both on the pitch and financially — but you know how hard it is to make both measurable. I help you change that: with **a system that makes hidden team strengths visible, explains results, and strengthens your in-house analytics with artificial intelligence**. It connects scouting, coaching, and finance into one shared decision framework — lightweight, transparent, and immediately effective. If you want to make your organisation data-driven without losing its identity, let’s talk.
