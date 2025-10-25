@@ -1,7 +1,7 @@
 ---
 title: "FX TradeTech"
 layout: page
-excerpt: "Industry dialogue for Swiss Fintech at fair in Barcelona, Spain"
+excerpt: "represented Swiss FinTech at FXTradeTech in Barcelona, led interim management and ALM dialogue — **expanded network and positioned offering in international, institutional FX ecosystem**"
 tags: [ALM, transformation]
 date: 2025-10-15
 ---
