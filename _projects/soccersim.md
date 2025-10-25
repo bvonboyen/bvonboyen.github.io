@@ -6,7 +6,7 @@ tags: [sports-analytics, simulation, ai, python]
 date: 2025-10-13
 ---
 
-**SoccerSim** is a modular football analytics engine combining automated, but supervised learning calibrations with a static factor model.
+**SoccerSim** is a modular football analytics engine combining automated, but supervised learning calibrations with a factor model, linking team skills to league results.
 
 ---
 
