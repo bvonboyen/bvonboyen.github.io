@@ -1,13 +1,12 @@
 ---
 title: "SoccerSim — Season & Match Simulation"
 layout: page
-excerpt: "A modular football analytics engine combining automated, but supervised learning calibrations with a static factor model."
+excerpt: "SoccerSim: Bundesliga match and season simulations, **transferring reinsurance industry knowledge to enable scouting integration, team & club management, sports betting, and journalism use cases**"
 tags: [sports-analytics, simulation, ai, python]
 date: 2025-10-13
 ---
 
-**SoccerSim** is a modular Python application for realistic football (soccer) simulations.  
-It connects actuarial calibration discipline with the excitement of sports modeling.
+**SoccerSim** is a modular football analytics engine combining automated, but supervised learning calibrations with a static factor model.
 
 ---
 
