@@ -8,22 +8,15 @@ tags: [sports, analytics]
 ## VfB Stuttgart – Rotation, Maturity, and Tactical Control
 
 ### Match Analysis (VfB Stuttgart 2–1 1. FSV Mainz 05)
-The 2:1 home victory over Mainz reflected Stuttgart’s tactical maturity more than dominance.  
-Coach **Sebastian Hoeneß** rotated ten new outfield players — a bold move that kept the team’s structure intact, sustained running intensity, and demonstrated impressive tactical flexibility.  
-The setup alternated between **3-4-2-1 and 5-4-1**, built for a low-scoring, controlled game: compact at the back, wide on the flanks, and pressing only in calculated moments.  
+The 2:1 home victory over Mainz reflected Stuttgart’s tactical maturity more than dominance. Coach **Sebastian Hoeneß** rotated ten new outfield players — a bold move that kept the team’s structure intact, sustained running intensity, and demonstrated impressive tactical flexibility. The setup alternated between **3-4-2-1 and 5-4-1**, built for a low-scoring, controlled game: compact at the back, wide on the flanks, and pressing only in calculated moments.  
 
-Both goals followed this design: a **half-space finish by Chris Führich**, and a **vertical assist by goalkeeper Alexander Nübel** behind the Mainz backline, finished calmly by **Deniz Undav**.  
-Not a spectacle — but a demonstration of system stability, patience, and control.
+Both goals followed this design: a **half-space finish by Chris Führich**, and a **vertical assist by goalkeeper Alexander Nübel** behind the Mainz backline, finished calmly by **Deniz Undav**. Not a spectacle — but a demonstration of system stability, patience, and control.
 
 ## Performance Trend
-The upward trajectory remains intact. The **Champions League probability** rises further even as all top sides continue to perform.  
-The **expected-points gap to Köln** has widened to **+10 xPs**, and **to Mainz** to **+13 xPs** — a direct outcome of the weekend’s results.  
-Mainz, effectively ruled out of the European race for now, saw its top-six probability drop below 10%.  
+The upward trajectory remains intact. The **Champions League probability** rises further even as all top sides continue to perform. The **expected-points gap to Köln** has widened to **+10 xPs**, and **to Mainz** to **+13 xPs** — a direct outcome of the weekend’s results. Mainz, effectively ruled out of the European race for now, saw its top-six probability drop below 10%.  
 
 ## Model Insights (v1.1)
-The model rates Stuttgart’s **defensive performance 5th in the league** (previously 11th last season).  
-The improved structure makes the loss of Woltemade almost negligible in the aggregate model.  
-Assuming Bayern win the domestic double, **seven Bundesliga positions** could qualify for Europe — giving Stuttgart a **93.9% chance** of international qualification under current projections.
+The model rates Stuttgart’s **defensive performance 5th in the league** (previously 11th last season). The improved structure makes the loss of Woltemade almost negligible in the aggregate model. Assuming Bayern win the domestic double, **seven Bundesliga positions** could qualify for Europe — giving Stuttgart a **93.9% chance** of international qualification under current projections.
 
 ---
 
@@ -96,8 +89,7 @@ Markets value Leipzig slightly higher and the draw more likely, while the model 
 | **Total (MD 8–11)** |  |  |  |  | **5.49 xPs** | **7.10 xPs** |
 
 **Interpretation:**  
-The Mainz victory lifts VfB’s short-term projection from **5.5** to **7.1 xPs**, a **+1.6 xP overperformance**.  
-At ~**1.78 xP per game**, Stuttgart remains firmly on course for European qualification. This sprint remains in tact.
+The Mainz victory lifts VfB’s short-term projection from **5.5** to **7.1 xPs**, a **+1.6 xP overperformance**. At ~**1.78 xP per game**, Stuttgart remains firmly on course for European qualification. This sprint remains in tact.
 
 ---
 
@@ -111,8 +103,7 @@ At ~**1.78 xP per game**, Stuttgart remains firmly on course for European qualif
 | 5 | Eintracht Frankfurt | 57.6 | 5.2 |
 | 6 | RB Leipzig | 57.5 | 5.2 |
 
-The updated projection confirms Stuttgart’s position among the top contenders.  
-**Köln** sits around **10 xPs** and **Mainz 13 xPs** behind the European cutoff — a direct reflection of VfB’s consistent, high-efficiency performance, and actual result.
+The updated projection confirms Stuttgart’s position among the top contenders. **Köln** sits around **10 xPs** and **Mainz 13 xPs** behind the European cutoff — a direct reflection of VfB’s consistent, high-efficiency performance, and actual result.
 
 ---
 
@@ -128,10 +119,7 @@ The *static xG factor model* applies **actuarial principles** (expectation and v
 ---
 
 ## Conclusion
-A controlled, **tactically disciplined performance** and a **+1.6 xP surplus** over model expectation underline Stuttgart’s progress.  
-Rotation worked without compromising cohesion; the defensive unit continues to deliver top-five metrics.  
-While the market and model now align more closely, the key edge remains structural: **balance, adaptability, and control**.  
-Stuttgart stands as a **credible European contender** with growing Champions League potential.
+A controlled, **tactically disciplined performance** and a **+1.6 xP surplus** over model expectation underline Stuttgart’s progress. Rotation worked without compromising cohesion; the defensive unit continues to deliver top-five metrics. While the market and model now align more closely, the key edge remains structural: **balance, adaptability, and control**. Stuttgart stands as a **credible European contender** with growing Champions League potential.
 
 ---
 
