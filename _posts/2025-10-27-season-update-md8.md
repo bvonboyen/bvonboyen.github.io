@@ -1,11 +1,12 @@
 ---
 layout: post
 title: "Season Update: VfB Stuttgart – Rotation, Maturity, and Tactical Control"
+excerpt: "Sebastian Hoeneß applies tactical foresight successfully"
 date: 2025-10-27 09:00:00 +0200
 tags: [sports, analytics]
 ---
 
-## VfB Stuttgart – Rotation, Maturity, and Tactical Control
+## VfB Stuttgart – a impressing display of depth, adaptability and foresight
 
 ### Match Analysis (VfB Stuttgart 2–1 1. FSV Mainz 05)
 The 2:1 home victory over Mainz reflected Stuttgart’s tactical maturity more than dominance. Coach **Sebastian Hoeneß** rotated ten new outfield players — a bold move that kept the team’s structure intact, sustained running intensity, and demonstrated impressive tactical flexibility. The setup alternated between **3-4-2-1 and 5-4-1**, built for a low-scoring, controlled game: compact at the back, wide on the flanks, and pressing only in calculated moments.  
