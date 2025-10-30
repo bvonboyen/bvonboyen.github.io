@@ -17,7 +17,7 @@ Both goals followed this design: a **half-space finish by Chris Führich**, and 
 The upward trajectory remains intact. The **Champions League probability** rises further even as all top sides continue to perform. The **expected-points gap to Köln** has widened to **+10 xPs**, and **to Mainz** to **+13 xPs** — a direct outcome of the weekend’s results. Mainz, effectively ruled out of the European race for now, saw its top-six probability drop below 10%.  
 
 ## Model Insights (v1.1)
-The model rates Stuttgart’s **defensive performance 5th in the league** (previously 11th last season). The improved structure makes the loss of Woltemade almost negligible in the aggregate model. Assuming Bayern win the domestic double, **seven Bundesliga positions** could qualify for Europe — giving Stuttgart a **93.9% chance** of international qualification under current projections.
+The model rates Stuttgart’s **defensive performance 6th in the league** (previously 11th last season). The improved structure makes the loss of Woltemade almost negligible in the aggregate model. Assuming Bayern win the domestic double, **seven Bundesliga positions** could qualify for Europe — giving Stuttgart a **93.9% chance** of international qualification under current projections.
 
 ---
 
