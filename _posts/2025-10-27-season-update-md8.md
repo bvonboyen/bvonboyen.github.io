@@ -44,10 +44,10 @@ The model rates Stuttgart’s **defensive performance 5th in the league** (previ
 
 | Team | xG Home (Rank) | xG Away (Rank) | Attack (Rank) | Defence (↓ better) | Home HFA (Rank) |
 |:--|--:|--:|--:|--:|--:|
-| RB Leipzig | 1.94 (4) | 1.25 (12) | −0.09 (12) | +0.02 (8) | +0.35 (3) |
-| VfB Stuttgart | 1.71 (7) | 1.65 (5) | +0.19 (5) | −0.06 (5) | −0.05 (10) |
+| RB Leipzig | 1.94 (4) | 1.25 (12) | −0.09 (12) | +0.02 (9) | +0.35 (3) |
+| VfB Stuttgart | 1.71 (7) | 1.65 (5) | +0.19 (5) | −0.06 (6) | −0.05 (8) |
 
-**Expected Score (multiplicative model):** Leipzig **1.78** – VfB **1.68**  
+**Expected Score (multiplicative model):** Leipzig **1.83** – VfB **1.68**  
 A narrow top-table matchup: Leipzig benefits from home advantage, while VfB’s defensive structure and offensive balance provide genuine parity.
 
 ### Scoreline Frequency Matrix (Leipzig – VfB, 1 000 simulations)
