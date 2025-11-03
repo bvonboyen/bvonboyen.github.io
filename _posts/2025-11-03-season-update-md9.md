@@ -6,13 +6,12 @@ date: 2025-11-03 09:00:00 +0100
 tags: [sports, analytics, vfb-stuttgart]
 ---
 
-## VfB Stuttgart — A setback with learnings, course intact
+## VfB Stuttgart — A setback with learnings, course intact (RB Leipzig 3–1 VfB Stuttgart)
 
-### Fan voices (RB Leipzig 3–1 VfB Stuttgart)
-The Leipzig defeat is viewed with nuance. Fans point to individual errors — the own goal and a goalkeeper slip — while acknowledging a strong first half and Leipzig’s superior individual quality. Mood remains optimistic with Augsburg and Europe ahead. The game idea earns praise, but the ask is clear: lower the error rate and time substitutions better to sustain the level.
+The Leipzig defeat is viewed with nuance. Spectators point to individual errors — the own goal and a goalkeeper slip — while acknowledging a strong first half and Leipzig’s superior individual quality. Mood remains optimistic with Augsburg and Europe ahead. The game idea earns praise, but the ask is clear: lower the error rate and time substitutions better to sustain the level.
 
 ### Tactical analysis — Control needs variation
-Stuttgart set up in a 3-4-2-1, dominant early with intensity and short counter-pressing, controlling ball and space. Individual mistakes at bad moments — before and after halftime — plus missing rhythm changes reduced stability. The left side was the defensive weak spot; over-eagerness contributed to the own goal. Structure was sound but lacked tempo shifts and surprise to unsettle Leipzig. The direction is right; the details need sharpening. **Bottom line:** control is good, variation is better — if you own the ball, you must own the tempo.
+Stuttgart set up in a 3-4-2-1 (slightly more forward leaning than before), dominant early with intensity and short counter-pressing, controlling ball and space. Individual mistakes at bad moments — before and after halftime — plus missing rhythm changes reduced stability (and inivted counterattacks with "bulls" just waiting for their stampede). The left side was the defensive weak spot; over-eagerness contributed to the own goal. Structure was sound but lacked tempo shifts and surprise to unsettle Leipzig. The direction is right; the details need sharpening. **Bottom line:** control is good, variation is better — if you own the ball, you must own the tempo.
 
 ### Trend
 A small setback without derailing the course. This was not a system break, but a top-level learning step. Structurally, VfB remains in the European race around **57 xPs**. The model continues to value structure over short-term form — helpful after a loss when the base remains intact.
