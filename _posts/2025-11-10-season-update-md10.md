@@ -6,8 +6,6 @@ date: 2025-11-10 09:00:00 +0200
 tags: [sports, analytics, vfb-stuttgart]
 ---
 
-## VfB Stuttgart — Control, Consequence, and Mental Strength (VfB Stuttgart 3–2 FC Augsburg)
-
 The 3–2 home win against Augsburg triggered lively debate among spectators. While the result mirrors the overall game, VfB's performance was scrutinised: both goals conceded were traced to individual errors — especially for the second, where **Nübel’s risky pass and Karazor’s positional error** sparked discussion over shared responsibility. Refereeing decisions (penalty, VAR interventions) came under criticism, and Stuttgart’s goals were widely seen as “earned but fortunate”: one via VAR, one just over the line, one slightly deflected.  
 The core takeaway from the stands: after ten matchdays, VfB are level on points with the successful season two years ago — **European qualification remains realistic.** That season also brought Dortmund as the opponent for matchday 11 - does history repeat itself?
 
