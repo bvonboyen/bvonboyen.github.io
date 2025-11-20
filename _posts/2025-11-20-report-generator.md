@@ -3,7 +3,7 @@ layout: post
 title: "Building a Reliable AI Reporting Engine: Lessons From a Personal Mission to the Moon"
 excerpt: "Privacy-first AI reporting engine for clinical documentation. How structured workflows, validation and local models enable reliable, transparent GenAI."
 date: 2025-11-20 09:00:00 +0200
-tags: [applied-ai-systems,structured-reporting,clinical-documentation,local-first-ai,swiss-engineering,alpine-tech,precision-ai,agentic-pipelines]
+tags: [conceptual, applied-ai-systems,structured-reporting,clinical-documentation,local-first-ai,swiss-engineering,alpine-tech,precision-ai,agentic-pipelines]
 ---
 
 What began as a personal ambition to **understand GenAI end to end**, not only as a user but as a quant and actuary working through every layer, has now turned into a full application with its first release. 
