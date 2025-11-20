@@ -6,7 +6,7 @@ date: 2025-11-20 09:00:00 +0200
 tags: [applied-ai-systems,structured-reporting,clinical-documentation,local-first-ai,swiss-engineering,alpine-tech,precision-ai,agentic-pipelines]
 ---
 
-What began as a personal ambition to **understand GenAI end to end**, not only as a user but as an engineer working through every layer, has now turned into a full application with its first release. Much like the early race to the moon, the goal was clear and ambitious.
+What began as a personal ambition to **understand GenAI end to end**, not only as a user but as a quant and actuary working through every layer, has now turned into a full application with its first release. Much like the early race to the moon, the goal was clear and ambitious.
 
 - reliably produce technical and structured reporting  
 - integrate data and validation into the workflow (up and downstream)  
