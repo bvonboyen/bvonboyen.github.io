@@ -14,7 +14,7 @@ What began as a personal ambition to **understand GenAI end to end**, not only a
 - reduce deployment hurdles and improve privacy options  
 
 ### Why reliability matters  
-The Memo Generator app was built with one core commitment: **users do not train models with their private data**. Privacy and industry standards must be guaranteed by design. Anyone building their own path into AI should consider this early, so practitioners rely on safety, redundancy and transparent logic instead of learning from avoidable failures (not indicating that Apollos failures, are avoidable, but let's learn from them).
+The Memo Generator app was built with one core commitment: **users do not train models with their private data**. Privacy and industry standards must be guaranteed by design. Anyone building their own path into AI should consider this early, so practitioners rely on safety, redundancy and transparent logic instead of learning from avoidable failures (Disclaimer: I am not indicating that Apollo's failures were avoidable, but rather showing I learn from them).
 
 > “We choose to go to the Moon in this decade and do the other things, not because they are easy, but because they are hard.”  
 > — President John F. Kennedy, Rice University, September 12, 1962
