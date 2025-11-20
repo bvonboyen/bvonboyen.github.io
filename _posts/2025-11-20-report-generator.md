@@ -14,7 +14,7 @@ Much like the early race to the moon, the goal was clear but ambitious:
 - select the right model for the right job (respect licencing)  
 - reduce deployment hurdles and improve privacy options  
 
-> “We choose to go to the Moon in this decade and do the other things, not because they are easy, but because they are hard.”  
+> “We choose to go to the Moon in this decade and do the other things, not because they are easy, but because they are hard; because that goal will serve to organize and measure the best of our energies and skills, because that challenge is one that we are willing to accept, one we are unwilling to postpone, and one we intend to win, and the others, too.”  
 > — President John F. Kennedy, Rice University, September 12, 1962
 
 And just like the engineers and astronauts who needed every minute for what mattered most, doctors should not be sweating over routine memos. Your mission is the patient, not the paperwork.
