@@ -17,8 +17,12 @@ Much like the early race to the moon, the goal was clear but ambitious:
 > “We choose to go to the Moon in this decade and do the other things, not because they are easy, but because they are hard.”  
 > — President John F. Kennedy, Rice University, September 12, 1962
 
+And just like the engineers and astronauts who needed every minute for what mattered most, doctors should not be sweating over routine memos. Your mission is the patient, not the paperwork.
+
 ### Why reliability matters  
 The Memo Generator app was built with one core commitment: **users do not train models with their private data**. Privacy and industry standards must be guaranteed by design. Anyone building their own path into AI should consider this early, so practitioners rely on safety, redundancy and transparent logic instead of learning from avoidable failures (Disclaimer: I am not indicating that Apollo's failures were avoidable, but rather showing I learn from them).
+
+Doctors, please save  your energy for the work that matters, which is with the patient; the rest should lift you, not weigh you down.
 
 ### What the app delivers today  
 The system takes a spoken medical memo or structured data from standard APIs and turns it into a validated, structured clinical report. It combines dynamic auditing, glossary-based standardisation and multi-format output (HTML, DOCX, PDF, JSON). The interface is transparent at every step. Model choice, performance settings, languages and translations are user options. Audit logs cover operations and safety; validation reports address technical, linguistic and content-related aspects.
