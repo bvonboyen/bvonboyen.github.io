@@ -38,13 +38,15 @@ But why stop here, when the ground for future agentic services and processes acr
 ### Next steps  
 The project continues with a clear roadmap.
 
-1. Generalise a **domain-independent framework** based on the operational foundations established here.  
-2. Provide a **REST API** so the full system and the atomic services integrate seamlessly into any local environment.  
-3. Introduce **self-learning capability**, train it on bootstrapped reporting data, to make the application more generic, robust and adaptive.  
+1. Provide a **REST API** so the full system and the atomic services integrate seamlessly into any local environment.  
+2. Introduce **self-learning capability**, train it on bootstrapped reporting data, to make the application more generic, robust and adaptive.  
+3. Generalise a **domain-independent framework** based on the operational foundations established here.  
 
 ### A Swiss approach to AI engineering  
 Reliability, transparency and control remain at the centre. The intention is not to build another generic service but a precise, local-first reporting engine that practitioners can trust. A rocket that takes the practitioner where they need to go, and a module that brings them back safely.
 
 If you are interested in the lessons learned along the way, or if you are exploring structured reporting and local AI workflows in health, finance or other operational domains, feel free to reach out.
 
---- <p>Tags: {% for tag in page.tags %} <a href="/tags/{{ tag | slugify }}/">{{ tag }}</a>{% unless forloop.last %}, {% endunless %} {% endfor %} </p>
+--- 
+
+<p>Tags: {% for tag in page.tags %} <a href="/tags/{{ tag | slugify }}/">{{ tag }}</a>{% unless forloop.last %}, {% endunless %} {% endfor %} </p>
