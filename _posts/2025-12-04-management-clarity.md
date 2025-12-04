@@ -24,8 +24,7 @@ I use the expected end-of-season position as the first anchor for discussions wi
 
 ![Expected League Position](/assets/img/Liga_ErwartetePositionEndtabelle.png)
 
-Here, Leipzig stabilises upward while Wolfsburg drifts downward — a reminder that results and underlying performance often diverge.  
-This informs tone, expectations and the urgency of interventions.
+Here, Leipzig stabilises upward while Wolfsburg drifts downward — a reminder that results and underlying performance often diverge. This informs tone, expectations and the urgency of interventions.
 
 ---
 
@@ -34,8 +33,7 @@ Trend lines matter more than snapshots.
 
 ![Wolfsburg Probabilities](/assets/img/VfLWolfsburg_EntwicklungWahrscheinlichkeiten.png)
 
-Wolfsburg’s falling UCL probability and rising relegation risk tell a simple story:  
-the early view of the squad was too optimistic, and course-correction becomes a strategic necessity.
+Wolfsburg’s falling UCL probability and rising relegation risk tell a simple story: the early view and current performance of the squad is diverging, and course-correction becomes a strategic necessity.
 
 I rely on these curves to judge whether we stay on plan or need to adjust.
 
@@ -53,7 +51,7 @@ Key signals I look for:
 - Scenario probabilities (Top 6, relegation, mid-table)  
 - Expected-points outlook for the next fixtures  
 
-These views align conversations with coaching staff and support decisions on rotation, recruitment and development.
+These views align conversations with coaching staff and support decisions on rotation, recruitment and development. The coach can adapt and simulate strategies (squad choice and tactical formation).
 
 ---
 
@@ -62,7 +60,7 @@ In daily practice, it gives me:
 
 - A neutral, model-based view of squad quality  
 - Early detection of performance drift  
-- Better planning for contracts, transfers and coaching  
+- Better planning for finance, budgeting, contracts, transfers and coaching  
 - More credible communication with owners and supporters  
 
 Predictive intelligence doesn’t remove uncertainty — it gives it structure.
@@ -70,8 +68,7 @@ Predictive intelligence doesn’t remove uncertainty — it gives it structure.
 ---
 
 ## Conclusion  
-Football is chaotic in the short run but structural in the long run.  
-As a sporting director, I use predictive models to understand those structures, anticipate inflection points and make decisions before problems become visible in the table.
+Football is chaotic in the short run but structural in the long run. As a sporting director, I use predictive models to understand those structures, anticipate inflection points and make decisions before problems become visible in the table.
 
 The truth is on the pitch — but the future becomes visible in the model.
 
