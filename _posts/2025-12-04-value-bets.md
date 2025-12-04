@@ -18,7 +18,7 @@ The visualisations below highlight the core insights:
 
 - Value is the starting point, not the decision.  
 - Equal Weight is inefficient; Max Return is overly concentrated.  
-- Optimised λ-portfolios provide the best balance of return, risk and stability.  
+- Optimised portfolios provide the best balance of return, risk and stability.  
 - Risk profiles and loss contributions become meaningful only when visualised.
 
 Key metrics from Matchday 12:
