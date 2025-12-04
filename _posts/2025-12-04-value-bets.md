@@ -1,110 +1,124 @@
 ---
 layout: post
-title: "Quantitative Sports Betting: Value, Portfolios and Risk — A Structured Approach"
-excerpt: "Wie ein analytischer Wetter Spieltag 12 betrachtet: Value-Erkennung, Portfoliogewichtung und Risikosteuerung – klar, transparent und datenbasiert."
+title: "Quantitative Sports Betting: Value, Portfolios and Risk - A Structured Approach"
+excerpt: "How a quantitative bettor evaluates Matchday 12: value signals, portfolio construction and risk profiling — clear, transparent and data-driven."
 date: 2025-12-04 09:00:00 +0200
 tags: [sports-analytics,quantitative-betting,portfolio-optimization,decision-science,applied-ai,soccer-sim,risk-management,precision-analytics]
 ---
 
-Quantitatives Wetten unterscheidet sich grundlegend vom klassischen „Tippgefühl“.  
-Es folgt einer klaren Struktur: **Value identifizieren**, **Portfolios bauen**, **Risiko beurteilen**.  
-Dieser Beitrag zeigt am Beispiel von Spieltag 12, wie sich ein analytischer Wetter Entscheidungen erarbeitet – ruhig, systematisch, evidenzbasiert.
+Quantitative betting differs fundamentally from intuition-driven tipping.  
+It follows a structured workflow: **identify value**, **construct portfolios**, **assess risk**.  
+This post illustrates how a data-driven bettor approaches Matchday 12 — calm, systematic, evidence-based.
 
 ---
 
 ## TL;DR  
-Das Portfolio entsteht nicht aus der besten Wette, sondern aus der besten **Kombination**.  
-Die Visualisierungen unten zeigen deutlich:
+Portfolios win — not individual bets.  
+The visualisations below highlight the core insights:
 
-- Value ist der Startpunkt – nicht die Entscheidung.  
-- Equal Weight ist ineffizient, Max Return zu konzentriert.  
-- Optimierte Portfolios (λ) liefern das beste Verhältnis aus Rendite, Risiko und Stabilität.  
-- Risikoprofile und Verlustbeiträge werden erst **sichtbar**, wenn sie visualisiert werden.
+- Value is the starting point, not the decision.  
+- Equal Weight is inefficient; Max Return is overly concentrated.  
+- Optimised λ-portfolios provide the best balance of return, risk and stability.  
+- Risk profiles and loss contributions become meaningful only when visualised.
 
-Kennzahlen aus Spieltag 12:
+Key metrics from Matchday 12:
 
-| λ | Return | VaR(95%) | Konzentration |
-|---:|--------:|---------:|--------------:|
-| 0.0 | 7.79 | 9.64 | 53% |
-| 0.1 | 8.04 | 9.84 | 64% |
-| 0.5 | 7.06 | 8.81 | 45% |
-| 1.0 | 6.98 | 8.67 | 47% |
-| 2.0 | 3.31 | 5.50 | 17% |
-
----
-
-## 1. Value als Ausgangspunkt  
-Value entsteht, wenn die modellierte Wahrscheinlichkeit höher liegt als die implizierte Quote.  
-Für Spieltag 12 ergibt sich eine kompakte Liste positiver Value-Wetten – von moderaten Chancen bis zu sehr deutlichen Abweichungen.
-
-Value allein führt jedoch nicht zur Entscheidung. Erst die Portfolioperspektive bestimmt Qualität und Risiko.
+| λ   | Return | VaR(95%) | Concentration |
+|----:|--------:|----------:|---------------:|
+| 0.0 | 7.79    | 9.64      | 53%            |
+| 0.1 | 8.04    | 9.84      | 64%            |
+| 0.5 | 7.06    | 8.81      | 45%            |
+| 1.0 | 6.98    | 8.67      | 47%            |
+| 2.0 | 3.31    | 5.50      | 17%            |
 
 ---
 
-## 2. Strategien und effiziente Portfolios  
-Die folgende Visualisierung zeigt unmittelbar, wie sich Strategien im Rendite-Risikoprofil unterscheiden:
+## 1. Value as the entry point  
+A bet has value when the modelled probability exceeds the implied probability of the market price.  
+For Matchday 12, seven bets meet this criterion and form the **initial opportunity set**.
 
-![Effizientes Portfolio](/assets/img/EffizientesPortfolio.png)
+| MD | Home          | Away        | Outcome | Odds | p(model) | EV/unit |
+|---:|---------------|-------------|---------|------|----------|--------:|
+| 12 | Union Berlin  | Heidenheim  | 2       | 5.40 | 0.292    | 0.5768  |
+| 12 | Leverkusen    | Dortmund    | 1       | 2.55 | 0.410    | 0.0455  |
+| 12 | Hamburger SV  | Stuttgart   | 2       | 2.20 | 0.507    | 0.1154  |
+| 12 | Freiburg      | Mainz       | 2       | 4.10 | 0.346    | 0.4186  |
+| 12 | Werder Bremen | Köln        | 1       | 2.25 | 0.490    | 0.1025  |
+| 12 | Hoffenheim    | Augsburg    | X       | 4.00 | 0.256    | 0.0240  |
+| 12 | Hoffenheim    | Augsburg    | 2       | 4.35 | 0.450    | 0.9575  |
 
-- **Equal Weight**: breit, wenig kontrolliert.  
-- **Min Risk**: klar definiertes Verlustprofil.  
-- **Max Return**: hohe Rendite, aber starke Konzentration.  
-- **Optimierte λ-Portfolios**: präzise austariert – Rendite und Risiko im Gleichgewicht.
+A few points stand out:
 
-Diese Darstellung ersetzt lange Beschreibungen: Sie macht Effizienz sichtbar.
-
----
-
-## 3. Wie Strategien tatsächlich setzen  
-Die Einsatzverteilung zeigt, wie unterschiedliche Ansätze Kapital allokieren:
-
-![Strategien Wetteinsatz](/assets/img/StrategienWetteinsatz.png)
-
-- Equal Weight wirkt zufällig.  
-- Min Risk stabilisiert durch Diversifikation.  
-- Max Return fokussiert nahezu vollständig auf die höchste EV-Wette.  
-- λ-Portfolios balancieren, abhängig vom gewünschten Risikoprofil.
-
-Nutzen: **Fehlallokationen werden sofort erkennbar, nicht erst im Ergebnis.**
+- **Magnitude varies significantly:** from marginal opportunities (EV ≈ 0.02) to strong mispricings such as Hoffenheim–Augsburg (2) with **EV ≈ 0.96**.  
+- **Value is not a stake signal:** it identifies *which bets merit further analysis*, not how much to allocate.  
+- The true decision happens on the **portfolio level**, after diversification and risk are considered.
 
 ---
 
-## 4. P&L-Profile im Vergleich  
-Die Verteilungen sprechen für sich:
+## 2. Strategies and the efficient frontier  
+The following visualisation shows how different strategies behave in the return–risk space:
 
-![P&L Vergleich](/assets/img/PnLVergleich.png)
+![Efficient Portfolio](/assets/img/EffizientesPortfolio.png)
 
-- Equal Weight ist breit und unstrukturiert.  
-- Min Risk zeigt ein ruhiges, enges Profil.  
-- Max Return generiert hohe Ausschläge nach beiden Seiten.  
-- λ-Portfolios liegen zwischen den Extremen und folgen klaren Risikoparametern.
+- **Equal Weight**: wide, uncontrolled dispersion.  
+- **Min Risk**: narrow, well-defined downside limits.  
+- **Max Return**: strong return potential but extremely concentrated exposure.  
+- **Optimised λ-portfolios**: balanced, risk-aware, and efficient.
 
-Interpretation wird hier weniger behauptet als visuell bestätigt.
+The plot conveys more insight than paragraphs of text — it makes efficiency visible.
 
 ---
 
-## 5. Welche Wette trägt welches Risiko?  
-Der Drilldown verdeutlicht, wo Verlustbeiträge entstehen:
+## 3. How strategies actually allocate capital  
+The allocation view illustrates the logic of each strategy:
+
+![Strategy Stakes](/assets/img/StrategienWetteinsatz.png)
+
+- Equal Weight distributes capital arbitrarily.  
+- Min Risk stabilises exposures through diversification.  
+- Max Return concentrates heavily on the highest EV bet.  
+- λ-portfolios balance return and diversification in line with risk preferences.
+
+The benefit: **misallocations appear visually, not retrospectively.**
+
+---
+
+## 4. Comparing P&L distributions  
+The shape of each P&L distribution explains the strategy’s behaviour:
+
+![P&L Comparison](/assets/img/PnLVergleich.png)
+
+- Equal Weight: broad and unstructured.  
+- Min Risk: calm, tight, predictable.  
+- Max Return: volatile with wide swings.  
+- λ-portfolios: controlled transitions between the extremes.
+
+Interpretation is guided by the chart, not assumptions.
+
+---
+
+## 5. Which bet contributes which risk?  
+Loss contributions show where risk originates:
 
 ![P&L Drilldown](/assets/img/PnLDrilldown.png)
 
-- Risiko wird einzelnen Wetten zuordenbar.  
-- Dominante Verlusttreiber werden sichtbar.  
-- Portfolioentscheidungen lassen sich rational begründen.
+- Risk becomes attributable to individual bets.  
+- Dominant loss drivers stand out clearly.  
+- Portfolio decisions gain transparency and justification.
 
-Nutzen: **Risikomanagement wird transparent statt abstrakt.**
+Risk management becomes explicit instead of conceptual.
 
 ---
 
-## Fazit  
-Quantitatives Wetten bedeutet, Entscheidungen auf **Struktur**, **Modelllogik** und **Visualisierung** aufzubauen:
+## Conclusion  
+Quantitative betting relies on **structure**, **model-driven logic**, and **visual clarity**:
 
-- Value selektiert Möglichkeiten – nicht Einsätze.  
-- Portfolios ersetzen Einzelwetten.  
-- Risiko wird sichtbar, bevor es entsteht.  
-- Die Visualisierungen tragen den Großteil der Erkenntnis; der Text ordnet sie lediglich ein.
+- Value identifies opportunities — not stakes.  
+- Portfolios replace individual bets.  
+- Risk becomes visible *before* it materialises.  
+- Visualisations carry most of the insight; the text simply provides context.
 
-Dieser Ansatz verschiebt den Fokus von Intuition zu belastbarer Entscheidungsqualität.
+This approach shifts decision-making from intuition to robust analytical judgement.
 
 ---
 
