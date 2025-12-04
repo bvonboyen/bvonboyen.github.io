@@ -2,7 +2,7 @@
 layout: post
 title: "Quantitative Sports Betting: Value, Portfolios and Risk — A Structured Approach"
 excerpt: "Wie ein analytischer Wetter Spieltag 12 betrachtet: Value-Erkennung, Portfoliogewichtung und Risikosteuerung – klar, transparent und datenbasiert."
-date: 2025-12-05 09:00:00 +0200
+date: 2025-12-04 09:00:00 +0200
 tags: [sports-analytics,quantitative-betting,portfolio-optimization,decision-science,applied-ai,soccer-sim,risk-management,precision-analytics]
 ---
 
