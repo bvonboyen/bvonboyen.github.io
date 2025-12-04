@@ -3,7 +3,7 @@ layout: post
 title: "How a Sporting Director Uses Predictive Intelligence"
 excerpt: "A concise, first-person view on how predictive models clarify squad strength, trajectories and scenario risks."
 date: 2025-12-04 09:00:00 +0200
-tags: [sports-management,football-intelligence,scenario-planning,performance-analysis,soccer-sim,predictive-models,decision-science,club-strategy]
+tags: [sports, analytics, conceptual]
 ---
 
 As a sporting director, I’m not looking for more statistics. I’m looking for clarity.  

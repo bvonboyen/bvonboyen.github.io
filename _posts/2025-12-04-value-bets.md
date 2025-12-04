@@ -3,7 +3,7 @@ layout: post
 title: "A Structured, Quantitative Approach to Sports Betting: Value, Portfolios and Risk"
 excerpt: "How a quantitative bettor evaluates Matchday 12: value signals, portfolio construction and risk profiling — clear, transparent and data-driven."
 date: 2025-12-04 09:00:00 +0200
-tags: [sports-analytics,quantitative-betting,portfolio-optimization,decision-science,applied-ai,soccer-sim,risk-management,precision-analytics]
+tags: [sports, analytics, conceptual]
 ---
 
 Quantitative betting differs fundamentally from intuition-driven tipping.  
