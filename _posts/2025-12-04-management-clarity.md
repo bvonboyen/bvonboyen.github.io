@@ -15,7 +15,7 @@ Predictive intelligence helps me understand where we truly stand, how our season
 - **Expected league position** filters out noise and reveals our real competitive level.  
 - **Probability trajectories** show whether the season is stabilising or drifting.  
 - **Squad dashboards** explain *why* results happen and where structural weaknesses lie.  
-- **Predictive modelling** improves communication, planning and decision-making across the club: xGs are silver, xPs are gold.
+- **Predictive modelling** improves communication, planning and decision-making across the club.
 - xGs are silver, **xPs are gold**.
 
 ---
