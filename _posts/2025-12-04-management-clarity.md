@@ -46,10 +46,11 @@ This VfB dashboard illustrates how structural insight replaces guesswork.
 
 Key signals I look for:
 
-- Expected score vs market assessment  
-- Squad strengths and weaknesses (attack, defence, home/away profile)  
-- Scenario probabilities (Top 6, relegation, mid-table)  
-- Expected-points outlook for the next fixtures  
+- Expected score vs market assessment - my look in the mirror to truly understand external perception
+- Squad strengths and weaknesses (attack, defence, home/away profile)  - who am I, how strong is my competitor
+- Scenario probabilities (Top 6, relegation, mid-table) - am I still on track, to separate the heat of the moment from my management objectives 
+- Expected-points outlook for the next fixtures - how do I navigate the immediate future
+- Final table - move away from 6-points-game now, to truly understand who am I competing with currently
 
 These views align conversations with coaching staff and support decisions on rotation, recruitment and development. The coach can adapt and simulate strategies (squad choice and tactical formation).
 
