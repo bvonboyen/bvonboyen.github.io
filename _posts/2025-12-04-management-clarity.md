@@ -6,7 +6,7 @@ date: 2025-12-04 09:00:00 +0200
 tags: [sports-management,football-intelligence,scenario-planning,performance-analysis,soccer-sim,predictive-models,decision-science,club-strategy]
 ---
 
-As a sporting director, I’m not looking for more statistics — I’m looking for clarity.  
+As a sporting director, I’m not looking for more statistics. I’m looking for clarity.  
 Predictive intelligence helps me understand where we truly stand, how our season is shifting, and what decisions are becoming unavoidable.
 
 ---
@@ -24,7 +24,7 @@ I use the expected end-of-season position as the first anchor for discussions wi
 
 ![Expected League Position](/assets/img/Liga_ErwartetePositionEndtabelle.png)
 
-Here, Leipzig stabilises upward while Wolfsburg drifts downward — a reminder that results and underlying performance often diverge. This informs tone, expectations and the urgency of interventions.
+Here, Leipzig stabilises upward while Wolfsburg drifts downward; a reminder that results and underlying performance often diverge. This informs tone, expectations and the urgency of interventions.
 
 ---
 
