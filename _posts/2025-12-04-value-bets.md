@@ -12,7 +12,7 @@ This post illustrates how a data-driven bettor approaches Matchday 12 — calm, 
 
 ---
 
-## TL;DR  
+## Key messages  
 Portfolios win — not individual bets.  
 The visualisations below highlight the core insights:
 
