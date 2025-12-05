@@ -63,7 +63,7 @@ In daily practice, it gives me:
 - A neutral, model-based view of squad quality  
 - Early detection of performance drift  
 - Better planning for finance, budgeting, contracts, transfers and coaching  
-- More credible communication with owners and supporters  
+- More credible communication with board, owners and supporters  
 
 Predictive intelligence doesn’t remove uncertainty — it gives it structure.
 
