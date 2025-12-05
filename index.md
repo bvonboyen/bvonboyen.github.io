@@ -5,7 +5,7 @@ permalink: /
 hidden: true
 ---
 
-**Organisational transformation, risk & value management — with people and intelligent tooling**
+**Innovation in risk & value management — with people and intelligent tooling**
 
 I work at the intersection of business transformation and quantitative risk management — combining actuarial rigor with modern tools and data-driven thinking.
 My expertise spans pricing, valuation, risk control, capital, ALM, and value management, always with a focus on collaboration and emerging technologies such as generative AI.
