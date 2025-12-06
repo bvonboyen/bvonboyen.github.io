@@ -14,7 +14,6 @@ My expertise spans pricing, valuation, risk control, capital, ALM, and value man
  <img src="/assets/img/nature.jpeg" alt="Nature header">
  <figcaption class="caption">Sometimes beauty lies in what remains uncertain — Abyss Pool, Yellowstone National Park; dormant, last erupted more than 30 years ago.</figcaption>
 </figure>
-<a id="posts"></a>
 
 This site brings these domains together — from insurance and pensions to real-world modeling.
 My sports simulation project is one showcase, alongside others in my CV, project pages, and posts.
@@ -23,3 +22,4 @@ If you’re driving transformation in risk management, rethinking pension design
 
 To get in touch or get to know me better, visit the [About me](/about/) page.
 
+<a id="posts"></a>

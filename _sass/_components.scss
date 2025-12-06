@@ -21,21 +21,22 @@
   }
 }
 
-.caption {
-  font-family: "Carlito", sans-serif;   // keeps it simple
-  font-style: italic;
-  font-size: 0.85rem;
-  color: $color-warm;
-  margin-top: 0.4rem;
-  text-align: center;
-  line-height: 1.3;
-}
+/* _sass/_components.scss */
 
-/* Reduce spacing between image and caption */
 .hero-image img {
   width: 100%;
   border-radius: 8px;
-  margin-bottom: 0.4rem;   /* was 1.5rem inline */
+  margin-bottom: 0.3rem;
 }
 
-/* Or even zero if you want it tight */
+/* Make sure our rule wins, and make the color obvious */
+.hero-image figcaption.caption {
+  font-family: $font-primary;
+  font-style: italic;
+  font-size: 0.9rem;
+  color: $color-warm !important;   // Thermal Ochre – clearly different
+  text-align: center;
+  margin-top: 0;
+  line-height: 1.3;
+}
+
