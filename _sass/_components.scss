@@ -29,14 +29,15 @@
   margin-bottom: 0.3rem;
 }
 
-/* Make sure our rule wins, and make the color obvious */
-.hero-image figcaption.caption {
+/* Nuclear test: if this doesn't change, our CSS is not applied */
+figcaption.caption {
   font-family: $font-primary;
-  font-style: italic;
-  font-size: 0.9rem;
-  color: $color-warm !important;   // Thermal Ochre – clearly different
+  font-size: 1.6rem;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #ffffff !important;
+  background: #ff0000 !important;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
   text-align: center;
-  margin-top: 0;
-  line-height: 1.3;
 }
-
