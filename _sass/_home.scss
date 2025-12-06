@@ -1,0 +1,24 @@
+.hero {
+  background: $deep-abyss-blue;
+  color: $silica-white;
+  padding: 6rem 2rem;
+  text-align: center;
+
+  .lead {
+    max-width: 720px;
+    margin: 1.5rem auto;
+    font-size: 1.3rem;
+    color: $hydrothermal-turquoise;
+  }
+
+  .cta {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.8rem 1.6rem;
+    background: $hydrothermal-turquoise;
+    color: $abyss-night-indigo;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+  }
+}

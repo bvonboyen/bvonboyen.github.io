@@ -1,0 +1,20 @@
+.site-footer {
+  background: $abyss-night-indigo;
+  color: $silica-white;
+  padding: 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+body {
+  font-family: $font-primary;
+  font-weight: 300; // Light default; very clean
+  color: $deep-abyss-blue;
+  background: $silica-white;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: $font-primary;
+  font-weight: 700; // Bold
+  letter-spacing: 0.5px; // optional, gives clarity
+}

@@ -1,0 +1,32 @@
+// _sass/_components.scss
+
+.card {
+  border: 1px solid $caldera-grey;
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: all .25s ease;
+
+  &:hover {
+    border-color: $hydrothermal-turquoise;
+    transform: translateY(-3px);
+  }
+
+  h3 {
+    color: $deep-abyss-blue;
+  }
+
+  p {
+    color: $caldera-grey;
+  }
+}
+
+.caption {
+  font-family: "Carlito", sans-serif;   // keeps it simple
+  font-style: italic;
+  font-size: 0.85rem;
+  color: $caldera-grey;
+  margin-top: 0.4rem;
+  text-align: center;
+  line-height: 1.3;
+}
