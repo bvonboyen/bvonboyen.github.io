@@ -1,0 +1,13 @@
+/* Minimal brand typography override */
+
+body,
+h1, h2, h3, h4, h5, h6,
+.intro-title,
+.intro-subtitle,
+.entry-title,
+.site-title,
+.site-nav,
+.entry-meta,
+.page-title {
+  font-family: $font-primary !important;
+}

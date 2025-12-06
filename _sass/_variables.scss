@@ -1,20 +1,77 @@
-// Brand Colors — Light
-$deep-abyss-blue: #003E65;
-$hydrothermal-turquoise: #2BBEC8;
-$silica-white: #F2F4F3;
-$caldera-grey: #A8B0B3;
-$thermal-ochre: #D38A2E;
+// ─────────────────────────────────────────
+// Core brand colors
+// ─────────────────────────────────────────
 
-// Brand Colors — Dark
-$abyss-night-indigo: #0B1D33;
+// Light palette
+$deep-abyss-blue:        #003E65;  // Primary
+$hydrothermal-turquoise: #2BBEC8;  // Accent
+$silica-white:           #F2F4F3;  // Page background
+$caldera-grey:           #A8B0B3;  // Neutral / borders
+$thermal-ochre:          #D38A2E;  // Warm contrast
+$midnight-basalt:        #1A1C1E;  // Deep neutral, structural depth  ← NEW
 
-// Semantic variables
-$color-bg: $silica-white;
-$color-text: $deep-abyss-blue;
-$color-accent: $hydrothermal-turquoise;
-$color-muted: $caldera-grey;
-$color-warm: $thermal-ochre;
+
+// Dark palette
+$abyss-night-indigo:     #0B1D33;  // Primary background
+$abyss-glow-turquoise:   #34D9DD;  // Accent / CTA
+$silica-mist:            #DDE4E2;  // Light text / soft surfaces
+$steam-grey:             #7F8A8D;  // Secondary text
+$ember-ochre:            #C7771E;  // Warm accent
+$deep-vent-black:        #050608;  // Absolute black, shadows, depth ← NEW
+
+
+// ─────────────────────────────────────────
+// Semantic colors — Light mode
+// ─────────────────────────────────────────
+
+$color-bg:            $silica-white;         // page background
+$color-surface:       #ffffff;               // cards, content boxes
+$color-surface-muted: $silica-mist;          // subtle panels, code blocks
+
+$color-text:          $midnight-basalt;      // main body text
+$color-text-soft:     $steam-grey;           // secondary text, meta
+$color-heading:       $deep-abyss-blue;      // h1–h3
+
+$color-border:        $silica-mist;          // light borders
+$color-border-strong: $caldera-grey;         // dividers
+
+$color-accent:        $hydrothermal-turquoise; 
+$color-accent-soft:   $hydrothermal-turquoise;
+
+$color-warm:          $thermal-ochre;
+
+// NEW semantic aliases
+$color-depth:         $midnight-basalt;  // deep neutral surfaces
+$color-shadow:        $deep-vent-black;  // shadows on light mode
+
+
+// ─────────────────────────────────────────
+// Semantic colors — Dark mode
+// ─────────────────────────────────────────
+
+$color-bg-dark:            $abyss-night-indigo;
+$color-surface-dark:       darken($abyss-night-indigo, 3%);
+$color-surface-muted-dark: rgba($silica-mist, 0.04);
+
+$color-text-dark:          $silica-mist;
+$color-text-soft-dark:     $caldera-grey;
+$color-heading-dark:       $silica-mist;
+
+$color-border-dark:        rgba($silica-mist, 0.16);
+$color-border-strong-dark: rgba($silica-mist, 0.32);
+
+$color-accent-dark:        $abyss-glow-turquoise;
+$color-warm-dark:          $ember-ochre;
+
+// NEW semantic aliases
+$color-depth-dark:         $deep-vent-black;   // main dark depth layer
+$color-shadow-dark:        $deep-vent-black;   // consistent dark shadows
+
+
+// ─────────────────────────────────────────
+// Typography
+// ─────────────────────────────────────────
 
 $font-primary: "Carlito", "Calibri", sans-serif;
-$font-serif: "Caladea", serif;
-$font-mono: "Liberation Mono", monospace;
+$font-serif:   "Caladea", serif;
+$font-mono:    "Liberation Mono", monospace;

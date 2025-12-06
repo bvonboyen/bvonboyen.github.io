@@ -1,26 +1,36 @@
 /* _sass/_layout.scss */
 
+/* Footer layout + color only */
 .site-footer {
-  background: $abyss-night-indigo;
+  /*background: $abyss-night-indigo;*/  // keep commented if you like the theme bg
   color: $silica-white;
   padding: 2rem;
-  text-align: center;
+  text-align: left;
   font-size: 0.9rem;
 }
 
+/* Page background + text color, but not the font-family */
 body {
-  font-family: $font-primary;
-  font-weight: 300;
+  font-weight: 300;        // ok to keep if you like it
   color: $color-text;
   background: $color-bg;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: $font-primary;
-  font-weight: 700;
-  letter-spacing: 0.5px;
+/* Markdown bold — this is fine to keep */
+strong,
+b {
+  font-weight: 600;        // or 700 if you prefer
+  color: $color-heading;   // optional but nice
 }
+
+/* Remove the heading font overrides so sizes/weights stay theme-driven
+   (they will still get your font via _typography.scss) */
+// h1,
+// h2,
+// h3,
+// h4,
+// h5 {
+//   font-family: $font-primary;
+//   font-weight: 700;
+//   letter-spacing: 0.5px;
+// }

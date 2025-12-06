@@ -1,6 +1,305 @@
-// Dark Mode Overrides
-[data-theme="dark"] {
-  --bg: #0B1D33;
-  --text: #F2F4F3;
-  --accent: #2BBEC8;
+// ─────────────────────────────────────────
+// Dark Mode — Full Override Layer
+// Based on brand colors, tuned for Basically Basic theme
+// ─────────────────────────────────────────
+
+// Root dark mode toggle (set on <html>)
+html.theme-dark {
+  background-color: $color-bg-dark;
+  color: $color-text-dark;
+
+  // Scrollbar (Firefox)
+  scrollbar-color: $color-border-dark $abyss-night-indigo; // thumb, track
+  scrollbar-width: thin;
+}
+
+// WebKit scrollbars (Chrome, Edge, Safari)
+html.theme-dark ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+html.theme-dark ::-webkit-scrollbar-track {
+  background: $abyss-night-indigo !important;
+}
+
+html.theme-dark ::-webkit-scrollbar-thumb {
+  background: $color-border-dark !important;
+  border-radius: 4px;
+}
+
+html.theme-dark ::-webkit-scrollbar-thumb:hover {
+  background: lighten($color-border-dark, 12%) !important;
+}
+
+
+// ─────────────────────────────────────────
+// Global text + backgrounds
+// ─────────────────────────────────────────
+
+/* Main containers and inner wrappers */
+html.theme-dark body,
+html.theme-dark .page-content,
+html.theme-dark .site-content,
+html.theme-dark .entry-content,
+html.theme-dark .inner {
+  background: $color-bg-dark !important;
+  color: $color-text-dark !important;
+}
+
+/* Headings */
+html.theme-dark h1,
+html.theme-dark h2,
+html.theme-dark h3,
+html.theme-dark h4,
+html.theme-dark h5 {
+  color: $silica-mist !important;
+}
+
+/* Emphasis text */
+html.theme-dark strong,
+html.theme-dark b {
+  color: $ember-ochre !important;
+}
+
+/* Links */
+html.theme-dark a {
+  color: $abyss-glow-turquoise !important;
+}
+
+
+// ─────────────────────────────────────────
+// Wrapper + content shells
+// ─────────────────────────────────────────
+
+/* Outer wrapper band */
+html.theme-dark .wrapper,
+html.theme-dark .wrapper.is--pushed {
+  background: $color-bg-dark !important;
+}
+
+/* Main content containers */
+html.theme-dark .initial-content,
+html.theme-dark .search-content,
+html.theme-dark .page-content {
+  background: $color-bg-dark !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Inner wrappers so they don't reintroduce white */
+html.theme-dark .initial-content .inner,
+html.theme-dark .search-content .inner,
+html.theme-dark .page-content .inner {
+  background: transparent !important;
+}
+
+
+// ─────────────────────────────────────────
+// Intro header block (page title area)
+// ─────────────────────────────────────────
+
+html.theme-dark header.intro,
+html.theme-dark .intro {
+  background: $color-bg-dark !important;
+  color: $color-text-dark !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+/* In case theme uses pseudo-elements for stripes */
+html.theme-dark header.intro::before,
+html.theme-dark header.intro::after,
+html.theme-dark .intro::before,
+html.theme-dark .intro::after {
+  display: none !important;
+  background: transparent !important;
+  border-color: transparent !important;
+}
+
+/* Ensure inner wrapper doesn't re-introduce white */
+html.theme-dark header.intro .inner,
+html.theme-dark .intro .inner {
+  background: transparent !important;
+}
+
+
+// ─────────────────────────────────────────
+// Masthead (site title bar) + Navigation
+// ─────────────────────────────────────────
+
+/* Masthead bar (site title area) */
+html.theme-dark #masthead,
+html.theme-dark #masthead .inner {
+  background: $abyss-night-indigo !important;
+  color: $silica-mist !important;
+  border-bottom: none !important;   // no separator line under masthead
+  box-shadow: none !important;
+}
+
+/* Title link + text inside masthead */
+html.theme-dark #masthead .site-title a,
+html.theme-dark #masthead .site-title span,
+html.theme-dark .site-title a {
+  color: $silica-mist !important;
+}
+
+/* If you ever use a logo, keep it clean on dark */
+html.theme-dark #masthead .site-logo {
+  // optional: tweak if your logo needs it
+  // filter: brightness(1.1);
+}
+
+/* Navigation background */
+html.theme-dark .site-header,
+html.theme-dark .site-nav {
+  background: $abyss-night-indigo !important;
+  color: $silica-mist !important;
+  border-color: $color-border-dark !important;
+}
+
+/* Navigation links (all variants theme uses) */
+html.theme-dark .site-nav a,
+html.theme-dark .site-nav .page-link,
+html.theme-dark .site-nav .site-nav-link {
+  color: $silica-mist !important;
+}
+
+html.theme-dark .site-nav a:hover,
+html.theme-dark .site-nav .page-link:hover,
+html.theme-dark .site-nav .site-nav-link:hover {
+  color: $abyss-glow-turquoise !important;
+}
+
+/* Navigation SVG icons (GitHub, RSS, etc.) */
+html.theme-dark .site-nav svg {
+  fill: $silica-mist !important;
+}
+
+html.theme-dark .site-nav svg:hover {
+  fill: $abyss-glow-turquoise !important;
+}
+
+
+// ─────────────────────────────────────────
+// Mobile nav icon (hamburger) + search toggle
+// ─────────────────────────────────────────
+
+/* Mobile nav button background */
+html.theme-dark navicon-button,
+html.theme-dark .navicon-button,
+html.theme-dark .navicon-button.larr,
+html.theme-dark .toggle {
+  background: $abyss-night-indigo !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* All three hamburger bars: middle, top, bottom */
+html.theme-dark .navicon-button .navicon,
+html.theme-dark .navicon-button .navicon:before,
+html.theme-dark .navicon-button .navicon:after {
+  background: $silica-mist !important;
+}
+
+/* Hover effect */
+html.theme-dark navicon-button:hover,
+html.theme-dark .navicon-button:hover {
+  background: darken($abyss-night-indigo, 4%) !important;
+}
+
+/* Search toggle button */
+html.theme-dark .search-toggle {
+  background: $abyss-night-indigo !important;
+  border: 1px solid $color-border-dark !important;
+  box-shadow: none !important;
+}
+
+/* SVG icon inside the button */
+html.theme-dark .search-toggle .icon,
+html.theme-dark .search-toggle svg {
+  fill: $silica-mist !important;
+}
+
+/* Some browsers use stroke instead of fill */
+html.theme-dark .search-toggle svg path {
+  fill: $silica-mist !important;
+  stroke: none !important;
+}
+
+/* Hover state */
+html.theme-dark .search-toggle:hover {
+  background: darken($abyss-night-indigo, 4%) !important;
+}
+
+/* Wrapper around search + hamburger */
+html.theme-dark .sidebar-toggle-wrapper {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Ensure inner toggle span isn't adding a background */
+html.theme-dark .toggle-inner {
+  background: transparent !important;
+}
+
+
+// ─────────────────────────────────────────
+// Footer
+// ─────────────────────────────────────────
+
+html.theme-dark .site-footer {
+  background: $abyss-night-indigo !important;
+  color: $silica-mist !important;
+  border-color: $color-border-dark !important;
+}
+
+html.theme-dark .site-footer svg {
+  fill: $silica-mist !important;
+}
+
+
+// ─────────────────────────────────────────
+// Content components (cards, captions, code, buttons)
+// ─────────────────────────────────────────
+
+/* Cards (project cards, post previews) */
+html.theme-dark .card {
+  background: $color-surface-dark !important;
+  border-color: $color-border-dark !important;
+
+  h3 {
+    color: $silica-mist !important;
+  }
+
+  p {
+    color: $color-text-soft-dark !important;
+  }
+}
+
+/* Hero image caption */
+html.theme-dark figcaption.caption {
+  color: $silica-mist !important;
+}
+
+/* Code blocks, preformatted text */
+html.theme-dark pre,
+html.theme-dark code {
+  background: $color-surface-dark !important;
+  color: $abyss-glow-turquoise !important;
+  border-color: $color-border-dark !important;
+}
+
+/* Buttons (intro actions, CTA buttons) */
+html.theme-dark .btn,
+html.theme-dark a.btn {
+  background: $abyss-glow-turquoise !important;
+  color: $abyss-night-indigo !important;
+}
+
+html.theme-dark .btn:hover,
+html.theme-dark a.btn:hover {
+  background: lighten($abyss-glow-turquoise, 5%) !important;
 }

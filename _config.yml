@@ -12,10 +12,10 @@ plugins:
 
 author:
   name: "Bernhard von Boyen"
-  email: "bernhard.vonboyen@gmail.com"
 
+email: "bernhard.vonboyen@gmail.com"
 github_username: bvonboyen
-twitter_username: ""
+linkedin_username: bernhard-von-boyen-ba56042
 
 collections:
   projects:

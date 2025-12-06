@@ -1,0 +1,19 @@
+---
+# Only the main Sass file needs front matter
+---
+
+@charset "utf-8";
+
+/* 1) Your brand variables (from _sass/variables.scss) */
+@import "variables";
+
+/* 2) Theme skin + base (from Basically Basic) */
+@import "basically-basic/themes/{{ site.data.theme.skin | default: 'default' }}";
+@import "basically-basic";
+
+/* 3) Your custom overrides (optional, from _sass/…) */
+@import "layout";
+@import "components";
+@import "home";
+@import "darkmode";
+@import "typography";

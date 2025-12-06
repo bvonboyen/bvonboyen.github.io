@@ -31,13 +31,29 @@
 
 /* Nuclear test: if this doesn't change, our CSS is not applied */
 figcaption.caption {
-  font-family: $font-primary;
-  font-size: 1.6rem;
-  font-style: normal;
-  text-transform: uppercase;
-  color: #ffffff !important;
-  background: #ff0000 !important;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  text-align: center;
+  font-family: $font-mono;
+  font-size: 0.9rem;
+  font-style: italic;
+  color: $color-text-soft;     // Steam Grey on light, soft & subtle
+  margin-top: 0.4rem;
+  text-align: left;
+  line-height: 1.35;
+  background: none;            // no box styling, clean
+  padding: 0;                  // no padding
+}
+
+.darkmode-toggle button {
+  background: none;
+  border: 1px solid $caldera-grey;
+  border-radius: 6px;
+  padding: 4px 10px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  color: $deep-abyss-blue;
+  transition: all 0.2s ease;
+}
+
+.darkmode-toggle button:hover {
+  border-color: $hydrothermal-turquoise;
+  color: $hydrothermal-turquoise;
 }
