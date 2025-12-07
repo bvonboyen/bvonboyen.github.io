@@ -5,10 +5,16 @@ baseurl: ""
 remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
 search: true
 
+
+paginate: 5              # Anzahl Posts pro Seite
+paginate_path: "/page:num/"
+
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-feed
+  - jekyll-paginate
+
 
 author:
   name: "Bernhard von Boyen"
