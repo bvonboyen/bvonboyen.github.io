@@ -71,6 +71,16 @@ figcaption.caption {
   z-index: 1200;
 }
 
+/* Mobile tweak: center and lift it above the bottom UI */
+@media (max-width: 768px) {
+  .agent-launcher {
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+    bottom: calc(1rem + env(safe-area-inset-bottom, 0px));
+  }
+}
+
 .agent-toggle-btn {
   border: none;
   border-radius: 999px;
