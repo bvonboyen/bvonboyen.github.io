@@ -2,3 +2,6 @@
 _site/
 .jekyll-cache/
 .sass-cache/
+_posts/summarize_posts.py
+knowledge.json
+contentKnowledge.js
