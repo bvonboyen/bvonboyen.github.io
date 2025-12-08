@@ -57,3 +57,263 @@ figcaption.caption {
   border-color: $hydrothermal-turquoise;
   color: $hydrothermal-turquoise;
 }
+
+// ─────────────────────────────────────────
+// Homepage Agent — Bottom-right dock (Option C)
+// Uses existing HTML/JS: #agent-panel, #agent-launcher, .is-open
+// ─────────────────────────────────────────
+
+// Floating launcher button in bottom-right
+.agent-launcher {
+  position: fixed;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  z-index: 1200;
+}
+
+.agent-toggle-btn {
+  border: none;
+  border-radius: 999px;
+  padding: 0.6rem 1.4rem;
+  font-family: $font-primary;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+
+  background: $abyss-glow-turquoise;
+  color: $abyss-night-indigo;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.22);
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease,
+    background 0.15s ease;
+
+  &:hover {
+    background: lighten($abyss-glow-turquoise, 5%);
+    transform: translateY(-1px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.3);
+  }
+}
+
+// ─────────────────────────────────────────
+// Agent panel — compact card docked above launcher
+// ─────────────────────────────────────────
+
+.agent-panel {
+  position: fixed;
+  right: 1.5rem;
+  bottom: 4.5rem;                  // sits above launcher
+  width: 360px;
+  max-width: calc(100% - 3rem);
+  z-index: 1300;
+
+  // visibility + animation
+  display: none;
+  transform: translateY(10px);
+  opacity: 0;
+  pointer-events: none;
+  transition:
+    transform 0.2s ease-out,
+    opacity 0.2s ease-out;
+}
+
+.agent-panel.is-open {
+  display: flex;
+  pointer-events: auto;
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.agent-panel__inner {
+  width: 100%;
+  // box auto-resizes within limits, as before
+  height: clamp(260px, 60vh, 420px);
+  max-height: 60vh;
+
+  display: flex;
+  flex-direction: column;
+
+  background: $color-surface;
+  border-radius: 12px;
+  border: 1px solid $color-border-strong;
+  box-shadow: 0 14px 45px rgba(0, 0, 0, 0.45);
+  overflow: hidden;   // keeps content clipped
+}
+
+/* 👇 make the middle area flex & allow scrolling inside */
+.agent-panel__body {
+  flex: 1;
+  min-height: 0;      // IMPORTANT so children can scroll instead of grow
+  display: flex;
+  flex-direction: column;
+}
+
+.agent-messages {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;   // scroll history
+}
+
+.agent-resize-handle {
+  height: 8px;
+  cursor: ns-resize;
+  background: transparent;
+  position: relative;
+}
+
+.agent-resize-handle::before {
+  content: "";
+  position: absolute;
+  inset: 2px 30%;
+  border-radius: 999px;
+  background: rgba(148, 163, 184, 0.6); // subtle grip line
+}
+
+
+// ─────────────────────────────────────────
+// Header
+// ─────────────────────────────────────────
+
+.agent-panel__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid $color-border;
+
+  background: $deep-abyss-blue;
+  color: $silica-white;
+}
+
+.agent-panel__title {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.agent-close-btn {
+  border: none;
+  background: transparent;
+  color: $silica-white;
+  font-size: 1.2rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+// ─────────────────────────────────────────
+// Body + messages
+// ─────────────────────────────────────────
+
+.agent-panel__body {
+  flex: 1 1 auto;
+  min-height: 0;              // 🔑 allows it to shrink in flex layouts
+  padding: 0.75rem 1rem 0.5rem;
+  overflow-y: auto;           // 🔑 scroll here, not the whole panel
+}
+
+
+.agent-panel__intro {
+  margin: 0 0 0.75rem 0;
+  font-size: 0.85rem;
+  color: $color-text-soft;
+}
+
+.agent-messages {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+// Message bubbles
+.agent-message {
+  max-width: 85%;
+  padding: 0.4rem 0.65rem;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  line-height: 1.3;
+}
+
+.agent-message--user {
+  align-self: flex-end;
+  background: $hydrothermal-turquoise;
+  color: $abyss-night-indigo;
+}
+
+.agent-message--bot {
+  align-self: flex-start;
+  background: $color-surface-muted;
+  color: $color-text;
+}
+
+// ─────────────────────────────────────────
+// Form
+// ─────────────────────────────────────────
+
+.agent-panel__form {
+  display: flex;
+  gap: 0.4rem;
+  padding: 0.6rem 0.7rem;
+  border-top: 1px solid $color-border;
+  background: $color-surface;
+}
+
+.agent-panel__form input {
+  flex: 1 1 auto;
+  border-radius: 999px;
+  border: 1px solid $color-border;
+  padding: 0.4rem 0.8rem;
+  font-family: $font-primary;
+  font-size: 0.9rem;
+}
+
+.agent-panel__form button {
+  border-radius: 999px;
+  border: none;
+  padding: 0.4rem 0.9rem;
+  font-size: 0.9rem;
+  font-family: $font-primary;
+  font-weight: 600;
+  cursor: pointer;
+
+  background: $abyss-glow-turquoise;
+  color: $abyss-night-indigo;
+}
+
+// ─────────────────────────────────────────
+// Dark mode variants
+// ─────────────────────────────────────────
+
+html.theme-dark .agent-panel__inner {
+  background: $color-surface-dark;
+  border-color: $color-border-dark;
+}
+
+html.theme-dark .agent-panel__header {
+  background: $abyss-night-indigo;
+  border-bottom-color: $color-border-dark;
+}
+
+html.theme-dark .agent-panel__intro {
+  color: $color-text-soft-dark;
+}
+
+html.theme-dark .agent-message--bot {
+  background: $color-surface-dark;
+  color: $color-text-dark;
+}
+
+html.theme-dark .agent-panel__form {
+  background: $color-surface-dark;
+  border-top-color: $color-border-dark;
+}
+
+html.theme-dark .agent-panel__form input {
+  background: $color-bg-dark;
+  border-color: $color-border-dark;
+  color: $color-text-dark;
+}
+
+// Small tweak: keep launcher visible above panel shadow
+html.theme-dark .agent-launcher {
+  z-index: 1200;
+}

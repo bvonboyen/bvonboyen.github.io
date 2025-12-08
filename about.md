@@ -38,6 +38,6 @@ use any of the direct links in the footer.
 
 <a href="https://hihello.com/p/ce28b146-7cf6-446b-ad86-55354a5cf473"> <img src="/assets/img/QR_code.png" alt="Contact information" style="width:50%;border-radius:8px;margin-bottom:1.5rem;"> </a>
 
-If you save the contact, please leave your own contact information as a courtesy.
+If you save the contact, please leave your own contact information as a courtesy and if you want me to get in touch with you.
 
 ---

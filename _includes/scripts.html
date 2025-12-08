@@ -2,6 +2,50 @@
   {% include google-analytics.html %}
 {% endif %}
 
+<!-- Homepage Agent Slide-Over -->
+<div id="agent-panel" class="agent-panel" aria-hidden="true">
+  <div class="agent-panel__inner">
+    <header class="agent-panel__header">
+      <h2 class="agent-panel__title">Homepage agent</h2>
+      <button id="agent-close" class="agent-close-btn" type="button" aria-label="Close chat">
+        ×
+      </button>
+    </header>
+
+    <div class="agent-panel__body">
+      <p class="agent-panel__intro">
+        Ask me about my projects, posts, or background. A real GPT agent will help you.
+      </p>
+
+      <div class="agent-messages" id="agent-messages">
+        <!-- Messages get appended here -->
+      </div>
+    </div>
+
+    <form id="agent-form" class="agent-panel__form" autocomplete="off">
+      <label class="visually-hidden" for="agent-input">Ask a question</label>
+      <input
+        id="agent-input"
+        type="text"
+        placeholder="Ask about SoccerSim, ALM, or my CV…"
+      >
+      <button type="submit">Send</button>
+    </form>
+    <div class="agent-resize-handle" id="agent-resize-handle"></div>
+    </div> <!-- end of .agent-panel__inner -->
+
+  </div>
+</div>
+
+<!-- Floating launcher button -->
+<div id="agent-launcher" class="agent-launcher">
+  <button id="agent-toggle" class="agent-toggle-btn" type="button">
+    💬 Ask my homepage agent
+  </button>
+</div>
+
+
+
 <script async src="{{ '/assets/javascripts/main.js' | relative_url }}"></script>
 
 {% if site.search %}
@@ -16,3 +60,128 @@
 
 <!-- Dark mode toggle script -->
 <script src="{{ '/assets/js/darkmode.js' | relative_url }}"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  
+  const API_URL = "https://homepage-agent.bernhard-vonboyen.workers.dev/api/chat"; // ⬅️ your Worker URL
+  const conversation = [];
+
+  const panel    = document.getElementById('agent-panel');
+  const launcher = document.getElementById('agent-launcher');
+  const toggle   = document.getElementById('agent-toggle');
+  const close    = document.getElementById('agent-close');
+
+  const form     = document.getElementById('agent-form');
+  const input    = document.getElementById('agent-input');
+  const messages = document.getElementById('agent-messages');
+
+  if (!panel || !toggle) return;
+
+  // Track whether the user is currently at the bottom of the message list
+  let userIsAtBottom = true;
+
+  if (messages) {
+    messages.addEventListener('scroll', function () {
+      const distanceFromBottom =
+        messages.scrollHeight - messages.scrollTop - messages.clientHeight;
+      // within ~10px counts as "at bottom"
+      userIsAtBottom = distanceFromBottom < 10;
+    });
+  }
+
+  function scrollToBottomIfNeeded() {
+    if (!messages) return;
+    if (userIsAtBottom) {
+      messages.scrollTop = messages.scrollHeight;
+    }
+  }
+
+  function openPanel() {
+    panel.classList.add('is-open');
+    panel.setAttribute('aria-hidden', 'false');
+    if (input) {
+      setTimeout(() => input.focus(), 50);
+    }
+  }
+
+  function closePanel() {
+    panel.classList.remove('is-open');
+    panel.setAttribute('aria-hidden', 'true');
+  }
+
+  toggle.addEventListener('click', openPanel);
+  if (close) close.addEventListener('click', closePanel);
+
+  // Escape schließt Panel
+  document.addEventListener('keydown', function (evt) {
+    if (evt.key === 'Escape' && panel.classList.contains('is-open')) {
+      closePanel();
+    }
+  });
+
+  // Real conversation using Cloudflare Worker backend
+  if (form && input && messages) {
+    form.addEventListener('submit', async function (evt) {
+      evt.preventDefault();
+      const text = input.value.trim();
+      if (!text) return;
+
+      // User bubble
+      const userBubble = document.createElement('div');
+      userBubble.className = 'agent-message agent-message--user';
+      userBubble.textContent = text;
+      messages.appendChild(userBubble);
+      scrollToBottomIfNeeded();
+
+      // Add to conversation history
+      conversation.push({ role: "user", content: text });
+
+      // Disable input while waiting
+      input.disabled = true;
+
+      try {
+        const res = await fetch(API_URL, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            messages: conversation,
+            pageContext: document.title
+          })
+        });
+
+        const data = await res.json();
+
+        const botBubble = document.createElement('div');
+        botBubble.className = 'agent-message agent-message--bot';
+
+        if (!res.ok || !data.answer) {
+          console.error("Agent error:", data);
+          botBubble.textContent = "Sorry, etwas ist schiefgelaufen. Bitte versuch es gleich nochmal.";
+        } else {
+          botBubble.textContent = data.answer;
+          // Remember assistant reply in conversation
+          conversation.push({ role: "assistant", content: data.answer });
+        }
+
+        messages.appendChild(botBubble);
+        scrollToBottomIfNeeded();
+      } catch (err) {
+        console.error(err);
+        const errorBubble = document.createElement('div');
+        errorBubble.className = 'agent-message agent-message--bot';
+        errorBubble.textContent = "Ich konnte den Server gerade nicht erreichen. Bitte später erneut versuchen.";
+        messages.appendChild(errorBubble);
+        scrollToBottomIfNeeded();
+      } finally {
+        input.value = '';
+        input.disabled = false;
+        input.focus();
+      }
+    });
+  }
+});
+</script>
+
+
+
