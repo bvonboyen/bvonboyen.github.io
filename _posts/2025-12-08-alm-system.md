@@ -8,7 +8,7 @@ tags: [ALM, insurance, strategy, conceptual]
 
 ## Key Messages
 - **Outcomes differ because systems differ.** Success in ALM is not about expert teams, but about whether the organisation operates as an integrated system.
-- **Fragmentation destroys value silently.** Misaligned treasury, capital, pricing, accounting and investment functions create hidden frictional costs and deteriorating capacity.
+- **Fragmentation destroys value silently.** Misaligned risk, treasury, capital, pricing, accounting and investment functions create hidden frictional costs and deteriorating capacity.
 - **ALM is a strategic engine, not a reporting function.** When designed intentionally, it coordinates constraints, economics, liquidity and solvency into one steering logic.
 - **Integrated ALM creates capacity, discipline and clarity.** It enables better pricing, more stable earnings, improved growth decisions and transparent risk–return profiles.
 - **A modern ALM system must be timely, connected and economically grounded.** This article outlines how such a system is structured and why it matters.
