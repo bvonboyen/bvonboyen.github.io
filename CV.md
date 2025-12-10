@@ -20,7 +20,7 @@ Here are three versions of my CV:
 
 <details>
   <summary>Preview: Verbose CV</summary>
-  <object data="/assets/cv/CV_Bernhard_von_Boyen_verbose.pdf" type="application/pdf" width="100%" height="700">
+  <object data="/assets/cv/CV_Bernhard_von_Boyen_verbose_EN.pdf" type="application/pdf" width="100%" height="700">
     <p>PDF preview not available. <a href="/assets/cv/CV_Bernhard_von_Boyen_verbose_EN.pdf">Open the PDF</a>.</p>
   </object>
 </details>
