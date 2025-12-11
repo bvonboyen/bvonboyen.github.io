@@ -93,6 +93,21 @@
   margin-bottom: 0.3rem;
 }
 
+.hero-img-dark {
+  display: none;
+}
+
+/* When the theme is dark, hide light image and show dark image */
+html.theme-dark .hero-img-light {
+  display: none;
+}
+
+html.theme-dark .hero-img-dark {
+  display: block;
+}
+
+
+
 /* Nuclear test: if this doesn't change, our CSS is not applied */
 figcaption.caption {
   font-family: $font-mono;
