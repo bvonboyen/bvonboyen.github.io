@@ -97,15 +97,23 @@
   display: none;
 }
 
-/* When the theme is dark, hide light image and show dark image */
-html.theme-dark .hero-img-light {
-  display: none;
-}
-
-html.theme-dark .hero-img-dark {
+/* Default: show light image, hide dark image */
+.hero-image img.hero-img-light {
   display: block;
 }
 
+.hero-image img.hero-img-dark {
+  display: none;
+}
+
+/* Dark mode: swap visibility */
+html.theme-dark .hero-image img.hero-img-light {
+  display: none !important;
+}
+
+html.theme-dark .hero-image img.hero-img-dark {
+  display: block !important;
+}
 
 
 /* Nuclear test: if this doesn't change, our CSS is not applied */
