@@ -8,11 +8,10 @@ nav_order: 20
 ## TL;DR – why these projects?
 
 Across finance, sport, healthcare, and pensions, organisations face a shared pattern:  
-**key decisions behave like ALM problems — uneven and asymmetric outcomes, portfolio effects, allocation choices, and repeated budget-and-appetite decisions aimed to optimise long-term outcomes**
+**key decisions behave like ALM problems — uneven and asymmetric outcomes, portfolio effects, allocation choices, and repeated budget-and-appetite decisions that aim to optimise long-term results.**
 
-My projects explore one question:
-
-> **How can actuarial discipline and modern AI systems turn these decision problems into clear, defensible workflows — across domains?**
+These four projects each explore that pattern in a different domain:
+the **FX TradeTech industry fair** (capital markets & ALM product story), the **Soccer simulations app** (professional sport), the **Healthcare AI memo generator** (technical reporting in healthcare), and the **Pension & ALM paper** (pension funds and risk sharing).
 
 ---
 
@@ -33,7 +32,7 @@ My projects explore one question:
   <div class="card info-card">
     <h3>Engine</h3>
     <p>
-      Hierachical actuarial models, simulations, and AI agents transform data and expert judgement
+      Hierarchical actuarial models, simulations, and AI agents transform data and expert judgement
       into structured, testable decision logic that scales across domains.
     </p>
   </div>
