@@ -33,7 +33,7 @@ My projects explore one question:
   <div class="card info-card">
     <h3>Engine</h3>
     <p>
-      Actuarial models, simulations, and AI agents transform data and expert judgement
+      Hierachical actuarial models, simulations, and AI agents transform data and expert judgement
       into structured, testable decision logic that scales across domains.
     </p>
   </div>
