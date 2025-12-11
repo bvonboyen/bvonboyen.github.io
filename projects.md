@@ -8,7 +8,7 @@ nav_order: 20
 ## TL;DR – why these projects?
 
 Across finance, sport, healthcare, and pensions, organisations face a shared pattern:  
-**key decisions behave like ALM problems — skewed risks, portfolio effects, allocation choices, and repeated budget-and-appetite decisions aimed at optimising long-term outcomes**
+**key decisions behave like ALM problems — uneven and asymmetric outcomes, portfolio effects, allocation choices, and repeated budget-and-appetite decisions aimed to optimise long-term outcomes**
 
 My projects explore one question:
 
