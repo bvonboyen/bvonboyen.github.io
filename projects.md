@@ -100,15 +100,29 @@ A curated list of active and recent work, their status, and my promise as a part
 
 ---
 
-## Status legend
+## Status
 
 <div class="card status-legend">
-  <h3>Status legend</h3>
-  <p><span class="status-badge status-delivered">✅ Delivered</span> &nbsp; Completed, stable outcome</p>
-  <p><span class="status-badge status-live">🔵 In production</span> &nbsp; Running, live project</p>
-  <p><span class="status-badge status-poc">🟡 Proof of concept</span> &nbsp; Prototype validating value</p>
-  <p><span class="status-badge status-idea">🟣 Hypothesis building</span> &nbsp; Early-stage research / framework development</p>
+
+  <h3>Legend</h3>
+  <p>
+    <span class="status-badge status-delivered">✅ Delivered</span>
+    Completed, stable outcome
+  </p>
+  <p>
+    <span class="status-badge status-live">🔵 In production</span>
+    Running, live project
+  </p>
+  <p>
+    <span class="status-badge status-poc">🟡 Proof of concept</span>
+    Prototype validating value
+  </p>
+  <p>
+    <span class="status-badge status-idea">🟣 Hypothesis building</span>
+    Early-stage research / paper submission
+  </p>
 </div>
+
 
 ---
 

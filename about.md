@@ -5,10 +5,6 @@ permalink: /about/
 nav_order: 50
 ---
 
----
-
-# About me
-
 My name is Bernhard von Boyen. I’m a Swiss and German national, married,
 and a proud father of two boys.
 
