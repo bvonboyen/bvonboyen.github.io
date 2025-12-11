@@ -7,37 +7,91 @@ nav_order: 50
 
 ---
 
-My name is Bernhard von Boyen, a Swiss and German national, married,
-and a proud father of two boys, aged 10 and 8.
+# About me
 
-I was born and raised in Ochsenhausen, Southern Germany, where I
-graduated from high school in 1998 with majors in Mathematics and Physics,
-and minors in English and History.
+My name is Bernhard von Boyen. I’m a Swiss and German national, married,
+and a proud father of two boys.
+
+I was born and raised in Ochsenhausen in Southern Germany and later studied Economics,
+Economathematics, and Applied Mathematics in Ulm and at the University of Wisconsin–Milwaukee.
+Since then, Zurich has become our family’s home and the base for my work in analytics,
+actuarial modelling, and decision systems. If you’d like the formal version,
+you’ll find it in my CV.
 
 <img src="/assets/img/portrait1.jpg" alt="Portrait" style="width:100%;border-radius:8px;margin-bottom:1.5rem;">
 
-After completing my social service, I went on to study Economics and Economathematics in Ulm.
-With a scholarship, chancellor's awards, and a teaching assistantship in hand,
-I continued my studies at the University of Wisconsin in Milwaukee,
-where I earned an M.Sc. in Applied Mathematics in 2005.
+## A recent chapter – our 2025 family sabbatical
 
-Upon returning from the U.S., I completed my degree at Ulm University and moved to Zurich,
-where I began my professional career. You can find more details in my CV.
+In 2025, my wife and I took a three-month family sabbatical — a decision we had planned
+well in advance and one that meant a lot to us. We wanted to celebrate two milestones:
 
-In my spare time, I enjoy playing tennis, skiing, running, spending quality time with
-my family, baking and cooking, coding in Python, traveling, and many other things. 
-Before you ask: my (basic) soccer career ended at the age of 21.
+- 20 years together as partners  
+- 10 years as parents  
+
+The journey took us across **three continents** — Thailand, Turkey, and the US —
+by plane, train, RV, bus, car, taxi, and rickshaw. Along the way we experienced **three
+religious traditions** and very different cultural lenses: the spirituality and everyday
+culture of Thailand, the layers of history in Turkey, and the vast nature of the US.
+
+It was also a trip of relationships: celebrating my father’s 90th birthday, visiting
+both sides of our family, reconnecting with old friends and colleagues, marking our
+20-year graduation anniversary in Milwaukee, and spending a week in Çeşme with our
+best man and his family.
+
+For us, this sabbatical was less about “seeing the world” and more about **celebrating
+commitment, presence, and intentional choices** — the same themes that shape how I think
+about work, systems, and long-term responsibility.
+
+## Beyond work
+
+Outside of projects and modelling, I enjoy playing tennis, skiing, running, spending time
+with my family, baking and cooking, coding in Python, and travelling — ideally in ways
+that create stories we’ll still talk about years later. Before you ask: my (basic) soccer
+career ended at the age of 21.
 
 <img src="/assets/img/diving1.JPG" alt="Diving" style="width:100%;border-radius:8px;margin-bottom:1.5rem;">
 
-If you’d like to get in touch,
+## Get in touch
 
-save my contact information by scanning or clicking the QR code below, or
+<div class="card contact-card" style="padding:1.8rem; margin-top:0.5rem;">
 
-use any of the direct links in the footer.
+  <div class="contact-grid" style="
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap:1.5rem;
+      align-items:center;
+      ">
 
-<a href="https://hihello.com/p/ce28b146-7cf6-446b-ad86-55354a5cf473"> <img src="/assets/img/QR_code.png" alt="Contact information" style="width:50%;border-radius:8px;margin-bottom:1.5rem;"> </a>
+    <!-- LEFT COLUMN – TEXT -->
+    <div>
+      <h3 style="margin-top:0;">Let’s connect</h3>
 
-If you save the contact, please leave your own contact information as a courtesy and if you want me to get in touch with you.
+      <p>You can save my contact details by scanning or tapping the QR code.</p>
+
+      <p>If you add my contact, please leave your own details as a courtesy if you'd like me to reach out.</p>
+
+      <p>Direct links are also available in the footer of this site.</p>
+    </div>
+
+    <!-- RIGHT COLUMN – QR -->
+    <div style="text-align:center;">
+      <a href="https://hihello.com/p/ce28b146-7cf6-446b-ad86-55354a5cf473">
+        <img src="/assets/img/QR_code.png"
+             alt="Contact information"
+             style="width:70%; max-width:260px; border-radius:8px;">
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<style>
+@media (max-width: 700px) {
+  .contact-grid {
+    grid-template-columns: 1fr !important;
+    text-align: center;
+  }
+}
+</style>
 
 ---
