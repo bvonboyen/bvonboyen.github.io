@@ -14,7 +14,9 @@ Since then, Zurich has become our family’s home and the base for my work in an
 actuarial modelling, and decision systems. If you’d like the formal version,
 you’ll find it in my CV.
 
-<img src="/assets/img/portrait1.jpg" alt="Portrait" style="width:100%;border-radius:8px;margin-bottom:1.5rem;">
+<figure class="hero-image">
+  <img src="/assets/img/portrait1.jpg" alt="Portrait" >
+</figure>
 
 ## A recent chapter – our 2025 family sabbatical
 
@@ -24,10 +26,17 @@ well in advance and one that meant a lot to us. We wanted to celebrate two miles
 - 20 years together as partners  
 - 10 years as parents  
 
-The journey took us across **three countries in three continents** — Thailand, Turkey, and the US —
+The journey took us across **three countries on three continents** — Thailand, Turkey, and the US —
 by plane, train, boat, RV, bus, car, taxi/limousine, bike and rickshaw. Along the way we experienced **three
 religious traditions** and very different cultural lenses: the spirituality and everyday
 culture of Thailand, the layers of history in Turkey, and the vast nature of the US.
+
+<figure class="hero-image">
+  <img src="/assets/img/Polarsteps.png" alt="Family sabbatical">
+  <figcaption class="caption">
+    Our journey on a map and in statistics.
+  </figcaption>
+</figure>
 
 It was also a trip of relationships: celebrating my father’s 90th birthday, visiting
 both sides of our family, reconnecting with old friends and colleagues, marking our
@@ -45,7 +54,12 @@ with my family, baking and cooking, coding in Python, and travelling — ideally
 that create stories we’ll still talk about years later. Before you ask: my (basic) soccer
 career ended at the age of 21.
 
-<img src="/assets/img/diving1.JPG" alt="Diving" style="width:100%;border-radius:8px;margin-bottom:1.5rem;">
+<figure class="hero-image">
+  <img src="/assets/img/diving1.JPG" alt="Diving">
+  <figcaption class="caption">
+    Dive site Japanese Gardens at Koh Tao.
+  </figcaption>
+</figure>
 
 ## Get in touch
 
