@@ -5,8 +5,6 @@ permalink: /cv/
 nav_order: 30
 ---
 
-# 👤 Curriculum Vitae
-
 ## Quick facts
 
 - **Name:** Bernhard Ulrich von Boyen  
