@@ -1,3 +1,15 @@
+<!-- Google Analytics (GA4) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5C6E982CER');
+</script>
+<!-- End GA4 -->
+
+<!-- existing Basically Basic footer content -->
+
 <footer class="site-footer">
   <div class="wrap">
     <p>© {{ site.time | date: "%Y" }} {{ site.title }}</p>
@@ -10,4 +22,5 @@
       <a href="/feed.xml">RSS</a>
     </p>
   </div>
+
 </footer>
