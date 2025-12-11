@@ -17,19 +17,9 @@ nav_order: 30
 
 ---
 
-## CV at a glance
+## At a glance
 
 <div class="cv-grid">
-
-  <a class="card cv-card" href="/assets/cv/CV_Bernhard_von_Boyen_tabular.pdf">
-    <img
-      src="/assets/cv/CV_Bernhard_von_Boyen_tabular_thumb.png"
-      alt="Tabular CV Preview"
-      class="cv-thumb"
-    />
-    <h3>Tabular CV (EN)</h3>
-    <p>1-page compact overview · ideal for initial screening.</p>
-  </a>
 
   <a class="card cv-card" href="/assets/cv/CV_Bernhard_von_Boyen_verbose_EN.pdf">
     <img
@@ -38,17 +28,7 @@ nav_order: 30
       class="cv-thumb"
     />
     <h3>Verbose CV (EN)</h3>
-    <p>Full responsibilities, achievements, ALM + AI experience.</p>
-  </a>
-
-  <a class="card cv-card" href="/assets/cv/CV_Bernhard_von_Boyen_verbose_DE.pdf">
-    <img
-      src="/assets/cv/CV_Bernhard_von_Boyen_verbose_DE_thumb.png"
-      alt="Deutscher Lebenslauf Vorschau"
-      class="cv-thumb"
-    />
-    <h3>Lebenslauf (DE)</h3>
-    <p>Ausführliche Version für DACH, inkl. Projekte & Führung.</p>
+    <p> Overview, core competencies and achievements.</p>
   </a>
 
 </div>

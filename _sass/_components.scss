@@ -21,6 +21,45 @@
   }
 }
 
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.15rem 0.55rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 999px;
+  border: 1px solid $caldera-grey;
+  background: #f8f9fa;
+  color: $deep-abyss-blue;
+}
+
+/* Colors per status */
+.status-delivered {
+  background: #e6f6ef;
+  border-color: #bcded1;
+  color: #0f5132;
+}
+
+.status-live {
+  background: #e7f1ff;
+  border-color: #bfd3ff;
+  color: #084298;
+}
+
+.status-poc {
+  background: #fff7df;
+  border-color: #f2df9c;
+  color: #856404;
+}
+
+.status-idea {
+  background: #f3edff;
+  border-color: #d7cfff;
+  color: #4b3e8a;
+}
+
+
 /* _sass/_components.scss */
 
 .hero-image img {
