@@ -24,8 +24,8 @@ well in advance and one that meant a lot to us. We wanted to celebrate two miles
 - 20 years together as partners  
 - 10 years as parents  
 
-The journey took us across **three continents** — Thailand, Turkey, and the US —
-by plane, train, RV, bus, car, taxi, and rickshaw. Along the way we experienced **three
+The journey took us across **three countries in three continents** — Thailand, Turkey, and the US —
+by plane, train, boat, RV, bus, car, taxi/limousine, bike and rickshaw. Along the way we experienced **three
 religious traditions** and very different cultural lenses: the spirituality and everyday
 culture of Thailand, the layers of history in Turkey, and the vast nature of the US.
 
