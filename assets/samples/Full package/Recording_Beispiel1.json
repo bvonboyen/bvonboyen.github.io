@@ -1,0 +1,276 @@
+{
+  "procedere": {
+    "antikonzeption_besprochen": false,
+    "beratung_verhalten_wochenbett": true,
+    "nachkontrolle": {
+      "ort": "bei mir in der Praxis",
+      "wochen": 6,
+      "_ort_normalized": true
+    },
+    "rezepte": [
+      "Rezeptanalgesie nach Schema",
+      "Abgabe eines Milchpumpenrezeptes"
+    ],
+    "hebamme_organisiert": true,
+    "text": null
+  },
+  "klinik_setting": {
+    "klinik_name": "Klinik Hirslanden",
+    "text": null,
+    "aufenthalt": {
+      "art": "stationär",
+      "aufnahme_zeitpunkt": "2025-09-13T00:00:00",
+      "entlassung_zeitpunkt": "2025-09-17T00:00:00",
+      "_art_normalized": true,
+      "_entlassung_zeitpunkt_normalized": true
+    },
+    "_klinik_name_normalized": true
+  },
+  "serologien": {
+    "text": "HBsAg, negativ; Hep C-Antikörper, negativ; HIV, negativ; Syphilis-Serologie, negativ; Röteln, positiv; CMV IgG, negativ;",
+    "_text_normalized": true
+  },
+  "geburtsverlauf": {
+    "einleitungsmethode": "Prostaglandin",
+    "wundversorgung": {
+      "kommentar": null,
+      "durchgefuehrt": true
+    },
+    "ctg": [],
+    "dauer": {
+      "eroeffnungsphase_min": null,
+      "bezug_bis_regelmaessige_wehen": null,
+      "austreibungsphase_min": null,
+      "bis_regelmaessige_wehen_min": null
+    },
+    "wehenverlauf_hinweise": [],
+    "blutung_bewertung": "in der Norm",
+    "analgesie_anaesthesie": [
+      "Periduralanästhesie (PDA)"
+    ],
+    "ctg_befunde": {
+      "dezelerationen": "vermehrt variable Decelerationen",
+      "reaktiv": true,
+      "kommentar": null,
+      "_dezelerationen_normalized": true
+    },
+    "blutverlust_ml": null,
+    "geburtsmodus": "Spontangeburt",
+    "phasenverlauf": {
+      "ep_ctg": null,
+      "ap_ctg": null,
+      "ep_status": "zeitgerecht",
+      "ap_status": "zeitgerecht",
+      "_ep_status_normalized": true,
+      "_ap_status_normalized": true
+    },
+    "kindslage": {
+      "lage": "vordere Hinterhauptslage",
+      "position": null,
+      "zusatz": null,
+      "_lage_normalized": true
+    },
+    "pda": {
+      "muttermund_cm": 5,
+      "zeitpunkt": null
+    },
+    "team": [],
+    "wehenbeginn": "2025-09-13T00:00:00",
+    "nachgeburtsperiode": {
+      "uterotonika": [
+        {
+          "wirkstoff": "Synthocinon",
+          "praeparat": null,
+          "applikation": "Kurzinfusion",
+          "dosis": null,
+          "zeitpunkt": null,
+          "indikation": null,
+          "_wirkstoff_normalized": true,
+          "_applikation_normalized": true
+        }
+      ],
+      "dauer_bis_loesung_min": null,
+      "manuelle_plazentaloesung": null,
+      "spontane_plazentaloesung": true,
+      "plazenta_eiheute_status": "vollständig",
+      "komplikationen": [],
+      "_plazenta_eiheute_status_normalized": true
+    },
+    "uterus_tonus_postpartum": "gut kontrahiert",
+    "geburtsverletzungen": {
+      "weitere": [],
+      "dammriss_grad": null
+    },
+    "blasensprung": {
+      "zeitpunkt": null,
+      "muttermund_cm": null,
+      "fluessigkeit": "klares Fruchtwasser",
+      "_fluessigkeit_normalized": true
+    },
+    "wehenunterstuetzung": [
+      "Synthocinoninfusion"
+    ],
+    "ctg_bei_eintritt": true,
+    "befunde_waehrend_geburt": null,
+    "_einleitungsmethode_normalized": true,
+    "_blutung_bewertung_normalized": true,
+    "_geburtsmodus_normalized": true,
+    "_uterus_tonus_postpartum_normalized": true
+  },
+  "diagnosen": [
+    "38-jährige, Gravida 3, Para 2",
+    "Spontangeburt in der 41. Schwangerschaftswoche",
+    "Oligohydramnion",
+    "Einleitung wegen Terminüberschreitung",
+    "Anämie in Gravida",
+    "Status nach Spontangeburt 2023",
+    "Status nach Abort 2024"
+  ],
+  "schwangerschaft_anamnese": {
+    "letzte_periode": "2025-01-10",
+    "schwangerschaftsverlauf_problemlos": true,
+    "screening": {
+      "nipt_befund": "unauffällig(es)",
+      "ett_befund": "erhöhtes Risiko",
+      "screening_2_trimester": "unauffällig(es)",
+      "_nipt_befund_normalized": true,
+      "_ett_befund_normalized": true,
+      "_screening_2_trimester_normalized": true
+    },
+    "komplikationen": [],
+    "anamnese": [],
+    "laborwerte": [],
+    "stoffwechsel_labor": {
+      "ggt_status": null,
+      "ogtt_durchgefuehrt": true,
+      "ogtt_befund": "normwertig",
+      "glukose_nuechtern_mmol_l": 4.7,
+      "_ogtt_befund_normalized": true
+    },
+    "et_rechnerisch": "2025-09-13",
+    "ssw_bei_geburt": "41",
+    "ssw_bei_aufnahme": "40+6",
+    "einleitungsgrund": "Terminüberschreitung",
+    "et_rechnerisch_bemerkung": null,
+    "et_korrigiert": "2025-09-03",
+    "_letzte_periode_normalized": true,
+    "_et_rechnerisch_normalized": true,
+    "_ssw_bei_geburt_normalized": true,
+    "_ssw_bei_aufnahme_normalized": true,
+    "_einleitungsgrund_normalized": true,
+    "_et_korrigiert_normalized": true
+  },
+  "wochenbettverlauf": {
+    "hb_kontrolle": {
+      "kommentar": null,
+      "postpartal_tag": 1,
+      "durchgefuehrt": true
+    },
+    "stillhinweise": null,
+    "weitere_befunde": [
+      "Damm- und Vaginalnaht reizlos",
+      "Uterus gut kontrahiert",
+      "Dreiquerfinger, unter Nabelhöhe, indolent",
+      "Lochia, I.O.",
+      "Mama, laktieren",
+      "Mamille mit Rhagaden"
+    ],
+    "verlauf_freitext": null,
+    "stillt": "voll",
+    "entlassung": "zusammen mit dem Kind in gutem Zustand",
+    "milcheinschuss_zeitgerecht": true,
+    "uterusinvolution_regelrecht": true,
+    "text": null,
+    "_stillt_normalized": true,
+    "_entlassung_normalized": true
+  },
+  "entlassungs_befunde": [
+    "Hb 117 g pro Liter"
+  ],
+  "briefkopf": {
+    "ort": "Zumikon",
+    "kuerzel": "NL",
+    "datum": "2025-09-13",
+    "_ort_normalized": true,
+    "_kuerzel_normalized": true
+  },
+  "signatur": {
+    "arzt": "Dr. med. Nina Lettner",
+    "titelzeilen": [
+      "FMH Gynäkologie und Geburtshilfe",
+      "Master of acupuncture",
+      "Swiss FMH board certified",
+      "Obstetrics and Gynecology"
+    ],
+    "_arzt_normalized": true
+  },
+  "neugeborenes": {
+    "kopfumfang_cm": null,
+    "name": "Maximilian",
+    "apgar": {
+      "min_1": 9,
+      "min_10": 10,
+      "min_5": 9
+    },
+    "koerperlaenge_cm": null,
+    "blutgasanalyse": {
+      "base_excess_mmol_l": null,
+      "po2_mmHg": 2,
+      "ph": 7,
+      "probe": "arteriell",
+      "o2_saettigung_prozent": null,
+      "pco2_mmHg": 7,
+      "laktat_mmol_l": null,
+      "_probe_normalized": true
+    },
+    "adaptation": {
+      "adaptiert_gut": true,
+      "kommentar": null
+    },
+    "geburtsgewicht_g": 3920,
+    "geschlecht": "Junge",
+    "_name_normalized": true,
+    "_geschlecht_normalized": true
+  },
+  "config": {
+    "headers": [
+      "Geburts- und Austrittsbericht",
+      "Patientendaten",
+      "Klinik/Setting",
+      "Diagnosen",
+      "Schwangerschafts- und Geburtsverlauf",
+      "Kindliche Daten",
+      "Serologien",
+      "Wochenbettverlauf",
+      "Befunde",
+      "Procedere",
+      "Mit freundlichen Grüssen",
+      "Kopie an"
+    ]
+  },
+  "kopie_an": "scanning.hirslanden@hirslanden.ch",
+  "mutter": {
+    "name": "Marta",
+    "kontakt": null,
+    "blutgruppe": "0",
+    "rhesus": "positiv",
+    "adresse": {
+      "ort": "Zürich",
+      "hausnummer": "88005",
+      "strasse": "Eibenweg",
+      "telefon": null,
+      "plz": "88005",
+      "_ort_normalized": true,
+      "_hausnummer_normalized": true,
+      "_strasse_normalized": true,
+      "_plz_normalized": true
+    },
+    "geburtsdatum": "2011-07-13",
+    "_name_normalized": true,
+    "_blutgruppe_normalized": true,
+    "_rhesus_normalized": true,
+    "_geburtsdatum_normalized": true
+  },
+  "_term_normalization_log": [],
+  "_kopie_an_normalized": true
+}

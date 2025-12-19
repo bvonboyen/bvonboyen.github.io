@@ -1,0 +1,87 @@
+{
+  "created": "2025-11-24T09:04:13.297899",
+  "input": {
+    "audio_path": "C:\\Users\\bernhard\\AppData\\Local\\Temp\\tmpa08izik2\\Recording_Beispiel1.m4a",
+    "json_path": null
+  },
+  "overrides": {
+    "profile": "Geburtshilfe",
+    "format": "docx",
+    "attach_audit": true,
+    "transcribe_engine": "faster_whisper",
+    "transcribe_size": "mittel",
+    "transcribe_language": "de",
+    "llm_provider": "openai",
+    "llm_model": "gpt-4o-mini",
+    "memo_style": "Arzt - Steno",
+    "attach_valid": true,
+    "attach_data": true
+  },
+  "events": [
+    {
+      "t": 1763971453.297899,
+      "event": "Abschnitt",
+      "detail": {
+        "Name": "Hören",
+        "planned": true
+      }
+    },
+    {
+      "t": 1763971454.8824644,
+      "event": "Abschnitt",
+      "detail": {
+        "Name": "Schreiben",
+        "planned": true
+      }
+    },
+    {
+      "t": 1763971655.0620966,
+      "event": "Abschnitt",
+      "detail": {
+        "Name": "Korrigieren",
+        "planned": true
+      }
+    },
+    {
+      "t": 1763971756.411029,
+      "event": "Abschnitt",
+      "detail": {
+        "Name": "Ergänzen",
+        "planned": true
+      }
+    },
+    {
+      "t": 1763971812.7281659,
+      "event": "Abschnitt",
+      "detail": {
+        "Name": "Standardisieren",
+        "planned": true
+      }
+    },
+    {
+      "t": 1763971812.7507102,
+      "event": "Abschnitt",
+      "detail": {
+        "Name": "Erstellen",
+        "planned": true
+      }
+    },
+    {
+      "t": 1763971861.3422594,
+      "event": "Abschnitt",
+      "detail": {
+        "Name": "Validieren",
+        "planned": true
+      }
+    },
+    {
+      "t": 1763972031.6922112,
+      "event": "Fertig",
+      "detail": {
+        "elapsed_s": 578.4411795139313
+      }
+    }
+  ],
+  "issues": [],
+  "traceback": null
+}
