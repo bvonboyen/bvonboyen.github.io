@@ -115,6 +115,32 @@ html.theme-dark .hero-image img.hero-img-dark {
   display: block !important;
 }
 
+// ─────────────────────────────────────────
+// Post figures (standard, responsive, consistent sizing)
+// ─────────────────────────────────────────
+
+.post-figure {
+  margin: 1.2rem 0 1.6rem;
+
+  img {
+    width: 80%;
+    height: auto;
+    display: block;
+    max-width: 720px;
+    margin: 0 auto;
+
+    border-radius: 8px;
+    border: 1px solid $color-border;
+    background: $color-surface;
+  }
+
+  .caption {
+    max-width: 720px;
+    margin: 0.5rem auto 0;
+  }
+}
+
+
 
 /* Nuclear test: if this doesn't change, our CSS is not applied */
 figcaption.caption {
