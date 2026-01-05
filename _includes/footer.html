@@ -12,11 +12,11 @@
 
 <footer class="site-footer">
   <div class="wrap">
-    <p>© {{ site.time | date: "%Y" }} {{ site.title }}</p>
+    <p>© {{ site.time | date: "%Y" }} {{ site.author.name }} · Content CC BY 4.0 </p>
 
     <p>
       <a href="tel:+41798246086">Call</a> ·
-      <a href="mailto:{{ site.author.email }}?subject=Hello%20Bernhard">Email</a> ·
+      <a href="mailto:{{ site.email }}?subject=Hello%20Bernhard">Email</a> ·
       <a href="https://www.linkedin.com/in/bernhard-von-boyen-ba56042" rel="me noopener" target="_blank">LinkedIn</a> ·
       <a href="https://github.com/{{ site.github_username }}" rel="me noopener" target="_blank">GitHub</a> ·
       <a href="/feed.xml">RSS</a>
