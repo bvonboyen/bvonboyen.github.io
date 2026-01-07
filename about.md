@@ -72,15 +72,18 @@ career ended at the age of 21.
       align-items:center;
       ">
 
-    <!-- LEFT COLUMN – TEXT -->
+    <!-- LEFT COLUMN -->
     <div>
-      <h3 style="margin-top:0;">Let’s connect</h3>
+      <p>
+        If you’d like to get in touch, you can exchange contact details for a follow-up by using QR Code to the right, or choose a time that works for you by clicking the link below.
+      </p>
 
-      <p>You can save my contact details by scanning or tapping the QR code.</p>
-
-      <p>If you add my contact, please leave your own details as a courtesy if you'd like me to reach out.</p>
-
-      <p>Direct links are also available in the footer of this site.</p>
+      <div style="margin-top:1rem;">
+        <a class="btn-book" href="https://calendar.app.google/VFb99rW87ktAGgnc9"
+           target="_blank" rel="noopener">
+          Choose a time to connect →
+        </a>
+      </div>
     </div>
 
     <!-- RIGHT COLUMN – QR -->
@@ -94,6 +97,9 @@ career ended at the age of 21.
 
   </div>
 </div>
+
+
+
 
 <style>
 @media (max-width: 700px) {
