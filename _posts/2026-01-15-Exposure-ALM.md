@@ -3,7 +3,7 @@ layout: post
 title: "Risk Capacity, Exposure, and Order: Why Insurance Portfolios Fail — or Hold — as Systems"
 excerpt: "Why insurance portfolios fail not because of too much risk, but because risk is taken in the wrong order — how survivability, risk capacity, and exposure allocation must be sequenced."
 date: 2026-01-15 09:00:00 +0200
-tags: [Risk Management, Insurance, ALM, Exposure Management, Portfolio Thinking, Capital Management]
+tags: [risk, insurance, alm, exposure-management, portfolio-thinking, capital-management]
 ---
 
 ## Key Messages

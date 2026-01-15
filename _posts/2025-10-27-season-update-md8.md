@@ -3,7 +3,7 @@ layout: post
 title: "Season Update: VfB Stuttgart – Rotation, Maturity, and Tactical Control"
 excerpt: "Sebastian Hoeneß applies tactical foresight successfully"
 date: 2025-10-27 09:00:00 +0200
-tags: [sports, analytics]
+tags: [sports, analytics, vfb-stuttgart]
 ---
 
 ## VfB Stuttgart – a impressing display of depth, adaptability and foresight

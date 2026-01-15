@@ -2,7 +2,7 @@
 layout: post
 title: "Season Update: VfB Stuttgart – On Course for Europe"
 date: 2025-10-24 09:00:00 +0200
-tags: [sports, analytics]
+tags: [sports, analytics, vfb-stuttgart]
 ---
 
 ## VfB Stuttgart – Three Points on Command, Firmly on Course for Europe

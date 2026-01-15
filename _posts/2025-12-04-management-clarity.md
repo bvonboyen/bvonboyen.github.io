@@ -3,7 +3,7 @@ layout: post
 title: "How a Sporting Director Uses Predictive Intelligence"
 excerpt: "A concise, first-person view on how predictive models clarify squad strength, trajectories and scenario risks."
 date: 2025-12-04 09:00:00 +0200
-tags: [sports, analytics, conceptual]
+tags: [sports, analytics, conceptual, leadership]
 ---
 
 As a sporting director, I’m not looking for more statistics. I’m looking for clarity.  

@@ -1,0 +1,25 @@
+topics:
+  risk-capital:
+    title: "Risk Capacity & Exposure"
+    intro: "Posts on risk capacity, exposure management, capital allocation, and survivability."
+    tags: [risk, insurance, reinsurance, alm, capital-management, exposure-management, portfolio-thinking]
+  systems-engineering:
+    title: "Systems & Engineering"
+    intro: "Reproducible systems, architecture, reporting pipelines, and open tooling."
+    tags: [systems, architecture, engineering, structured-reporting, open-source, swiss-engineering]
+  ai-agents:
+    title: "AI & Agents"
+    intro: "Applied AI systems, agents, and local-first execution."
+    tags: [ai, agents, agentic-pipelines, applied-ai-systems, local-first-ai, precision-ai]
+  governance-strategy:
+    title: "Governance & Strategy"
+    intro: "How decisions, constraints, and organizations shape outcomes."
+    tags: [governance, strategy, leadership, transformation]
+  analytics-thinking:
+    title: "Analytics & Thinking"
+    intro: "Conceptual frames and analytical tools."
+    tags: [analytics, conceptual, productivity]
+  labs:
+    title: "Labs & Case Material"
+    intro: "Concrete case material and project labs."
+    tags: [sports, vfb-stuttgart, palantir, clinical-documentation, alpine-tech]

@@ -2,7 +2,7 @@
 layout: post
 title: "Understanding Artificial Intelligence — From Reasoning to Generation"
 date: 2025-10-24 15:00:00 +0200
-tags: [transformation, conceptual]
+tags: [transformation, conceptual, ai]
 ---
 
 What is artificial intelligence? Why the hype? How is it used?

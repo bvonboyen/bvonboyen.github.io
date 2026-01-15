@@ -2,7 +2,7 @@
 layout: post
 title: "The Search for Value Bets: Next Steps in Modeling"
 date: 2025-10-14 09:00:00 +0200
-tags: [sports, thoughtleadership]
+tags: [sports, conceptual]
 ---
 
 Betting Basics — From Fair to Value Bets, and beyond

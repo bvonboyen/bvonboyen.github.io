@@ -1,6 +1,8 @@
 header:
   - title: "Projects"
     url: /projects/
+  - title: "Topics"
+    url: /topics/
   - title: "CV"
     url: /cv/
   - title: "About me"
