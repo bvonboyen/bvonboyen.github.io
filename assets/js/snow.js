@@ -35,7 +35,7 @@
   // Snow density
   // ─────────────────────────────────────────
   const MIN_SNOW = 12;
-  const MAX_SNOW = 66;
+  const MAX_SNOW = 36;
 
   const snowCount = Math.round(
     MIN_SNOW + intensity * (MAX_SNOW - MIN_SNOW)
