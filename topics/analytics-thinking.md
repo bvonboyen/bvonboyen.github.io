@@ -9,5 +9,4 @@ Conceptual frames and analytical tools.
 
 ## Included tags
 - [analytics](/tags/analytics/)
-- [conceptual](/tags/conceptual/)
 - [productivity](/tags/productivity/)

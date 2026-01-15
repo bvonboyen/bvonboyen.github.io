@@ -10,6 +10,3 @@ Concrete case material and project labs.
 ## Included tags
 - [sports](/tags/sports/)
 - [vfb-stuttgart](/tags/vfb-stuttgart/)
-- [palantir](/tags/palantir/)
-- [clinical-documentation](/tags/clinical-documentation/)
-- [alpine-tech](/tags/alpine-tech/)

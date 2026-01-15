@@ -2,7 +2,7 @@
 layout: post
 title: "Parallel Worlds: How Reinsurance and Sports Modeling Speak the Same Language"
 date: 2025-10-15 09:00:00 +0200
-tags: [sports, reinsurance, conceptual]
+tags: [insurance, reinsurance, risk, portfolio-thinking]
 ---
 
 Gary Lineker:

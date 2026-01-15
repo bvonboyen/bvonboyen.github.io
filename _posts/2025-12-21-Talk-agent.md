@@ -3,7 +3,7 @@ layout: post
 title: "Why I Only Talk About Agents That Run in Public"
 excerpt: "A personal standard for building AI agents — visibility, restraint, and accountability over demos and hype."
 date: 2025-12-21 09:00:00 +0200
-tags: [AI, agents, strategy, engineering, governance]
+tags: [agents, governance, strategy, precision-ai]
 ---
 
 ## Key Messages

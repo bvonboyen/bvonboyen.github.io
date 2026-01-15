@@ -2,7 +2,7 @@
 layout: post
 title: "Basic factor model explained"
 date: 2025-09-27 09:00:00 +0200
-tags: [sports, analytics]
+tags: [sports, analytics, portfolio-thinking]
 ---
 
 ### Expected value and variance — from natural catastrophes to the Bundesliga

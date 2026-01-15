@@ -18,8 +18,8 @@ topics:
   analytics-thinking:
     title: "Analytics & Thinking"
     intro: "Conceptual frames and analytical tools."
-    tags: [analytics, conceptual, productivity]
+    tags: [analytics,  productivity]
   labs:
     title: "Labs & Case Material"
     intro: "Concrete case material and project labs."
-    tags: [sports, vfb-stuttgart, palantir, clinical-documentation, alpine-tech]
+    tags: [sports, vfb-stuttgart]

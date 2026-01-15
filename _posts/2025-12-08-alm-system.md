@@ -3,7 +3,7 @@ layout: post
 title: "ALM as a System: How Modern Insurers Create (or Destroy) Value"
 excerpt: "A system-level perspective on ALM: why outcomes differ, where value leaks, and how an integrated ALM engine unlocks clarity, capacity and sustainable growth."
 date: 2025-12-08 09:00:00 +0200
-tags: [ALM, insurance, strategy, conceptual]
+tags: [ALM, insurance, capital-management, strategy]
 ---
 
 ## Key Messages

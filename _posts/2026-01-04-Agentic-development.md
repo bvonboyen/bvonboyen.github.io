@@ -3,7 +3,7 @@ layout: post
 title: "Vibe Coding vs. Agentic Development"
 excerpt: "Why feeling productive is not the same as building systems that compound — and when AI work actually starts to stick."
 date: 2026-01-04 09:00:00 +0200
-tags: [AI, agents, strategy, engineering, productivity, systems]
+tags: [agents, agentic-pipelines, systems, productivity]
 ---
 
 ## Key Messages
