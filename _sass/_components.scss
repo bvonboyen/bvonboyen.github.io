@@ -440,3 +440,18 @@ html.theme-dark .agent-panel__form input {
 html.theme-dark .agent-launcher {
   z-index: 1200;
 }
+
+// ─────────────────────────────────────────
+// Booking feature
+// ─────────────────────────────────────────
+
+.btn-book{
+  display:inline-block;
+  padding:.6rem 1rem;
+  border:1px solid currentColor;
+  border-radius:.6rem;
+  text-decoration:none;
+  font-weight:600;
+}
+.btn-book:hover{ text-decoration:none; opacity:.85; }
+
