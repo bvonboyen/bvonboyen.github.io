@@ -17,41 +17,68 @@
   // ─────────────────────────────────────────
   // Seasonal intensity (0 → 1 → 0)
   // ─────────────────────────────────────────
-  let intensity;
+  let seasonalIntensity;
 
   if (now <= peakDate) {
-    intensity = (now - startDate) / (peakDate - startDate);
+    seasonalIntensity = (now - startDate) / (peakDate - startDate);
   } else {
-    intensity = 1 - (now - peakDate) / (endDate - peakDate);
+    seasonalIntensity = 1 - (now - peakDate) / (endDate - peakDate);
   }
 
-  // Clamp for safety
-  intensity = Math.max(0, Math.min(1, intensity));
-
-  // Smoothstep curve (natural feel)
-  intensity = intensity * intensity * (3 - 2 * intensity);
+  // Clamp + smoothstep
+  seasonalIntensity = Math.max(0, Math.min(1, seasonalIntensity));
+  seasonalIntensity = seasonalIntensity * seasonalIntensity * (3 - 2 * seasonalIntensity);
 
   // ─────────────────────────────────────────
-  // Snow density
+  // Session fade-out settings
   // ─────────────────────────────────────────
-  const MIN_SNOW = 12;
-  const MAX_SNOW = 24;
+  // How long until snow is basically gone for this user/session:
+  const FADE_SECONDS = 75;          // tweak: 45–120 feels good
+  const TICK_MS = 250;              // update cadence
+  const REMOVE_AT = 0.06;           // when multiplier below this, remove nodes
+
+  const t0 = Date.now();
+
+  // Smooth decay (1 → 0) over FADE_SECONDS
+  function sessionMultiplier() {
+    const elapsed = (Date.now() - t0) / 1000;
+    const x = Math.max(0, Math.min(1, elapsed / FADE_SECONDS)); // 0..1
+    // smoothstep down: 1 - smoothstep(x)
+    const s = x * x * (3 - 2 * x);
+    return 1 - s;
+  }
+
+  // ─────────────────────────────────────────
+  // Snow density (based on effective intensity at start)
+  // ─────────────────────────────────────────
+  const MIN_SNOW = 10;
+  const MAX_SNOW = 26;
+
+  const initialEffective = seasonalIntensity * sessionMultiplier();
 
   const snowCount = Math.round(
-    MIN_SNOW + intensity * (MAX_SNOW - MIN_SNOW)
+    MIN_SNOW + initialEffective * (MAX_SNOW - MIN_SNOW)
   );
 
   // ─────────────────────────────────────────
   // Create snowflakes
   // ─────────────────────────────────────────
+  const flakes = [];
+
   for (let i = 0; i < snowCount; i++) {
     const snow = document.createElement('div');
+    snow.className = 'seasonal-snowflake';
     snow.textContent = '❄';
     snow.style.position = 'fixed';
     snow.style.top = '-2rem';
     snow.style.left = Math.random() * 100 + 'vw';
     snow.style.fontSize = (Math.random() * 10 + 10) + 'px';
-    snow.style.opacity = Math.random() * 0.6 + 0.3;
+
+    // Store each flake’s "base opacity" so we can scale it down later
+    const baseOpacity = Math.random() * 0.6 + 0.3;
+    snow.dataset.baseOpacity = String(baseOpacity);
+    snow.style.opacity = String(baseOpacity);
+
     snow.style.pointerEvents = 'none';
     snow.style.zIndex = '9999';
 
@@ -77,6 +104,30 @@
     );
 
     document.body.appendChild(snow);
+    flakes.push(snow);
   }
+
+  // ─────────────────────────────────────────
+  // Fade-out loop: scale opacity down over session time
+  // ─────────────────────────────────────────
+  const timer = setInterval(function () {
+    const mult = seasonalIntensity * sessionMultiplier();
+
+    // scale each flake’s opacity by current multiplier
+    for (let i = 0; i < flakes.length; i++) {
+      const el = flakes[i];
+      const base = parseFloat(el.dataset.baseOpacity || "0.5");
+      el.style.opacity = String(base * mult);
+    }
+
+    // When basically gone, remove + stop updating
+    if (mult <= REMOVE_AT) {
+      clearInterval(timer);
+      for (let i = 0; i < flakes.length; i++) {
+        const el = flakes[i];
+        if (el && el.parentNode) el.parentNode.removeChild(el);
+      }
+    }
+  }, TICK_MS);
 
 })();
