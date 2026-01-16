@@ -45,7 +45,7 @@ That problem shows up in balance-sheet steering, i.e. Asset & Liability Manageme
 
 This is where thinking about **risk capacity** matters: whether asset cash flows can fund liability cash flows, whether financial market stress can be survived, and whether growth paths avoid ruin or forced liquidation. These constraints determine how aggressive the system can be, how much drawdown it can tolerate, and how close to the edge it can operate.
 
-Risk capacity does not arise in isolation. It is the output of a coherent ALM system — one that integrates capital, liquidity, accounting, and funding into a single steering logic. Without this system, risk capacity becomes unstable, stale, or distorted, and exposure decisions lose their economic meaning. Only once the ALM engine defines admissible growth paths does exposure management become a value-creating discipline rather than a defensive one.
+Risk capacity does not arise in isolation. It is the output of a coherent **[ALM system](/2025/12/08/alm-system.html)** — one that integrates capital, liquidity, accounting, and funding into a single steering logic. Without this system, risk capacity becomes unstable, stale, or distorted, and exposure decisions lose their economic meaning. Only once the ALM engine defines admissible growth paths does exposure management become a value-creating discipline rather than a defensive one.
 
 <figure class="post-figure">
   <img src="/assets/img/risk_capacity_growth_paths.png"
