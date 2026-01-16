@@ -33,7 +33,7 @@
   // Session fade-out settings
   // ─────────────────────────────────────────
   // How long until snow is basically gone for this user/session:
-  const FADE_SECONDS = 75;          // tweak: 45–120 feels good
+  const FADE_SECONDS = 45;          // tweak: 45–120 feels good
   const TICK_MS = 250;              // update cadence
   const REMOVE_AT = 0.06;           // when multiplier below this, remove nodes
 
