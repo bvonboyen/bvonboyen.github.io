@@ -18,18 +18,5 @@ Beyond Google Analytics, no cookies or other forms of tracking are used on this 
 ## Contact
 If you have any questions or need further information, you can reach me at: [About](/about/)
 
----
-
-## Legal & Privacy
-
-### Name
-Bernhard von Boyen
-
-### Location
-Zürich, Switzerland
-
-### Email
-bernhard.vonboyen@gmail.com
-
-### Statement
+## Statement
 This is a personal website. No commercial services are offered.
