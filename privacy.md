@@ -13,7 +13,7 @@ This is a personal website created and maintained by Bernhard von Boyen, based i
 I do not collect any personal data, and I use Google analytics for high level analysis but no tracking mechanisms. Your visit to this site is completely anonymous.
 
 ## Cookies & Tracking
-No cookies or other forms of tracking are used on this website. You are not being monitored, and no data is stored about your visit.
+Beyond Google Analytics, no cookies or other forms of tracking are used on this website. You are not being monitored, and no data is stored about your visit.
 
 ## Contact
 If you have any questions or need further information, you can reach me at: [About](/about/)
