@@ -32,8 +32,8 @@ the **FX TradeTech industry fair** (capital markets & ALM product story), the **
   <div class="card info-card">
     <h3>Engine</h3>
     <p>
-      Hierarchical actuarial models, simulations, and AI agents transform data and expert judgement
-      into structured, testable decision logic that scales across domains.
+      Hierarchical actuarial models and simulations — supported by AI where useful —
+      turn data and expert judgement into structured, testable decision workflows that transfer across domains.
     </p>
   </div>
 
@@ -70,9 +70,9 @@ A curated list of active and recent work, their status, and my promise as a part
       Soccer simulations app
       <span class="status-badge status-live">🔵 In production</span>
     </h3>
-    <p>You lead a club that wants to succeed both on the pitch and financially – but it is hard to make both measurable and keep everyone aligned.</p>
-    <p>My system makes hidden team strengths visible, explains results, and strengthens your in-house analytics with artificial intelligence. It connects scouting, coaching, and finance into one shared decision framework.</p>
-    <p><strong>Promise:</strong> a lightweight, transparent, and explainable engine that supports decisions – without forcing you to give up your football identity.</p>
+    <p>You make repeated high-stakes decisions under uncertainty — limited budgets, noisy signals, and outcomes that can be asymmetric.</p>
+    <p>SoccerSim is a transparent decision laboratory that uses football as an observable test environment. It makes actuarial portfolio thinking visible outside traditional insurance contexts. It combines automated inference with explicit human judgement, and it evaluates results through attribution — separating signal from noise and decision quality from variance and execution effects.</p>
+    <p><strong>Promise:</strong> a lightweight, governed engine for risk-and-capital decisions — transferable beyond sport, without hype.</p>
   </div>
 
   <div class="card project-card">

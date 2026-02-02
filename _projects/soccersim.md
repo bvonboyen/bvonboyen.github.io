@@ -1,72 +1,77 @@
 ---
-title: "SoccerSim — Season & Match Simulation"
+title: "SoccerSim — A Decision Laboratory for Risk & Capital Allocation"
 layout: page
-excerpt: "SoccerSim: Bundesliga match and season simulations, **transferring reinsurance industry knowledge to enable scouting integration, team & club management, sports betting, and journalism use cases**"
-tags: [sports-analytics, simulation, ai, python]
+excerpt: "SoccerSim is an applied lab that uses football as a transparent test environment to study actuarial risk, portfolio, and governance thinking under uncertainty."
+tags: [decision-systems, risk, simulation, actuarial, ai, python]
 date: 2025-10-13
 ---
 
-**SoccerSim** is a modular football analytics engine combining automated, but supervised learning calibrations with a factor model, linking team skills to league results.
+## What SoccerSim Is
+
+**SoccerSim** is an applied decision laboratory that explores how risk and capital can be allocated responsibly in high-friction, high-uncertainty environments.
+
+Rather than focusing on prediction accuracy alone, the project studies **decision quality under constraints** — including limited budgets, noisy signals, execution frictions, and correlated outcomes.
+
+Football serves as a transparent and observable environment in which these dynamics can be made explicit, tested, and explained.
 
 ---
 
-## Current Application — Static Factor Model (v1.0)
+## Automation, Judgment, and Governance
 
-The current release models match outcomes and full league seasons through **Poisson-based expected goals (xG)** and **static team-strength factors**.
+SoccerSim combines **automated inference** with **explicit human judgment**.
 
-**Core methods**
-- Poisson and Skellam distributions for goal and score-difference modeling  
-- Maximum-likelihood calibration of team attack/defense parameters
-- Self learning with priors, variance control, and random noise  
-- Match & season-level Monte Carlo simulations for probability tables  
-- YAML-driven configuration and a clean CLI for reproducible workflows
+Machine-learning models and simulations are used to surface scenarios, risks, and trade-offs at scale.  
+Critical decisions — such as risk appetite, capital allocation, and system overrides — remain deliberate, reviewable, and accountable.
 
-**Use case**
-- Setting up leagues, updating fixtures and tables for regular forecasts
-- Calibrating factor model and deriving team skills rankings
-- Creating game day and season forecasts from tables, fixtures and calibratons
-- Derive analytics and betting quotes on simulations
-- Portfolio simulations (equal-stake and risk-adjusted) for betting or performance studies  
-- Integration with actuarial or ALM-style risk frameworks
-
-**Repository:** [bvonboyen/Soccer-predictions](https://github.com/bvonboyen/Soccer-predictions)
-I can open / share repository on personal request.
+A core focus of the lab is understanding *why* results occur.  
+Performance is examined through systematic attribution that separates signal from noise, edge from variance, and decision quality from execution effects.
 
 ---
 
-## Future Evolution — Hierarchical, Player & Dependency Layers
+## Why a Sports Market?
 
-The upcoming architecture expands SoccerSim from a static team-factor model toward a **hierarchical Bayesian / mixed-effects framework**, aligning with reinsurance-style risk aggregation principles:
+Sports markets provide a rare combination of real uncertainty, observable outcomes, and binding constraints.
 
-**Planned extensions**
-- **Expand factor modeling**  
-  - Include shock factors for tight schedules and team management changes
-  - Updating into a state space model to discover trends on unobservable factors
-- **Hierarchical team-player factors**  
-  - Player-level attack/participation contributions to team effects (player analytics, and trades)  
-  - More responsive team strength as a dynamic mixture of player availability and form  
-- **Dependency modeling across matches**  
-  - Shared shocks for weather, derbies, and in-play dynamics
-  - Correlated outcomes for improved realism and backtesting
-- **Risk-adjusted analytics**  
-  - Contributive RAR (cRAR) per bet and total portfolio volatility metrics  
-  - Cross-factor calibration using ridge regularization and information-criteria control  
-- **Agentic simulation layer**  
-  - Scenario engines and explainable reporting for domain experts
-
-These developments aim to merge **actuarial multi-level calibration** with **data-driven sports inference**, moving from descriptive to structural modeling.
+This makes them a useful laboratory for demonstrating how **actuarial risk management, portfolio thinking, and governance principles** translate beyond traditional insurance contexts — supporting the broader objective of making actuarial judgment visible outside the profession.
 
 ---
 
-## Python Tech Stack  
-`pandas` · `numpy` · `scipy` · `matplotlib` · `pyyaml` · `click` · `beautifulsoup4` · & others 
+## Current Capability (v1)
 
-Packaged as a modular **`soccersim`** application with  
-– Thin data API (`get_table_df`, `get_fixtures_df`) and **web adapter** (adaptle provider, cached under `.cache`, TZ Europe/Berlin)  
-– **Poisson / Monte Carlo** simulation engine with config-driven workflows
-– Post simulation **analytics** and probability processors 
-– Reproducible environment via **Conda / Poetry**
+The current implementation models matches and full league seasons using probabilistic factor models and Monte Carlo simulation.
 
-*“The goal isn’t to predict the unpredictable — but to quantify its shape.*
+At a high level, the system supports:
+- Calibration of team strength under uncertainty  
+- Matchday and season-level scenario simulation  
+- Portfolio-style aggregation of decisions under budget and variance constraints  
+- Reproducible, configuration-driven workflows  
+
+Technical details are intentionally kept out of the project overview.
 
 ---
+
+## Research Direction
+
+Ongoing development focuses on extending SoccerSim as a **governed research platform**, with emphasis on decision quality rather than model complexity.
+
+Current research priorities include:
+
+- **Risk-adjusted attribution and portfolio diagnostics**  
+  Establishing robust separation of signal and noise, edge and variance, and decision quality versus execution effects.  
+  This completes the system by enabling governance, validation, and disciplined learning over time.
+
+- **Integration as a service within agentic systems**  
+  Exploring how automated inference can be embedded into human-centered decision workflows, including review, override, and accountability mechanisms.
+
+- **Hierarchical and dynamic representations of latent team and player effects**  
+  Refining signal quality through multi-level and time-varying structures, once attribution and governance foundations are in place.
+
+These directions prioritize **system discipline and explainability** over incremental predictive gains.
+
+---
+
+**Repository**  
+[https://github.com/bvonboyen/Soccer-predictions](https://github.com/bvonboyen/Soccer-predictions)  
+(Code, experiments, and technical documentation available on request.)
+
+*The goal is not to predict the unpredictable — but to make disciplined decisions when uncertainty dominates.*
