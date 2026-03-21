@@ -18,31 +18,6 @@ tags: [systems, architecture, governance, ai, applied-ai-systems]
 
 ---
 
-Actuarial work hasn’t changed as much as we think.
-
-At its core, it has always operated across three layers:
-
-- reasoning about uncertainty  
-- modeling it quantitatively  
-- embedding it into workflows  
-
-What’s changing is not the structure.
-
-It’s how each layer is augmented.
-
-- **Reasoning becomes hybrid**  
-→ thinking is extended, challenged, and made explicit  
-
-- **Modeling becomes computer-aided**  
-→ models are not one-off, but continuously applied  
-
-- **Workflows become agent-organized**  
-→ execution is structured into systems that carry the work  
-
-Not autonomous.  
-But no longer purely manual either.
-
-
 <figure class="post-figure">
   <img src="/assets/img/The_Augmented_Actuary.png"
        alt="The Augmented Actuary framework showing three layers of actuarial work—Reasoning, Modeling, and Workflows—augmented respectively as Hybrid, Aided, and Agent-organized"
@@ -52,46 +27,54 @@ But no longer purely manual either.
   </figcaption>
 </figure>
 
+Actuarial work hasn’t changed as much as we think. At its core, it has always operated across three layers:
+1. **Reasoning** — reasoning about uncertainty  
+2. **Modeling** — modeling it quantitatively  
+3. **Workflows** — embedding it into workflows  
+
+What’s changing is not the structure, but how each layer is augmented.
+1. **Reasoning becomes hybrid**  
+→ thinking is extended, challenged, and made explicit  
+2. **Modeling becomes computer-aided**  
+→ models are not one-off, but continuously applied  
+3. **Workflows become agent-organized**  
+→ execution is structured into systems that carry the work   
+
+Not autonomous. But no longer purely manual either.
+
+What this creates is a shift: 
+From work that is performed once to work that is captured, reused, and carried forward.
+From thinking about doing to thinking about how it should be done.
 
 ---
 
-What this creates is a shift:
+## Where this becomes 
 
-From work that is performed once  
-to work that is captured, reused, and carried forward.
+This is also where the discussion becomes practical.
 
----
+Across these areas, the question is no longer *whether* AI can be used —  
+but **how it is embedded into reasoning, modeling, and workflows in a controlled way**.
 
-## Where this becomes tangible
+This is the work I focus on:
+making these layers explicit, connected, and operational — without losing accountability.
 
 This is not theoretical — it shows up in very concrete places:
-
 - **Reserving / valuation**  
 → assumptions, adjustments, and reviews become explicit and repeatable  
 → less dependency on individual cycles  
-
 - **Pricing & underwriting support**  
 → models become aware of state, trend, cycles, and experience  
-→ decision logic becomes transparent, reusable and well timed
-
+→ decision logic becomes transparent, reusable and well-timed
 - **Risk & exposure management**  
 → scenario thinking becomes repeatable decision workflows  
 → capital stays stable while preserving risk awareness  
-
 - **Reporting & governance**  
 → validation, accountability, and narratives are embedded  
 → visuals and messages compound each reporting cycle  
 
----
-
 In all cases, the goal is the same:
-
 **not more models —  
 but better structured work**
-
----
-
-**I turn actuarial and risk work into systems that persist, scale, and remain accountable.**
 
 ---
 
@@ -100,20 +83,19 @@ but better structured work**
 The actuary does not need a new role — the structure of the work is already in place.
 
 What changes is the operating model:
-
 - reasoning becomes hybrid  
 - modeling becomes computer-aided  
 - workflows become agent-organized  
 
 The result is not faster work, but **more durable work**:
-
 - decisions improve because reasoning is clearer  
 - analytics scale because models are reusable  
 - execution stabilizes because workflows persist  
 
-**The opportunity is simple:  
-turn actuarial work from something that is performed  
-into something that continues to work.**
+The opportunity is simple:  
+**turn actuarial work from something that is performed into something that continues to work.**
+
+I’m happy to discuss how this can be implemented in practice — and where it already starts to create value.
 
 ---
 
