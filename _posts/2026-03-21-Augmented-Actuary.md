@@ -48,9 +48,7 @@ From thinking about doing to thinking about how it should be done.
 
 ---
 
-## Where this becomes 
-
-This is also where the discussion becomes practical.
+## Where this becomes practical
 
 Across these areas, the question is no longer *whether* AI can be used —  
 but **how it is embedded into reasoning, modeling, and workflows in a controlled way**.
@@ -75,6 +73,8 @@ This is not theoretical — it shows up in very concrete places:
 In all cases, the goal is the same:
 **not more models —  
 but better structured work**
+
+The way this is currently realized in practice is through integrating a structured agent framework into my agent factory, providing a consistent way to build, apply, and evolve systems that carry the work.
 
 ---
 
