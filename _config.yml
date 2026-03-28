@@ -2,7 +2,7 @@ title: "Bernhard Ulrich von Boyen"
 description: "Actuarial intelligence, cross-domain analytics, projects with integrity & AI"
 url: "https://augmentedactuary.com"
 baseurl: ""
-image: "https://augmentedactuary.com/assets/img/The_Augmented_Actuary.png"
+logo: "https://augmentedactuary.com/assets/img/The_Augmented_Actuary.png"
 remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
 search: true
 
