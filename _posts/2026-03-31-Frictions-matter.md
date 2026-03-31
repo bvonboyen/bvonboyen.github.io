@@ -99,8 +99,8 @@ In the SoccerSim Lab, this becomes visible in a controlled setting:
   </figure>
 </div>
 
-Efficient frontiers become distorted and stretched.  
-Sharpe ratios can still look attractive, but probability of total loss real, as well.
+Efficient frontiers become distorted.  
+Sharpe ratios can still look attractive, while probability of total loss becomes real.
 The underlying system has already shifted.
 
 ---
@@ -260,10 +260,10 @@ The point is not that models fail.
 The point is that friction changes the structure of decisions.
 
 In a frictionless world, optimization is clean.
-In the real world, admissibility matters — risk appetite must hold in reality as well.
+In the real world, admissibility matters — risk appetite must hold in practice.
 
 Careful analysis reveals the strategic options:
-growth, diversification, or shaping the market & underwriting discipline.
+growth, diversification, or shaping the market through market building and underwriting discipline.
 
 What this case changed for me was not the model —
 but the confidence in the decision once friction had been made explicit.
