@@ -35,7 +35,7 @@ The model was not wrong — but the system was more constrained than assumed.
 
 ## The last mile matters
 
-The first signal came from the last mile.
+The first signals came from the last mile.
 
 The optimal unconstrained allocation had to be adjusted to discrete stake sizes imposed by the counterparty. Some positions were simply cancelled. Performance did not disappear, but it emerged more slowly than expected. The P&L still revealed an edge — but the path was different.
 
@@ -45,7 +45,7 @@ The optimal unconstrained allocation had to be adjusted to discrete stake sizes 
          alt="Budget 10: unconstrained versus constrained portfolio weights with cancelled positions below minimum stake"
          loading="lazy" decoding="async">
     <figcaption class="caption">
-      Budget 10 — the last mile matters: optimal allocations break under minimum stake constraints.
+      Budget 10 — the last mile matters: optimal, unconstrained allocations break under minimum stake constraints (budget and appetite unchanged).
     </figcaption>
   </figure>
 
@@ -99,9 +99,9 @@ In the SoccerSim Lab, this becomes visible in a controlled setting:
   </figure>
 </div>
 
-Efficient frontiers become distorted.  
-Sharpe ratios can still look attractive.  
-But the underlying system has already shifted.
+Efficient frontiers become distorted and stretched.  
+Sharpe ratios can still look attractive, but probability of total loss real, as well.
+The underlying system has already shifted.
 
 ---
 
@@ -111,7 +111,7 @@ This was the harder part to accept.
 
 I used to think of friction as a second-order effect — something that slightly reduces performance, but does not fundamentally change the outcome, maybe even diversifies away.
 
-That assumption breaks in heavy-tailed environments.
+That assumption breaks in heavy-tailed and illiquid environments.
 
 There, friction is not additive.  
 It is multiplicative.  
@@ -176,7 +176,7 @@ Frictions obscure the boundary between what is acceptable — and what is actual
 
 ## In practice, friction is often no longer treated as a first-class decision variable
 
-One uncomfortable realization followed.
+Another uncomfortable realization followed.
 
 We moved from a world where friction was priced to a world where it is assumed away.
 
@@ -194,13 +194,13 @@ But the boundary shifts.
        alt="Effect of scale on probability of total loss showing that friction persists even with higher budget"
        loading="lazy" decoding="async">
   <figcaption class="caption">
-    Scale reduces friction — but does not remove it. Tail risk remains a structural constraint.
+    In this case, scale reduces friction — but does not remove it. Tail risk remains a structural constraint.
   </figcaption>
 </figure>
 
 Not every acceptable risk is an admissible strategy. In my case, both growth and careful review of the risk appetite beyond Sharpe stabilized the strategy — and ultimately compressed the signal.
 
-If friction is not modeled explicitly, you risk remaining blind on one eye. Having an edge is not enough.
+If friction is not modeled explicitly, you risk remaining blind on one eye. Having an edge is not enough. Examining friction will tell whether growth, diversification, or shaping the market & underwriting discipline is the appropriate strategic option.
 
 That is where the augmented actuary operates — not just on models, but on the system they live in.
 
@@ -233,7 +233,7 @@ You are optimizing a simplified version of it.
 
 I ran this diagnostic on my own setup.
 
-Ultimately, it increased confidence in both growth in scale and higher risk appetite. I selected a portfolio where frictions are under control ex ante: the two worlds remain close, the KPIs coexist, and trust increases.
+Ultimately, it increased confidence in both growth in scale and higher risk appetite. I selected a portfolio where frictions are under control ex ante: the two worlds remain close, the KPIs coexist, and trust increases (see table).
 
 |                     | Unconstrained | Constrained |
 |---------------------|--------------:|------------:|
@@ -245,9 +245,11 @@ Ultimately, it increased confidence in both growth in scale and higher risk appe
 | Sharpe (CVaR)       | 0.42          | **0.44**    |
 | Concentration       | 30.1%         | **37.3%**   |
 
-That changed my perspective.
+That changed my perspective. 
 
 Once friction was made explicit, the decision became more robust — not less. The model did not lose relevance. It gained context, and capital can be deployed with confidence.
+
+Ultimately, higher volume and risk appetite will also improve the financial outcome of the strategy in the long run. 
 
 ---
 
@@ -257,12 +259,18 @@ The point is not that models fail.
 
 The point is that friction changes the structure of decisions.
 
-In a frictionless world, optimization is clean.  
-In a real world, admissibility matters.
+In a frictionless world, optimization is clean.
+In the real world, admissibility matters — risk appetite must hold in reality as well.
 
-What this case changed for me was not the model — but the confidence in the decision once friction had been made explicit.
+Careful analysis reveals the strategic options:
+growth, diversification, or shaping the market & underwriting discipline.
 
-Confidence does not come from better models alone.  
+What this case changed for me was not the model —
+but the confidence in the decision once friction had been made explicit.
+
+For once, growth and increased risk appetite remunerate courage in the right place.
+
+Confidence does not come from better models alone.
 It comes from making the system explicit.
 
 ---
