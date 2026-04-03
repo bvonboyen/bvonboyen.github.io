@@ -13,7 +13,8 @@ tags: [risk, insurance, reinsurance,portfolio-thinking, decision-labs]
 - **Risk-adjusted metrics can mislead.** Structure changes even when metrics look stable.  
 - **Heavy-tail environments amplify friction.** Effects become multiplicative, not marginal.  
 - **Admissibility matters.** Not every acceptable risk can be executed.  
-- **Diagnostics create clarity.** Making friction explicit increases decision confidence.  
+- **Diagnostics create clarity.** Making friction explicit increases decision confidence.
+- **Options unlock capacity.** Maintaining choice enables selecting the right strategy.
 
 ---
 
