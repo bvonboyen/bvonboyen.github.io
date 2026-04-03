@@ -218,10 +218,10 @@ And it usually shows up indirectly — only then can it be understood.
 A few symptoms to look for:
 - leakage in P&L  
 - underwriting diverges from plan  
-- stable capital optimization, but weak realization  
+- stable capital optimization, but weak capital generation  
 - robust risk appetite — on paper  
 - concentration and risk model out of sync  
-- capital grows slower than expected  
+- surprises in actual capital requirements
 - value management becomes ambiguous  
 - models are not used for strategic options
 
