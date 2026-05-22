@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Topics
+title: Ideas
 permalink: /topics/
 nav_exclude: false
 ---

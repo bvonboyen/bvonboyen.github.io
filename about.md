@@ -14,8 +14,8 @@ Since then, Zurich has become our family’s home and the base for my work in an
 actuarial modelling, and decision systems. If you’d like the formal version,
 you’ll find it in my CV.
 
-<figure class="hero-image">
-  <img src="/assets/img/portrait1.jpg" alt="Portrait" >
+<figure class="about-portrait">
+  <img src="/assets/img/Bernhard_vB_7937.jpg" alt="Portrait" >
 </figure>
 
 ## A recent chapter – our 2025 family sabbatical
@@ -31,7 +31,7 @@ by plane, train, boat, RV, bus, car, taxi/limousine, bike and tuk tuk. Along the
 religious traditions** and very different cultural lenses: the spirituality and everyday
 culture of Thailand, the layers of history in Turkey, and the vast nature of the US.
 
-<figure class="hero-image">
+<figure class="about-image">
   <img src="/assets/img/Polarsteps.png" alt="Family sabbatical">
   <figcaption class="caption">
     Our journey on a map and in statistics.
@@ -47,6 +47,33 @@ For us, this sabbatical was less about “seeing the world” and more about **c
 commitment, presence, and intentional choices** — the same themes that shape how I think
 about work, systems, and long-term responsibility.
 
+<figure class="about-image">
+  <img
+    src="/assets/img/nature.jpeg"
+    alt="Abyss Pool Yellowstone"
+    class="hero-img hero-img-light"
+  >
+  <img
+    src="/assets/img/nature_dark.jpeg"
+    alt="Abyss Pool Yellowstone"
+    class="hero-img hero-img-dark"
+  >
+  <figcaption class="caption">
+    Sometimes beauty lies in what remains uncertain — Abyss Pool, Yellowstone National Park; dormant, last erupted more than 30 years ago.
+  </figcaption>
+</figure>
+
+## How I work
+
+I work at the intersection of business transformation and quantitative risk management — combining actuarial rigor with modern technology and data-driven thinking.
+
+The emphasis is not on individual tools or models, but on designing coherent decision frameworks that integrate analytics, performance, risk, and technology around purpose and collaboration.
+
+These frameworks quantify uncertainty and account for asymmetric outcomes, strengthening system integrity for practical impact. This allows decisions to compound into durable value through capital allocation trade-offs and risk-adjusted performance rather than fragment over time.
+
+This site brings those themes together across insurance and pensions, decision frameworks, data science, and applied coding & AI — connected by a common decision structure: uncertainty, asymmetric outcomes, portfolio effects, risk aggregation, and dependency modeling over time.
+
+
 ## Beyond work
 
 Outside of projects and modelling, I enjoy playing tennis, skiing, running, spending time
@@ -54,7 +81,7 @@ with my family, baking and cooking, coding in Python, and travelling — ideally
 that create stories we’ll still talk about years later. Before you ask: my (basic) soccer
 career ended at the age of 21.
 
-<figure class="hero-image">
+<figure class="about-image">
   <img src="/assets/img/diving1.JPG" alt="Diving">
   <figcaption class="caption">
     Dive site Japanese Gardens at Koh Tao.

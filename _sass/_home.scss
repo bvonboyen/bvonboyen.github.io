@@ -22,3 +22,63 @@
     font-weight: 600;
   }
 }
+
+.site-title {
+  margin-left: 0;
+}
+
+.intro-title {
+  display: none !important;
+}
+
+.intro {
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+
+.landing-hero {
+  margin: 0 0 2.5rem;
+}
+
+.landing-kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+  opacity: 0.65;
+  margin-bottom: 0.3rem;
+}
+
+.landing-title {
+  font-size: 3rem;
+  line-height: 1.05;
+  margin-bottom: 1rem;
+}
+
+.landing-subtitle {
+  margin-bottom: 2rem;
+}
+
+.landing-grid {
+  display: grid;
+  grid-template-columns: 0.95fr 1.05fr;
+  gap: 2.5rem;
+  align-items: start;
+}
+
+.landing-portrait img {
+  width: 100%;
+  max-width: 460px;
+  border-radius: 12px;
+}
+
+.landing-copy p {
+  max-width: 34rem;
+}
+
+
+@media (max-width: 760px) {
+  .landing-hero {
+    grid-template-columns: 1fr;
+  }
+}

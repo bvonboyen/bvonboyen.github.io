@@ -115,6 +115,21 @@ html.theme-dark .hero-image img.hero-img-dark {
   display: block !important;
 }
 
+.about-portrait {
+  max-width: 640px;
+  margin: 1.5rem 0 2.75rem;
+}
+
+.about-portrait + h2 {
+  margin-top: 3rem;
+}
+
+.about-portrait img {
+  width: 100%;
+  display: block;
+  border-radius: 12px;
+}
+
 // ─────────────────────────────────────────
 // Post figures (standard, responsive, consistent sizing)
 // ─────────────────────────────────────────
