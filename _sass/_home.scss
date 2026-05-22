@@ -78,7 +78,12 @@
 
 
 @media (max-width: 760px) {
-  .landing-hero {
+  .landing-grid {
     grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .landing-portrait {
+    max-width: 100%;
   }
 }
