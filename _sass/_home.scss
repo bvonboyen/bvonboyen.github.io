@@ -77,17 +77,21 @@
 }
 
 
-@media (max-width: 760px) {
+@media screen and (max-width: 900px) {
   .landing-grid {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
+    display: block;
+  }
+
+  .landing-portrait {
+    margin-top: 1.5rem;
+  }
+
+  .landing-portrait img {
+    width: 100%;
+    max-width: 100%;
   }
 
   .landing-title {
     font-size: 2.4rem;
-  }
-
-  .landing-portrait img {
-    max-width: 100%;
   }
 }
