@@ -1,11 +1,10 @@
 ---
-
 layout: post
 title: "The Augmented Actuary: Training the Selection Eye"
 excerpt: "A portfolio optimization exercise exposed a familiar insurance problem: when risk becomes the dominant lens, selection can drift toward risk avoidance. The technical solution matters. So does changing the problem."
 date: 2026-09-04 09:00:00 +0100
 tags: [risk, insurance, reinsurance, portfolio-thinking, decision-labs]
------------------------------------------------------------------------
+---
 
 ## Key Messages
 
