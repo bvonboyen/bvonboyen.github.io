@@ -124,9 +124,9 @@ Consider a market with three possible outcomes. A bookmaker's prices incorporate
 
 Assume a 3% bookmaker overround and equal decimal odds across the three outcomes:
 
-\[
+$$
 o=\frac{3}{1.03}\approx2.9126
-\]
+$$
 
 For a unit stake on one selected outcome, the net payoff is approximately +1.9126 units if the bet wins and −1 unit if it loses.
 
@@ -134,9 +134,9 @@ Suppose the strategy has a **true expected net return of +10% per unit staked**.
 
 At these odds, the win probability required to achieve that expected return is:
 
-\[
+$$
 p=\frac{1.10}{2.9126}\approx37.77\%
-\]
+$$
 
 The bookmaker's overround determines the offered odds. The strategy's edge must be demonstrated separately.
 
@@ -144,22 +144,22 @@ The bookmaker's overround determines the offered odds. The strategy's edge must 
 
 For a unit stake, the variance of the net return is:
 
-\[
+$$
 \operatorname{Var}(X)
 =p(o-1)^2+(1-p)(-1)^2-\mu^2
-\]
+$$
 
 With an assumed expected net ROI of 10%, this gives approximately:
 
-\[
+$$
 \operatorname{Var}(X)\approx1.994
-\]
+$$
 
 and a standard deviation of:
 
-\[
+$$
 \sigma_X\approx1.412
-\]
+$$
 
 The standard deviation is substantial relative to the expected return. Individual outcomes are noisy, even when the assumed edge is genuine.
 
@@ -169,11 +169,11 @@ That is the central problem: **a positive expected return does not guarantee a p
 
 Let \(X_i\) be the net return on the \(i\)-th unit stake. We want to test whether the expected return differs from zero:
 
-\[
+$$
 H_0:\mu=0
 \qquad\text{versus}\qquad
 H_1:\mu\ne0
-\]
+$$
 
 For illustration, assume:
 
@@ -184,25 +184,25 @@ For illustration, assume:
 
 A normal-approximation planning formula that allows for different standard deviations under the null and alternative is:
 
-\[
+$$
 n\approx
 \left(
 \frac{z_{0.95}\sigma_0+
 z_{0.80}\sigma_1}{\delta}
 \right)^2
-\]
+$$
 
 Here, \(\delta\) is the assumed true ROI, \(\sigma_0\) is the standard deviation under the null hypothesis, and \(\sigma_1\) is the standard deviation under the assumed alternative.
 
 Using \(\sigma_0\approx1.383\), \(\sigma_1\approx1.412\), \(z_{0.95}\approx1.645\) and \(z_{0.80}\approx0.842\):
 
-\[
+$$
 n\approx
 \left(
 \frac{1.645(1.383)+0.842(1.412)}{0.10}
 \right)^2
 \approx1{,}199
-\]
+$$
 
 The result is approximately **1,200 independent bet observations**.
 
