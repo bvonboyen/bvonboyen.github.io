@@ -8,11 +8,11 @@ tags: [risk, insurance, model-risk, control-effectiveness, quantitative-testing]
 
 ## Key Messages
 
-* **Effectiveness is relative to the objective.** A control designed to explain historical P&L may not be sufficient to diagnose model weaknesses or demonstrate profitability.
-* **Design and operation are different questions.** A control can be executed correctly without being designed to achieve its intended objective.
-* **The observation unit matters.** Hundreds of transactions or bets do not necessarily provide hundreds of independent observations.
-* **Statistical power makes the evidence requirement explicit.** A genuine but modest economic edge can be difficult to distinguish from random variation.
-* **Conclusions must be proportionate to evidence.** An inconclusive test is not proof of failure, just as a positive result is not automatically proof of repeatable value.
+- **Effectiveness is objective-dependent.** A control can operate as designed without achieving its intended objective.
+- **Control design is multidimensional.** Effectiveness depends on whether the design addresses the relevant dimensions of the objective.
+- **Population quality matters.** Testing can only provide reliable evidence when the underlying population is complete, relevant and representative.
+- **Operating effectiveness is not enough.** A control may operate consistently while the available observations remain insufficient to demonstrate the intended outcome.
+- **Conclusions must be proportionate to evidence.** The strength of a conclusion depends on the objective, the quality of the evidence and the amount of information available.
 
 ---
 
@@ -317,6 +317,8 @@ That is the broader lesson of P&L attribution for control assurance: effectivene
 *Regulatory references: Solvency II Directive, Article 123 (Profit and loss attribution); Solvency II Delegated Regulation (EU) 2015/35, Article 240 (Profit and loss attribution).*
 
 *The quantitative example is illustrative. The assumed mean and standard deviation are not empirical estimates or prescribed regulatory thresholds.*
+
+{% include mathjax.html %}
 
 <p>
 Tags:
