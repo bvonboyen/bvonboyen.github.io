@@ -167,7 +167,7 @@ That is the central problem: **a positive expected return does not guarantee a p
 
 ### How much evidence is enough?
 
-Let \(X_i\) be the net return on the \(i\)-th unit stake. We want to test whether the expected return differs from zero:
+Let $$\(X_i\)$$ be the net return on the \(i\)-th unit stake. We want to test whether the expected return differs from zero:
 
 $$
 H_0:\mu=0
@@ -192,9 +192,9 @@ z_{0.80}\sigma_1}{\delta}
 \right)^2
 $$
 
-Here, \(\delta\) is the assumed true ROI, \(\sigma_0\) is the standard deviation under the null hypothesis, and \(\sigma_1\) is the standard deviation under the assumed alternative.
+Here, $$\(\delta\)$$ is the assumed true ROI, \(\sigma_0\) is the standard deviation under the null hypothesis, and \(\sigma_1\) is the standard deviation under the assumed alternative.
 
-Using \(\sigma_0\approx1.383\), \(\sigma_1\approx1.412\), \(z_{0.95}\approx1.645\) and \(z_{0.80}\approx0.842\):
+Using $$\(\sigma_0\approx1.383\)$$, $$\(\sigma_1\approx1.412\)$$,$$\(z_{0.95}\approx1.645\)$$ and $$\(z_{0.80}\approx0.842\)$$:
 
 $$
 n\approx
