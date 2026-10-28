@@ -192,9 +192,9 @@ z_{0.80}\sigma_1}{\delta}
 \right)^2
 $$
 
-Here, $$\(\delta\)$$ is the assumed true ROI, \(\sigma_0\) is the standard deviation under the null hypothesis, and \(\sigma_1\) is the standard deviation under the assumed alternative.
+Here, $\delta$ is the assumed true ROI, $\sigma_0$ is the standard deviation under the null hypothesis, and $\sigma_1$ is the standard deviation under the assumed alternative.
 
-Using $$\(\sigma_0\approx1.383\)$$, $$\(\sigma_1\approx1.412\)$$,$$\(z_{0.95}\approx1.645\)$$ and $$\(z_{0.80}\approx0.842\)$$:
+Using $\sigma_0 \approx 1.383$, $\sigma_1 \approx 1.412$, $z_{0.95} \approx 1.645$ and $z_{0.80} \approx 0.842$:
 
 $$
 n\approx
